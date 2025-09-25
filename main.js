@@ -2131,8 +2131,7 @@ function removeSelectedLayer() {
   if (index !== -1) {
     const [layer] = state.layers.splice(index, 1);
     layer.node.remove();
-    delete state.savedPlacements[layer.key];
-    persistPlacements();
+    
   }
   state.selectedLayer = null;
   renderLayerPanel();
@@ -2148,7 +2147,10 @@ function getAllLayerEntries() {
 }
 
 function savePlacements() {
+  const activeKeys = new Set();
+
   getAllLayerEntries().forEach((layer) => {
+    activeKeys.add(layer.key);
     const entry = {
       x: layer.position.x,
       y: layer.position.y,
@@ -2159,6 +2161,11 @@ function savePlacements() {
     }
     entry.visible = isLayerVisible(layer);
     state.savedPlacements[layer.key] = entry;
+  });
+  Object.keys(state.savedPlacements).forEach((key) => {
+    if (!activeKeys.has(key)) {
+      delete state.savedPlacements[key];
+    }
   });
   persistPlacements();
   alert("Placements saved locally.");
