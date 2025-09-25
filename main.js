@@ -1076,8 +1076,14 @@ function renderAssetList() {
 }
 
 function setAvatarGender(gender) {
+  const isInitialSetup = !state.bodyKey && state.baseLayers.size === 0;
+  if (!isInitialSetup && state.gender === gender) {
+    return;
+  }
+
   state.gender = gender;
-  clearLayers();
+  const previouslySelectedLayer = state.selectedLayer;
+  clearBaseLayers();
 
   if (!state.assetIndex.length) {
     console.warn("Asset index has not been built yet.");
@@ -1092,6 +1098,20 @@ function setAvatarGender(gender) {
 
   applyBaseEntry(bodyEntry);
   loadDefaultAvatarParts(gender);
+
+  renderLayerPanel();
+  if (previouslySelectedLayer) {
+    const restoredLayer = state.layers.find((layer) => layer.key === previouslySelectedLayer.key);
+    if (restoredLayer) {
+      selectLayer(restoredLayer);
+    } else {
+      updateSelectionPanel();
+      updatePivotHandle();
+    }
+  } else {
+    updateSelectionPanel();
+    updatePivotHandle();
+  }
 }
 
 function resolvePlacement(entry) {
@@ -1353,16 +1373,6 @@ function loadDefaultAvatarParts(gender) {
       handleAssetSelection(entry);
     }
   });
-}
-
-function clearLayers() {
-  state.layers = [];
-  state.selectedLayer = null;
-  dom.layerContainer.innerHTML = "";
-  clearBaseLayers();
-  renderLayerPanel();
-  updateSelectionPanel();
-  updatePivotHandle();
 }
 
 function createLayerElement(entry, { className = "layer-item" } = {}) {
