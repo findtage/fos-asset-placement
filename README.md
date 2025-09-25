@@ -1,6 +1,6 @@
 # Asset Editor
 
-A standalone metadata editor that loads avatar and board assets from `client/assets/data.js` and `client/assets/boards_metadata.json`.
+A standalone metadata editor that loads avatar and board assets from `assets/data.js` and `assets/boards_metadata.json`.
 
 ## Getting Started
 

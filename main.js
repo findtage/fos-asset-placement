@@ -10,16 +10,16 @@ import {
   body as bodyMetadata,
   heads as headsMetadata,
   avatar_parts as avatarPartsMetadata,
-} from "../client/assets/data.js";
+} from "./assets/data.js";
 
-const BOARD_METADATA_PATH = "../client/assets/boards_metadata.json";
+const BOARD_METADATA_PATH = "./assets/boards_metadata.json";
 const SHOP_DATA_SOURCES = {
-  le_shop: { label: "Le Shop", path: "../client/assets/le_shop.json" },
-  jesters: { label: "Jesters", path: "../client/assets/jesters.json" },
-  stellar_salon: { label: "Stellar Salon", path: "../client/assets/stellar-salon.json" },
-  locoboards: { label: "Loco Boardz", path: "../client/assets/locoboards.json" },
+  le_shop: { label: "Le Shop", path: "./assets/le_shop.json" },
+  jesters: { label: "Jesters", path: "./assets/jesters.json" },
+  stellar_salon: { label: "Stellar Salon", path: "./assets/stellar-salon.json" },
+  locoboards: { label: "Loco Boardz", path: "./assets/locoboards.json" },
 };
-const ASSET_BASE_PATH = "../client/";
+const ASSET_BASE_PATH = "";
 const LOCAL_STORAGE_KEY = "fos-asset-editor-placements-v2";
 const STAGE_SCALE_MIN = 0.5;
 const STAGE_SCALE_MAX = 3;
