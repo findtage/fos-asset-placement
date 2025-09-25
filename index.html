@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Asset Metadata Editor</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div id="app">
+      <aside id="asset-browser">
+        <header>
+          <h1>Asset Browser</h1>
+          <input id="asset-search" type="search" placeholder="Search by id or file name" />
+          <div class="category-filters">
+            <label>
+              Category
+              <select id="category-filter"></select>
+            </label>
+            <label>
+              Shop
+              <select id="shop-filter"></select>
+            </label>
+          </div>
+        </header>
+        <div id="asset-list"></div>
+      </aside>
+      <main id="workspace">
+        <section id="avatar-toolbar">
+          <div class="avatar-toggle">
+            <button id="show-girl" type="button">Show Girl Avatar</button>
+            <button id="show-boy" type="button">Show Boy Avatar</button>
+          </div>
+          <div class="avatar-actions">
+            <button id="save-local" type="button">Save Placements</button>
+            <button id="generate-metadata" type="button">Download Metadata</button>
+          </div>
+        </section>
+        <section id="stage-wrapper">
+          <div id="stage-controls">
+            <div class="zoom-controls" role="group" aria-label="Canvas zoom controls">
+              <button id="zoom-out" type="button" title="Zoom out">-</button>
+              <button id="zoom-in" type="button" title="Zoom in">+</button>
+              <button id="zoom-reset" type="button" title="Reset zoom">Reset</button>
+            </div>
+            <div id="base-coordinates" aria-live="polite">
+              <span>Body: <strong id="body-coords">–</strong></span>
+              <span>Head: <strong id="head-coords">–</strong></span>
+            </div>
+          </div>
+          <div id="stage-hint" role="presentation">Drag here to reposition the canvas</div>
+          <div id="avatar-stage" class="draggable">
+            <div id="stage-content">
+              <canvas id="base-avatar"></canvas>
+              <div id="base-parts-container"></div>
+              <div id="layer-container"></div>
+              <div id="pivot-handle" hidden>
+                <div class="gizmo-axis gizmo-axis-x">
+                  <div class="gizmo-line"></div>
+                  <div class="gizmo-handle" data-axis="x" role="presentation"></div>
+                </div>
+                <div class="gizmo-axis gizmo-axis-y">
+                  <div class="gizmo-line"></div>
+                  <div class="gizmo-handle" data-axis="y" role="presentation"></div>
+                </div>
+                <div class="gizmo-origin" data-axis="xy" role="presentation"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <aside id="layer-controls">
+        <header>
+          <h2>Layers</h2>
+        </header>
+        <div id="layers-panel"></div>
+        <section id="selection-details" hidden>
+          <h3 id="selection-title">Selected Layer</h3>
+          <div class="coordinate-inputs">
+            <label>
+              X
+              <input id="input-x" type="number" step="1" />
+            </label>
+            <label>
+              Y
+              <input id="input-y" type="number" step="1" />
+            </label>
+          </div>
+          <fieldset id="shop-editor" class="shop-editor" hidden>
+            <legend>Shop Listing</legend>
+            <div id="shop-editor-rows" class="shop-editor-rows"></div>
+          </fieldset>
+          <div class="selection-actions">
+            <button id="reset-position" type="button">Reset Position</button>
+            <button id="toggle-gizmo-drag" type="button">Enable Gizmo Dragging</button>
+            <button id="remove-layer" type="button">Remove Layer</button>
+          </div>
+        </section>
+      </aside>
+    </div>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>

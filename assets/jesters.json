@@ -1,0 +1,656 @@
+{
+    "female": {
+        "cost2": {
+            "cost": 1000,
+            "name": "Cos Alien"
+        },
+        "cost3": {
+            "cost": 1000,
+            "name": "Cos Angel"
+        },
+        "cost4": {
+            "cost": 1000,
+            "name": "Cos Angel"
+        },
+        "cost6": {
+            "cost": 1000,
+            "name": "Cos Artistgirl"
+        },
+        "cost7": {
+            "cost": 1000,
+            "name": "Cos Asiangirl"
+        },
+        "cost8": {
+            "cost": 1000,
+            "name": "Cos Austrian"
+        },
+        "cost9": {
+            "cost": 1000,
+            "name": "Cos Babygirl"
+        },
+        "cost12": {
+            "cost": 1000,
+            "name": "Cos Ballerina"
+        },
+        "cost13": {
+            "cost": 1000,
+            "name": "Cos Banana"
+        },
+        "cost14": {
+            "cost": 1000,
+            "name": "Cos Baseball"
+        },
+        "cost15": {
+            "cost": 1000,
+            "name": "Cos Bat"
+        },
+        "cost16": {
+            "cost": 1000,
+            "name": "Cos Bathrobe"
+        },
+        "cost17": {
+            "cost": 1000,
+            "name": "Cos Battlesoccer 032010"
+        },
+        "cost18": {
+            "cost": 1000,
+            "name": "Cos Bear"
+        },
+        "cost19": {
+            "cost": 1000,
+            "name": "Cos Bee"
+        },
+        "cost24": {
+            "cost": 1000,
+            "name": "Cos Blueband"
+        },
+        "cost26": {
+            "cost": 1000,
+            "name": "Cos Bollywood"
+        },
+        "cost27": {
+            "cost": 1000,
+            "name": "Cos Bopeep"
+        },
+        "cost30": {
+            "cost": 1000,
+            "name": "Cos Brideof"
+        },
+        "cost31": {
+            "cost": 1000,
+            "name": "Cos Broccoliaf"
+        },
+        "cost32": {
+            "cost": 1000,
+            "name": "Cos Burger"
+        },
+        "cost35": {
+            "cost": 1000,
+            "name": "Cos Candle"
+        },
+        "cost36": {
+            "cost": 1000,
+            "name": "Cos Candy"
+        },
+        "cost37": {
+            "cost": 1000,
+            "name": "Cos Candycorn"
+        },
+        "cost38": {
+            "cost": 1000,
+            "name": "Cos Card"
+        },
+        "cost39": {
+            "cost": 1000,
+            "name": "Cos Carmen"
+        },
+        "cost40": {
+            "cost": 1000,
+            "name": "Cos Catapiller"
+        },
+        "cost41": {
+            "cost": 1000,
+            "name": "Cos Cavegirlpink"
+        },
+        "cost43": {
+            "cost": 1000,
+            "name": "Cos Cavegirlwhite"
+        },
+        "cost44": {
+            "cost": 1000,
+            "name": "Cos Cavewoman"
+        },
+        "cost46": {
+            "cost": 1000,
+            "name": "Cos Cheerleadergreen"
+        },
+        "cost47": {
+            "cost": 1000,
+            "name": "Cos Cheerleaderred"
+        },
+        "cost48": {
+            "cost": 1000,
+            "name": "Cos Chef"
+        },
+        "cost49": {
+            "cost": 1000,
+            "name": "Cos Chesire"
+        },
+        "cost50": {
+            "cost": 1000,
+            "name": "Cos Chess"
+        },
+        "cost52": {
+            "cost": 1000,
+            "name": "Cos Chick"
+        },
+        "cost51": {
+            "cost": 1000,
+            "name": "Cos Chick"
+        },
+        "cost54": {
+            "cost": 1000,
+            "name": "Cos Christin"
+        },
+        "cost55": {
+            "cost": 1000,
+            "name": "Cos Coppelia"
+        },
+        "cost56": {
+            "cost": 1000,
+            "name": "Cos Cowaf"
+        },
+        "cost57": {
+            "cost": 1000,
+            "name": "Cos Cowgirl"
+        },
+        "cost58": {
+            "cost": 1000,
+            "name": "Cos Cowgirlpink"
+        },
+        "cost59": {
+            "cost": 1000,
+            "name": "Cos Cowgirlpurple"
+        },
+        "cost60": {
+            "cost": 1000,
+            "name": "Cos Cowgirlred"
+        },
+        "cost61": {
+            "cost": 1000,
+            "name": "Cos Cupcake"
+        },
+        "cost62": {
+            "cost": 1000,
+            "name": "Cos Damsel"
+        },
+        "cost63": {
+            "cost": 1000,
+            "name": "Cos Darkwitch"
+        },
+        "cost64": {
+            "cost": 1000,
+            "name": "Cos Deergirl"
+        },
+        "cost66": {
+            "cost": 1000,
+            "name": "Cos Dog"
+        },
+        "cost67": {
+            "cost": 1000,
+            "name": "Cos Dragon"
+        },
+        "cost68": {
+            "cost": 1000,
+            "name": "Cos Drink"
+        },
+        "cost69": {
+            "cost": 1000,
+            "name": "Cos Drummergirl"
+        },
+        "cost70": {
+            "cost": 1000,
+            "name": "Cos Drumstick"
+        },
+        "cost71": {
+            "cost": 1000,
+            "name": "Cos Easterbunny"
+        },
+        "cost72": {
+            "cost": 1000,
+            "name": "Cos Ecoinsowboard"
+        },
+        "cost73": {
+            "cost": 1000,
+            "name": "Cos Elfgirl"
+        },
+        "cost74": {
+            "cost": 1000,
+            "name": "Cos Eskimo"
+        },
+        "cost75": {
+            "cost": 1000,
+            "name": "Cos Eskimogirl"
+        },
+        "cost76": {
+            "cost": 1000,
+            "name": "Cos Eureeka"
+        },
+        "cost78": {
+            "cost": 1000,
+            "name": "Cos Flamenco"
+        },
+        "cost79": {
+            "cost": 1000,
+            "name": "Cos Flower"
+        },
+        "cost84": {
+            "cost": 1000,
+            "name": "Cos Footballgiants"
+        },
+        "cost85": {
+            "cost": 1000,
+            "name": "Cos Footballpats"
+        },
+        "cost86": {
+            "cost": 1000,
+            "name": "Cos Footballplayer"
+        },
+        "cost87": {
+            "cost": 1000,
+            "name": "Cos Forestfairy"
+        },
+        "cost88": {
+            "cost": 1000,
+            "name": "Cos Fries"
+        },
+        "cost89": {
+            "cost": 1000,
+            "name": "Cos Frog"
+        },
+        "cost91": {
+            "cost": 1000,
+            "name": "Cos Genieblack"
+        },
+        "cost94": {
+            "cost": 1000,
+            "name": "Cos Genieviolet"
+        },
+        "cost96": {
+            "cost": 1000,
+            "name": "Cos Ghost"
+        },
+        "cost95": {
+            "cost": 1000,
+            "name": "Cos Ghost"
+        },
+        "cost97": {
+            "cost": 1000,
+            "name": "Cos Gingerbread"
+        },
+        "cost98": {
+            "cost": 1000,
+            "name": "Cos Grad"
+        },
+        "cost101": {
+            "cost": 1000,
+            "name": "Cos Gym"
+        },
+        "cost104": {
+            "cost": 1000,
+            "name": "Cos Hotdog"
+        },
+        "cost105": {
+            "cost": 1000,
+            "name": "Cos Icecream"
+        },
+        "cost106": {
+            "cost": 1000,
+            "name": "Cos Iceprincess"
+        },
+        "cost107": {
+            "cost": 1000,
+            "name": "Cos Iceprincess"
+        },
+        "cost108": {
+            "cost": 1000,
+            "name": "Cos Icequeen"
+        },
+        "cost109": {
+            "cost": 1000,
+            "name": "Cos Indiangirl2"
+        },
+        "cost111": {
+            "cost": 1000,
+            "name": "Cos Jester"
+        },
+        "cost112": {
+            "cost": 1000,
+            "name": "Cos Kanga"
+        },
+        "cost113": {
+            "cost": 1000,
+            "name": "Cos Kitty"
+        },
+        "cost115": {
+            "cost": 1000,
+            "name": "Cos Kunoichipurple"
+        },
+        "cost117": {
+            "cost": 1000,
+            "name": "Cos Leprechaun"
+        },
+        "cost119": {
+            "cost": 1000,
+            "name": "Cos Limitedcowgirl"
+        },
+        "cost120": {
+            "cost": 1000,
+            "name": "Cos Lion"
+        },
+        "cost121": {
+            "cost": 1000,
+            "name": "Cos Lunchlady Ecoin"
+        },
+        "cost123": {
+            "cost": 1000,
+            "name": "Cos Lutine"
+        },
+        "cost124": {
+            "cost": 1000,
+            "name": "Cos Magician"
+        },
+        "cost125": {
+            "cost": 1000,
+            "name": "Cos Marieantoinette"
+        },
+        "cost128": {
+            "cost": 1000,
+            "name": "Cos Mechsuitgold"
+        },
+        "cost130": {
+            "cost": 1000,
+            "name": "Cos Mermaid"
+        },
+        "cost131": {
+            "cost": 1000,
+            "name": "Cos Minstrel"
+        },
+        "cost135": {
+            "cost": 1000,
+            "name": "Cos Mothergoose"
+        },
+        "cost136": {
+            "cost": 1000,
+            "name": "Cos Mummy"
+        },
+        "cost137": {
+            "cost": 1000,
+            "name": "Cos Musketeer"
+        },
+        "cost138": {
+            "cost": 1000,
+            "name": "Cos Mvpgown"
+        },
+        "cost139": {
+            "cost": 1000,
+            "name": "Cos Nativeamerican"
+        },
+        "cost140": {
+            "cost": 1000,
+            "name": "Cos Newyearprize"
+        },
+        "cost141": {
+            "cost": 1000,
+            "name": "Cos Ninjablue"
+        },
+        "cost145": {
+            "cost": 1000,
+            "name": "Cos Novcornmulti"
+        },
+        "cost146": {
+            "cost": 1000,
+            "name": "Cos Pajamas"
+        },
+        "cost147": {
+            "cost": 1000,
+            "name": "Cos Partygirl"
+        },
+        "cost148": {
+            "cost": 1000,
+            "name": "Cos Peacock"
+        },
+        "cost150": {
+            "cost": 1000,
+            "name": "Cos Picnisgirl"
+        },
+        "cost152": {
+            "cost": 1000,
+            "name": "Cos Pilgrim"
+        },
+        "cost151": {
+            "cost": 1000,
+            "name": "Cos Pilgrim"
+        },
+        "cost153": {
+            "cost": 1000,
+            "name": "Cos Pilgrimgirl"
+        },
+        "cost154": {
+            "cost": 1000,
+            "name": "Cos Pinataqueen"
+        },
+        "cost156": {
+            "cost": 1000,
+            "name": "Cos Pinkcow"
+        },
+        "cost158": {
+            "cost": 1000,
+            "name": "Cos Pinkpancho"
+        },
+        "cost160": {
+            "cost": 1000,
+            "name": "Cos Piratepurple"
+        },
+        "cost162": {
+            "cost": 1000,
+            "name": "Cos Present"
+        },
+        "cost163": {
+            "cost": 1000,
+            "name": "Cos Prisonergirl"
+        },
+        "cost164": {
+            "cost": 1000,
+            "name": "Cos Pumpkin"
+        },
+        "cost166": {
+            "cost": 1000,
+            "name": "Cos Queen"
+        },
+        "cost167": {
+            "cost": 1000,
+            "name": "Cos Ragdoll"
+        },
+        "cost169": {
+            "cost": 1000,
+            "name": "Cos Realbanana"
+        },
+        "cost171": {
+            "cost": 1000,
+            "name": "Cos Reindeer"
+        },
+        "cost172": {
+            "cost": 1000,
+            "name": "Cos Robber"
+        },
+        "cost173": {
+            "cost": 1000,
+            "name": "Cos Robot"
+        },
+        "cost174": {
+            "cost": 1000,
+            "name": "Cos Rose"
+        },
+        "cost175": {
+            "cost": 1000,
+            "name": "Cos Salsa Girl 0609"
+        },
+        "cost177": {
+            "cost": 1000,
+            "name": "Cos Santa"
+        },
+        "cost178": {
+            "cost": 1000,
+            "name": "Cos Santasack"
+        },
+        "cost179": {
+            "cost": 1000,
+            "name": "Cos Sapine"
+        },
+        "cost180": {
+            "cost": 1000,
+            "name": "Cos Schoolcleaner"
+        },
+        "cost181": {
+            "cost": 1000,
+            "name": "Cos Schoolnurse"
+        },
+        "cost182": {
+            "cost": 1000,
+            "name": "Cos Shroomblue"
+        },
+        "cost183": {
+            "cost": 1000,
+            "name": "Cos Shroomorange"
+        },
+        "cost185": {
+            "cost": 1000,
+            "name": "Cos Skeleton"
+        },
+        "cost186": {
+            "cost": 1000,
+            "name": "Cos Skoolmaid Ecoins"
+        },
+        "cost187": {
+            "cost": 1000,
+            "name": "Cos Skunk"
+        },
+        "cost188": {
+            "cost": 1000,
+            "name": "Cos Snowman"
+        },
+        "cost189": {
+            "cost": 1000,
+            "name": "Cos Snowmen"
+        },
+        "cost190": {
+            "cost": 1000,
+            "name": "Cos Snowpink"
+        },
+        "cost191": {
+            "cost": 1000,
+            "name": "Cos Snowwheat"
+        },
+        "cost192": {
+            "cost": 1000,
+            "name": "Cos Strawberry"
+        },
+        "cost193": {
+            "cost": 1000,
+            "name": "Cos Strawberry"
+        },
+        "cost194": {
+            "cost": 1000,
+            "name": "Cos Strawberry"
+        },
+        "cost195": {
+            "cost": 1000,
+            "name": "Cos Sugarplum"
+        },
+        "cost196": {
+            "cost": 1000,
+            "name": "Cos Tambourine Band"
+        },
+        "cost197": {
+            "cost": 1000,
+            "name": "Cos Teddy"
+        },
+        "cost198": {
+            "cost": 1000,
+            "name": "Cos Tennis"
+        },
+        "cost199": {
+            "cost": 1000,
+            "name": "Cos Tiger"
+        },
+        "cost223": {
+            "cost": 1000,
+            "name": "Cost Lightgirl"
+        },
+        "cost224": {
+            "cost": 1000,
+            "name": "Cost Moneypack"
+        },
+        "cost225": {
+            "cost": 1000,
+            "name": "Cost Qutealien"
+        },
+        "cost201": {
+            "cost": 1000,
+            "name": "Cos Tulip"
+        },
+        "cost226": {
+            "cost": 1000,
+            "name": "Basketball"
+        },
+        "cost203": {
+            "cost": 1000,
+            "name": "Cos Turkey"
+        },
+        "cost202": {
+            "cost": 1000,
+            "name": "Cos Turkey"
+        },
+        "cost204": {
+            "cost": 1000,
+            "name": "Cos Tvhead"
+        },
+        "cost205": {
+            "cost": 1000,
+            "name": "Cos Tweedledee"
+        },
+        "cost206": {
+            "cost": 1000,
+            "name": "Cos Ukraniandancer"
+        },
+        "cost209": {
+            "cost": 1000,
+            "name": "Cos Vampirered"
+        },
+        "cost210": {
+            "cost": 1000,
+            "name": "Cos Warrior"
+        },
+        "cost211": {
+            "cost": 1000,
+            "name": "Cos Whitebear"
+        },
+        "cost216": {
+            "cost": 1000,
+            "name": "Cos Witch"
+        },
+        "cost217": {
+            "cost": 1000,
+            "name": "Cos Witch"
+        },
+        "cost220": {
+            "cost": 1000,
+            "name": "Cos Witchpurple"
+        },
+        "cost221": {
+            "cost": 1000,
+            "name": "Cos Xmasball"
+        }
+    }
+}
