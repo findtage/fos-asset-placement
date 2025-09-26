@@ -287,12 +287,15 @@ function createBoardLayerElement(entry, assetUrl, className) {
   }
 
   const ratio = window.devicePixelRatio || 1;
+  let frameWidth = entry.frameWidth;
+  let frameHeight = entry.frameHeight;
+
   const frameEntries = framesToDraw.map((frameIndex) => {
     const canvas = document.createElement("canvas");
-    canvas.width = entry.frameWidth * ratio;
-    canvas.height = entry.frameHeight * ratio;
-    canvas.style.width = `${entry.frameWidth}px`;
-    canvas.style.height = `${entry.frameHeight}px`;
+    canvas.width = frameWidth * ratio;
+    canvas.height = frameHeight * ratio;
+    canvas.style.width = `${frameWidth}px`;
+    canvas.style.height = `${frameHeight}px`;
     canvas.style.position = "absolute";
     canvas.style.left = "0";
     canvas.style.top = "0";
@@ -304,9 +307,84 @@ function createBoardLayerElement(entry, assetUrl, className) {
   const image = new Image();
   image.crossOrigin = "anonymous";
   image.onload = () => {
-    const columns = Math.max(1, Math.floor(image.naturalWidth / entry.frameWidth));
-    const rows = Math.max(1, Math.floor(image.naturalHeight / entry.frameHeight));
-    const totalCells = columns * rows;
+    const requestedFrameCount = framesToDraw.reduce((max, index) => {
+      if (!Number.isFinite(index)) {
+        return max;
+      }
+      const next = Math.floor(index) + 1;
+      return next > max ? next : max;
+    }, 0);
+    const metadataFrameCountRaw = Number(entry.metadata?.frames);
+    const metadataFrameCount = Number.isFinite(metadataFrameCountRaw) && metadataFrameCountRaw > 0
+      ? Math.floor(metadataFrameCountRaw)
+      : 0;
+    const desiredFrameCount = Math.max(requestedFrameCount, metadataFrameCount, 1);
+
+    let columns = 0;
+    let rows = 0;
+    let totalCells = 0;
+
+    const updateGrid = () => {
+      columns = Math.max(1, Math.floor(image.naturalWidth / frameWidth));
+      rows = Math.max(1, Math.floor(image.naturalHeight / frameHeight));
+      totalCells = columns * rows;
+    };
+
+    const tryAdjustDimensions = (nextWidth, nextHeight) => {
+      const validWidth = Number.isFinite(nextWidth) && nextWidth > 0;
+      const validHeight = Number.isFinite(nextHeight) && nextHeight > 0;
+      if (!validWidth && !validHeight) {
+        return false;
+      }
+      if (validWidth) {
+        frameWidth = nextWidth;
+      }
+      if (validHeight) {
+        frameHeight = nextHeight;
+      }
+      updateGrid();
+      return true;
+    };
+
+    updateGrid();
+
+    if (desiredFrameCount > totalCells) {
+      const totalFrames = Math.max(metadataFrameCount, desiredFrameCount);
+      let adjusted = false;
+
+      if (totalFrames > 1 && image.naturalWidth % totalFrames === 0) {
+        adjusted = tryAdjustDimensions(image.naturalWidth / totalFrames, null);
+      }
+
+      if (!adjusted && totalFrames > 1 && image.naturalHeight % totalFrames === 0) {
+        adjusted = tryAdjustDimensions(null, image.naturalHeight / totalFrames);
+      }
+
+      if (!adjusted && entry.metadata?.middleEffect && totalFrames === 2) {
+        const splitX = Number(entry.metadata?.splitX);
+        if (Number.isFinite(splitX) && splitX > 0) {
+          adjusted = tryAdjustDimensions(splitX / totalFrames, null);
+        }
+      }
+
+      if (adjusted && (entry.frameWidth !== frameWidth || entry.frameHeight !== frameHeight)) {
+        frameEntries.forEach(({ node }) => {
+          node.width = frameWidth * ratio;
+          node.height = frameHeight * ratio;
+          node.style.width = `${frameWidth}px`;
+          node.style.height = `${frameHeight}px`;
+        });
+        entry.frameWidth = frameWidth;
+        entry.frameHeight = frameHeight;
+        if (entry.metadata) {
+          entry.metadata.frameWidth = frameWidth;
+          entry.metadata.frameHeight = frameHeight;
+        }
+      }
+    }
+
+    updateGrid();
+
     if (!totalCells) {
       return;
     }
@@ -324,24 +402,24 @@ function createBoardLayerElement(entry, assetUrl, className) {
       const clampedIndex = clamp(Math.floor(frameIndex), 0, totalCells - 1);
       const column = clampedIndex % columns;
       const row = Math.floor(clampedIndex / columns);
-      const sourceX = column * entry.frameWidth;
-      const sourceY = row * entry.frameHeight;
+      const sourceX = column * frameWidth;
+      const sourceY = row * frameHeight;
 
       context.save();
       try {
         context.scale(ratio, ratio);
-        context.clearRect(0, 0, entry.frameWidth, entry.frameHeight);
+        context.clearRect(0, 0, frameWidth, frameHeight);
         context.imageSmoothingEnabled = false;
         context.drawImage(
           image,
           sourceX,
           sourceY,
-          entry.frameWidth,
-          entry.frameHeight,
+          frameWidth,
+          frameHeight,
           0,
           0,
-          entry.frameWidth,
-          entry.frameHeight,
+          frameWidth,
+          frameHeight,
         );
       } finally {
         context.restore();
