@@ -27,6 +27,8 @@ const STAGE_SCALE_STEP = 0.25;
 
 const ASSET_TRANSFORM_ORIGIN = "50% 50%";
 
+const savedData = loadSavedData();
+
 const state = {
   gender: "female",
   bodyKey: null,
@@ -35,12 +37,16 @@ const state = {
   shopCatalogBaselines: {},
   assetIndex: [],
   assetIndexById: new Map(),
+  assetIndexByKey: new Map(),
   shopAssignments: new Map(),
   baseLayers: new Map(),
   layers: [],
   selectedLayer: null,
   stageTransform: { x: 0, y: 0, scale: 1 },
-  savedPlacements: loadSavedPlacements(),
+  savedPlacements: savedData.placements,
+  savedShopChanges: savedData.shops,
+  savedPlacements: savedData.placements,
+  savedShopChanges: savedData.shops,
   isGizmoDraggingEnabled: false,
 };
 
@@ -95,19 +101,36 @@ function applyAssetTransformOrigin(node) {
   }
 }
 
-function loadSavedPlacements() {
+function loadSavedData() {
+  const defaults = { placements: {}, shops: {} };
+
   try {
     const raw = localStorage.getItem(LOCAL_STORAGE_KEY);
-    if (!raw) return {};
-    return JSON.parse(raw);
+    if (!raw) return defaults;
+    const parsed = JSON.parse(raw);
+    if (!parsed || typeof parsed !== "object") {
+      return defaults;
+    }
+
+    if (Object.prototype.hasOwnProperty.call(parsed, "placements") || Object.prototype.hasOwnProperty.call(parsed, "shops")) {
+      const placements = parsed?.placements && typeof parsed.placements === "object" ? parsed.placements : {};
+      const shops = parsed?.shops && typeof parsed.shops === "object" ? parsed.shops : {};
+      return { placements, shops };
+    }
+
+    return { placements: parsed, shops: {} };
   } catch (err) {
-    console.warn("Failed to read saved placements", err);
-    return {};
+    console.warn("Failed to read saved data", err);
+    return defaults;
   }
 }
 
-function persistPlacements() {
-  localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(state.savedPlacements));
+function persistSavedData() {
+  const payload = {
+    placements: state.savedPlacements,
+    shops: state.savedShopChanges,
+  };
+  localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(payload));
 }
 
 function applyStageTransform() {
@@ -451,6 +474,149 @@ function cloneShopCatalogs(catalogs = {}) {
   });
 
   return clones;
+}
+
+function computeShopChanges() {
+  const shopChanges = {};
+
+  Object.entries(state.shopCatalogs ?? {}).forEach(([shopId, catalog]) => {
+    const baseline = state.shopCatalogBaselines?.[shopId] ?? {};
+    const currentItems = Array.isArray(catalog?.items) ? [...catalog.items] : [];
+    const baselineItems = Array.isArray(baseline.items) ? [...baseline.items] : [];
+    const currentItemSet = new Set(currentItems);
+    const baselineItemSet = new Set(baselineItems);
+
+    const addedItems = currentItems.filter((item) => !baselineItemSet.has(item)).sort((a, b) => a.localeCompare(b));
+    const removedItems = baselineItems.filter((item) => !currentItemSet.has(item)).sort((a, b) => a.localeCompare(b));
+
+    const currentDetails = catalog?.itemDetails && typeof catalog.itemDetails === "object"
+      ? catalog.itemDetails
+      : {};
+    const baselineDetails = baseline?.itemDetails && typeof baseline.itemDetails === "object"
+      ? baseline.itemDetails
+      : {};
+
+    const detailChanges = {};
+    const itemIds = new Set([
+      ...Object.keys(currentDetails),
+      ...Object.keys(baselineDetails),
+    ]);
+
+    itemIds.forEach((itemId) => {
+      const current = normalizeShopDetail(currentDetails[itemId]);
+      const original = normalizeShopDetail(baselineDetails[itemId]);
+      const entry = {};
+
+      if (current.name !== original.name) {
+        entry.name = current.name;
+      }
+      if (current.cost !== original.cost) {
+        entry.cost = current.cost;
+      }
+
+      if (Object.keys(entry).length) {
+        detailChanges[itemId] = entry;
+      }
+    });
+
+    const hasItemChanges = addedItems.length || removedItems.length;
+    const hasDetailChanges = Object.keys(detailChanges).length;
+    if (!hasItemChanges && !hasDetailChanges) {
+      return;
+    }
+
+    const entry = {};
+    if (hasItemChanges) {
+      entry.items = {};
+      if (addedItems.length) {
+        entry.items.added = addedItems;
+      }
+      if (removedItems.length) {
+        entry.items.removed = removedItems;
+      }
+    }
+    if (hasDetailChanges) {
+      entry.details = detailChanges;
+    }
+
+    shopChanges[shopId] = entry;
+  });
+
+  return shopChanges;
+}
+
+function applyShopChangesToCatalogs(changes, catalogs) {
+  if (!changes || typeof changes !== "object" || !catalogs) {
+    return;
+  }
+
+  Object.entries(changes).forEach(([shopId, change]) => {
+    const catalog = catalogs?.[shopId];
+    if (!catalog) {
+      return;
+    }
+
+    if (!Array.isArray(catalog.items)) {
+      catalog.items = [];
+    }
+    if (!catalog.itemDetails || typeof catalog.itemDetails !== "object") {
+      catalog.itemDetails = {};
+    }
+
+    const itemsChange = change?.items;
+    if (itemsChange && typeof itemsChange === "object") {
+      if (Array.isArray(itemsChange.removed) && itemsChange.removed.length) {
+        const removalSet = new Set(itemsChange.removed);
+        catalog.items = catalog.items.filter((item) => !removalSet.has(item));
+        itemsChange.removed.forEach((itemId) => {
+          delete catalog.itemDetails[itemId];
+        });
+      }
+
+      if (Array.isArray(itemsChange.added) && itemsChange.added.length) {
+        itemsChange.added.forEach((itemId) => {
+          if (!catalog.items.includes(itemId)) {
+            catalog.items.push(itemId);
+          }
+        });
+      }
+    }
+
+    const detailsChange = change?.details;
+    if (detailsChange && typeof detailsChange === "object") {
+      Object.entries(detailsChange).forEach(([itemId, detailChange]) => {
+        const nextDetail = { ...(catalog.itemDetails?.[itemId] || {}) };
+        if (detailChange && typeof detailChange === "object") {
+          if (Object.prototype.hasOwnProperty.call(detailChange, "name")) {
+            const rawName = typeof detailChange.name === "string" ? detailChange.name.trim() : "";
+            if (rawName) {
+              nextDetail.name = rawName;
+            } else {
+              delete nextDetail.name;
+            }
+          }
+          if (Object.prototype.hasOwnProperty.call(detailChange, "cost")) {
+            const rawCost = detailChange.cost;
+            if (typeof rawCost === "number" && Number.isFinite(rawCost)) {
+              nextDetail.cost = rawCost;
+            } else {
+              delete nextDetail.cost;
+            }
+          }
+        }
+
+        if (Object.keys(nextDetail).length) {
+          catalog.itemDetails[itemId] = nextDetail;
+        } else {
+          delete catalog.itemDetails[itemId];
+        }
+      });
+    }
+
+    if (Array.isArray(catalog.items)) {
+      catalog.items = Array.from(new Set(catalog.items)).sort((a, b) => a.localeCompare(b));
+    }
+  });
 }
 
 async function loadShopCatalogs() {
@@ -2166,6 +2332,86 @@ function getAllLayerEntries() {
   ];
 }
 
+function computePlacementChanges() {
+  const payload = {
+    assets: {},
+    boards: {},
+  };
+
+  const processedKeys = new Set();
+
+  const recordChange = (pathSegments = [], category, type, x, y) => {
+    const roundedX = Math.round(coerceNumber(x));
+    const roundedY = Math.round(coerceNumber(y));
+
+    if (Number.isNaN(roundedX) || Number.isNaN(roundedY)) {
+      return;
+    }
+
+    if (category === "boards") {
+      const boardId = pathSegments?.[1];
+      if (!boardId) {
+        return;
+      }
+      payload.boards[boardId] = {
+        offsetX: roundedX,
+        offsetY: roundedY,
+      };
+      return;
+    }
+
+    if (!Array.isArray(pathSegments) || !pathSegments.length) {
+      return;
+    }
+
+    let cursor = payload.assets;
+    const keyX = type === "offset" ? "offsetX" : "fitX";
+    const keyY = type === "offset" ? "offsetY" : "fitY";
+
+    pathSegments.forEach((segment, idx) => {
+      if (idx === pathSegments.length - 1) {
+        cursor[segment] = {
+          [keyX]: roundedX,
+          [keyY]: roundedY,
+        };
+      } else {
+        cursor[segment] = cursor[segment] || {};
+        cursor = cursor[segment];
+      }
+    });
+  };
+
+  getAllLayerEntries().forEach((layer) => {
+    processedKeys.add(layer.key);
+    const hasChanged = layer.position.x !== layer.original.x || layer.position.y !== layer.original.y;
+    if (!hasChanged) return;
+    recordChange(layer.pathSegments, layer.category, layer.type, layer.position.x, layer.position.y);
+  });
+
+  Object.entries(state.savedPlacements ?? {}).forEach(([key, saved]) => {
+    if (processedKeys.has(key)) {
+      return;
+    }
+    const entry = state.assetIndexByKey?.get(key);
+    if (!entry) {
+      return;
+    }
+
+    const currentX = Math.round(coerceNumber(saved?.x, entry.initialX));
+    const currentY = Math.round(coerceNumber(saved?.y, entry.initialY));
+    const originalX = Math.round(coerceNumber(entry.initialX));
+    const originalY = Math.round(coerceNumber(entry.initialY));
+
+    if (currentX === originalX && currentY === originalY) {
+      return;
+    }
+
+    recordChange(entry.pathSegments, entry.category, entry.type, currentX, currentY);
+  });
+
+  return payload;
+}
+
 function savePlacements() {
   const activeKeys = new Set();
 
@@ -2187,106 +2433,14 @@ function savePlacements() {
       delete state.savedPlacements[key];
     }
   });
-  persistPlacements();
+  state.savedShopChanges = computeShopChanges();
+  persistSavedData();
   alert("Placements saved locally.");
 }
 
 function downloadMetadata() {
-  const payload = {
-    assets: {},
-    boards: {},
-  };
-
-  getAllLayerEntries().forEach((layer) => {
-    const hasChanged = layer.position.x !== layer.original.x || layer.position.y !== layer.original.y;
-    if (!hasChanged) return;
-
-    if (layer.category === "boards") {
-      payload.boards[layer.pathSegments[1]] = {
-        offsetX: layer.position.x,
-        offsetY: layer.position.y,
-      };
-    } else {
-      let cursor = payload.assets;
-      const keyX = layer.type === "offset" ? "offsetX" : "fitX";
-      const keyY = layer.type === "offset" ? "offsetY" : "fitY";
-      layer.pathSegments.forEach((segment, idx) => {
-        if (idx === layer.pathSegments.length - 1) {
-          cursor[segment] = {
-            [keyX]: layer.position.x,
-            [keyY]: layer.position.y,
-          };
-        } else {
-          cursor[segment] = cursor[segment] || {};
-          cursor = cursor[segment];
-        }
-      });
-    }
-  });
-
-  const shopChanges = {};
-  Object.entries(state.shopCatalogs ?? {}).forEach(([shopId, catalog]) => {
-    const baseline = state.shopCatalogBaselines?.[shopId] ?? {};
-    const currentItems = Array.isArray(catalog?.items) ? [...catalog.items] : [];
-    const baselineItems = Array.isArray(baseline.items) ? [...baseline.items] : [];
-    const currentItemSet = new Set(currentItems);
-    const baselineItemSet = new Set(baselineItems);
-
-    const addedItems = currentItems.filter((item) => !baselineItemSet.has(item)).sort((a, b) => a.localeCompare(b));
-    const removedItems = baselineItems.filter((item) => !currentItemSet.has(item)).sort((a, b) => a.localeCompare(b));
-
-    const currentDetails = catalog?.itemDetails && typeof catalog.itemDetails === "object"
-      ? catalog.itemDetails
-      : {};
-    const baselineDetails = baseline?.itemDetails && typeof baseline.itemDetails === "object"
-      ? baseline.itemDetails
-      : {};
-
-    const detailChanges = {};
-    const itemIds = new Set([
-      ...Object.keys(currentDetails),
-      ...Object.keys(baselineDetails),
-    ]);
-
-    itemIds.forEach((itemId) => {
-      const current = normalizeShopDetail(currentDetails[itemId]);
-      const original = normalizeShopDetail(baselineDetails[itemId]);
-      const entry = {};
-
-      if (current.name !== original.name) {
-        entry.name = current.name;
-      }
-      if (current.cost !== original.cost) {
-        entry.cost = current.cost;
-      }
-
-      if (Object.keys(entry).length) {
-        detailChanges[itemId] = entry;
-      }
-    });
-
-    const hasItemChanges = addedItems.length || removedItems.length;
-    const hasDetailChanges = Object.keys(detailChanges).length;
-    if (!hasItemChanges && !hasDetailChanges) {
-      return;
-    }
-
-    const entry = {};
-    if (hasItemChanges) {
-      entry.items = {};
-      if (addedItems.length) {
-        entry.items.added = addedItems;
-      }
-      if (removedItems.length) {
-        entry.items.removed = removedItems;
-      }
-    }
-    if (hasDetailChanges) {
-      entry.details = detailChanges;
-    }
-
-    shopChanges[shopId] = entry;
-  });
+  const payload = computePlacementChanges();
+  const shopChanges = computeShopChanges();
 
   if (Object.keys(shopChanges).length) {
     payload.shops = shopChanges;
@@ -2375,6 +2529,14 @@ function applySavedPlacementsOnLoad() {
   });
 }
 
+function applySavedShopChanges() {
+  if (!state.savedShopChanges || !state.shopCatalogs) {
+    return;
+  }
+
+  applyShopChangesToCatalogs(state.savedShopChanges, state.shopCatalogs);
+}
+
 async function init() {
   const [boards, shopCatalogs] = await Promise.all([
     loadBoardMetadata(),
@@ -2383,9 +2545,11 @@ async function init() {
   state.boards = boards;
   state.shopCatalogs = shopCatalogs;
   state.shopCatalogBaselines = cloneShopCatalogs(shopCatalogs);
+  applySavedShopChanges();
   state.shopAssignments = new Map();
   state.assetIndex = buildAssetIndex(state.boards);
   state.assetIndexById = new Map(state.assetIndex.map((entry) => [entry.id, entry]));
+  state.assetIndexByKey = new Map(state.assetIndex.map((entry) => [entry.key, entry]));
   annotateAssetIndexWithShops(state.assetIndex, state.shopCatalogs);
   const categories = Array.from(new Set(state.assetIndex.map((entry) => entry.category)));
   populateCategoryFilter(categories);
