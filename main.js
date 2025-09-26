@@ -73,6 +73,7 @@ const dom = {
   resetPosition: document.getElementById("reset-position"),
   toggleGizmoDrag: document.getElementById("toggle-gizmo-drag"),
   removeLayer: document.getElementById("remove-layer"),
+  clearLayers: document.getElementById("clear-layers"),
   saveLocal: document.getElementById("save-local"),
   generateMetadata: document.getElementById("generate-metadata"),
   zoomIn: document.getElementById("zoom-in"),
@@ -1576,6 +1577,9 @@ function updateLayerOrder() {
 
 function renderLayerPanel() {
   dom.layersPanel.innerHTML = "";
+  if (dom.clearLayers) {
+    dom.clearLayers.disabled = state.layers.length === 0;
+  }
   if (!state.layers.length) {
     const empty = document.createElement("div");
     empty.className = "empty-state";
@@ -2139,6 +2143,22 @@ function removeSelectedLayer() {
   updatePivotHandle();
 }
 
+function clearAllLayers() {
+  if (!state.layers.length) {
+    return;
+  }
+
+  state.layers.forEach((layer) => {
+    layer.node.remove();
+  });
+
+  state.layers = [];
+  state.selectedLayer = null;
+  renderLayerPanel();
+  updateSelectionPanel();
+  updatePivotHandle();
+}
+
 function getAllLayerEntries() {
   return [
     ...Array.from(state.baseLayers.values()),
@@ -2416,6 +2436,7 @@ dom.toggleGizmoDrag?.addEventListener("click", () => {
   updatePivotHandle();
 });
 dom.removeLayer.addEventListener("click", removeSelectedLayer);
+dom.clearLayers?.addEventListener("click", clearAllLayers);
 dom.saveLocal.addEventListener("click", savePlacements);
 dom.generateMetadata.addEventListener("click", downloadMetadata);
 

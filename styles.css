@@ -43,6 +43,34 @@ aside {
   border-bottom: 1px solid var(--border);
 }
 
+#layer-controls header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+#layer-controls header h2 {
+  margin: 0;
+}
+
+#clear-layers {
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: none;
+  background: var(--accent);
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(31, 35, 51, 0.2);
+}
+
+#clear-layers:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
 #asset-browser h1 {
   margin: 0 0 12px;
   font-size: 1.3rem;
