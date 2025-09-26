@@ -281,6 +281,8 @@ aside {
 #stage-content > canvas,
 #base-parts-container,
 #base-parts-container .base-layer-item,
+#layer-behind-container,
+#layer-behind-container .layer-item,
 #layer-container,
 #layer-container .layer-item {
   transform-origin: 50% 50%;
@@ -411,6 +413,7 @@ aside {
 
 #base-avatar,
 #base-parts-container .base-layer-item,
+#layer-behind-container .layer-item,
 #layer-container .layer-item {
   transform: translate(-50%, -50%);
 }
@@ -422,6 +425,12 @@ aside {
   z-index: 5;
 }
 
+#layer-behind-container {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
 #base-parts-container .base-layer-item {
   position: absolute;
   left: 0;
@@ -430,6 +439,7 @@ aside {
 }
 
 #stage-content > canvas,
+#layer-behind-container .layer-item,
 #layer-container .layer-item {
   position: absolute;
   left: 0;
