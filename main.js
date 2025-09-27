@@ -89,7 +89,13 @@ const dom = {
   headCoords: document.getElementById("head-coords"),
 };
 
-[dom.stageContent, dom.layerContainer, dom.basePartsContainer, dom.baseAvatar].forEach((node) => {
+dom.layerBehindContainer = document.createElement("div");
+dom.layerBehindContainer.id = "layer-behind-container";
+if (dom.baseAvatar?.parentNode) {
+  dom.baseAvatar.parentNode.insertBefore(dom.layerBehindContainer, dom.baseAvatar);
+}
+
+[dom.stageContent, dom.layerContainer, dom.basePartsContainer, dom.layerBehindContainer, dom.baseAvatar].forEach((node) => {
   if (node?.style) {
     node.style.transformOrigin = ASSET_TRANSFORM_ORIGIN;
   }
@@ -222,6 +228,16 @@ function clamp(value, min, max) {
   return Math.min(max, Math.max(min, value));
 }
 
+function isBoardLayerAbove(metadata = {}) {
+  const rawLayerAbove = metadata.layerAbove;
+  return (
+    rawLayerAbove === true ||
+    rawLayerAbove === 1 ||
+    rawLayerAbove === "1" ||
+    (typeof rawLayerAbove === "string" && rawLayerAbove.toLowerCase() === "true")
+  );
+}
+
 function getBoardPreviewFrames(metadata = {}) {
   const totalFrames = Math.max(1, Number(metadata.frames) || 1);
   const maxIndex = totalFrames - 1;
@@ -248,12 +264,7 @@ function getBoardPreviewFrames(metadata = {}) {
   const explicitBottom = coerceIndex(metadata.middleEffectBottomFrame);
   const explicitTop = coerceIndex(metadata.middleEffectTopFrame);
 
-  const rawLayerAbove = metadata.layerAbove;
-  const isLayerAbove =
-    rawLayerAbove === true ||
-    rawLayerAbove === 1 ||
-    rawLayerAbove === "1" ||
-    (typeof rawLayerAbove === "string" && rawLayerAbove.toLowerCase() === "true");
+  const isLayerAbove = isBoardLayerAbove(metadata);
 
   const defaultBottom = isLayerAbove ? firstFrame : lastFrame;
   const defaultTop = isLayerAbove ? lastFrame : firstFrame;
@@ -271,50 +282,119 @@ function getBoardPreviewFrames(metadata = {}) {
 
 function createBoardLayerElement(entry, assetUrl, className) {
   const framesToDraw = getBoardPreviewFrames(entry.metadata);
-  if (!framesToDraw.length || framesToDraw.length === 1 || !entry.frameWidth || !entry.frameHeight) {
+  if (!framesToDraw.length || !entry.frameWidth || !entry.frameHeight) {
     return null;
   }
 
   const ratio = window.devicePixelRatio || 1;
-  const wrapper = document.createElement("div");
-  wrapper.className = className;
-  wrapper.style.position = "relative";
-  wrapper.style.width = `${entry.frameWidth}px`;
-  wrapper.style.height = `${entry.frameHeight}px`;
-  applyAssetTransformOrigin(wrapper);
+  let frameWidth = entry.frameWidth;
+  let frameHeight = entry.frameHeight;
 
-  const canvases = framesToDraw.map(() => {
+  const frameEntries = framesToDraw.map((frameIndex) => {
     const canvas = document.createElement("canvas");
-    canvas.width = entry.frameWidth * ratio;
-    canvas.height = entry.frameHeight * ratio;
-    canvas.style.width = `${entry.frameWidth}px`;
-    canvas.style.height = `${entry.frameHeight}px`;
+    canvas.width = frameWidth * ratio;
+    canvas.height = frameHeight * ratio;
+    canvas.style.width = `${frameWidth}px`;
+    canvas.style.height = `${frameHeight}px`;
     canvas.style.position = "absolute";
     canvas.style.left = "0";
     canvas.style.top = "0";
-    canvas.style.pointerEvents = "none";
-    return canvas;
+    canvas.className = className;
+    applyAssetTransformOrigin(canvas);
+    return { node: canvas, frameIndex };
   });
-
-  canvases.forEach((canvas) => wrapper.appendChild(canvas));
 
   const image = new Image();
   image.crossOrigin = "anonymous";
   image.onload = () => {
-    const columns = Math.max(1, Math.floor(image.naturalWidth / entry.frameWidth));
-    const rows = Math.max(1, Math.floor(image.naturalHeight / entry.frameHeight));
-    const totalCells = columns * rows;
+    const requestedFrameCount = framesToDraw.reduce((max, index) => {
+      if (!Number.isFinite(index)) {
+        return max;
+      }
+      const next = Math.floor(index) + 1;
+      return next > max ? next : max;
+    }, 0);
+    const metadataFrameCountRaw = Number(entry.metadata?.frames);
+    const metadataFrameCount = Number.isFinite(metadataFrameCountRaw) && metadataFrameCountRaw > 0
+      ? Math.floor(metadataFrameCountRaw)
+      : 0;
+    const desiredFrameCount = Math.max(requestedFrameCount, metadataFrameCount, 1);
+
+    let columns = 0;
+    let rows = 0;
+    let totalCells = 0;
+
+    const updateGrid = () => {
+      columns = Math.max(1, Math.floor(image.naturalWidth / frameWidth));
+      rows = Math.max(1, Math.floor(image.naturalHeight / frameHeight));
+      totalCells = columns * rows;
+    };
+
+    const tryAdjustDimensions = (nextWidth, nextHeight) => {
+      const validWidth = Number.isFinite(nextWidth) && nextWidth > 0;
+      const validHeight = Number.isFinite(nextHeight) && nextHeight > 0;
+      if (!validWidth && !validHeight) {
+        return false;
+      }
+      if (validWidth) {
+        frameWidth = nextWidth;
+      }
+      if (validHeight) {
+        frameHeight = nextHeight;
+      }
+      updateGrid();
+      return true;
+    };
+
+    updateGrid();
+
+    if (desiredFrameCount > totalCells) {
+      const totalFrames = Math.max(metadataFrameCount, desiredFrameCount);
+      let adjusted = false;
+
+      if (totalFrames > 1 && image.naturalWidth % totalFrames === 0) {
+        adjusted = tryAdjustDimensions(image.naturalWidth / totalFrames, null);
+      }
+
+      if (!adjusted && totalFrames > 1 && image.naturalHeight % totalFrames === 0) {
+        adjusted = tryAdjustDimensions(null, image.naturalHeight / totalFrames);
+      }
+
+      if (!adjusted && entry.metadata?.middleEffect && totalFrames === 2) {
+        const splitX = Number(entry.metadata?.splitX);
+        if (Number.isFinite(splitX) && splitX > 0) {
+          adjusted = tryAdjustDimensions(splitX / totalFrames, null);
+        }
+      }
+
+      if (adjusted && (entry.frameWidth !== frameWidth || entry.frameHeight !== frameHeight)) {
+        frameEntries.forEach(({ node }) => {
+          node.width = frameWidth * ratio;
+          node.height = frameHeight * ratio;
+          node.style.width = `${frameWidth}px`;
+          node.style.height = `${frameHeight}px`;
+        });
+        entry.frameWidth = frameWidth;
+        entry.frameHeight = frameHeight;
+        if (entry.metadata) {
+          entry.metadata.frameWidth = frameWidth;
+          entry.metadata.frameHeight = frameHeight;
+        }
+      }
+    }
+
+    updateGrid();
+
     if (!totalCells) {
       return;
     }
 
-    canvases.forEach((canvas, index) => {
-      const frameIndex = framesToDraw[index];
+    frameEntries.forEach(({ node, frameIndex }) => {
       if (frameIndex == null) {
         return;
       }
 
-      const context = canvas.getContext("2d");
+      const context = node.getContext("2d");
       if (!context) {
         return;
       }
@@ -322,24 +402,24 @@ function createBoardLayerElement(entry, assetUrl, className) {
       const clampedIndex = clamp(Math.floor(frameIndex), 0, totalCells - 1);
       const column = clampedIndex % columns;
       const row = Math.floor(clampedIndex / columns);
-      const sourceX = column * entry.frameWidth;
-      const sourceY = row * entry.frameHeight;
+      const sourceX = column * frameWidth;
+      const sourceY = row * frameHeight;
 
       context.save();
       try {
         context.scale(ratio, ratio);
-        context.clearRect(0, 0, entry.frameWidth, entry.frameHeight);
+        context.clearRect(0, 0, frameWidth, frameHeight);
         context.imageSmoothingEnabled = false;
         context.drawImage(
           image,
           sourceX,
           sourceY,
-          entry.frameWidth,
-          entry.frameHeight,
+          frameWidth,
+          frameHeight,
           0,
           0,
-          entry.frameWidth,
-          entry.frameHeight,
+          frameWidth,
+          frameHeight,
         );
       } finally {
         context.restore();
@@ -355,7 +435,32 @@ function createBoardLayerElement(entry, assetUrl, className) {
   };
   image.src = assetUrl;
 
-  return wrapper;
+  const isLayerAbove = isBoardLayerAbove(entry.metadata);
+  const hasDistinctBack = frameEntries.length > 1;
+  let backNode = null;
+  if (hasDistinctBack) {
+    backNode = frameEntries[0].node;
+    backNode.style.pointerEvents = "none";
+  }
+
+  const frontNode = frameEntries[frameEntries.length - 1]?.node ?? null;
+  if (!frontNode) {
+    return null;
+  }
+
+  const nodes = [frontNode];
+  if (backNode && backNode !== frontNode) {
+    nodes.push(backNode);
+  }
+
+  const placeFrontInForeground = entry.metadata?.middleEffect ? true : isLayerAbove;
+
+  return {
+    frontNode,
+    backNode: backNode && backNode !== frontNode ? backNode : null,
+    nodes,
+    frontPlacement: placeFrontInForeground ? "foreground" : "background",
+  };
 }
 
 function resolveAssetPath(relativePath, pathSegments = []) {
@@ -1416,7 +1521,8 @@ function applyBaseEntry(entry) {
     return true;
   }
 
-  const element = createLayerElement(entry, { className: "base-layer-item" });
+  const layerElements = createLayerElement(entry, { className: "base-layer-item" });
+  const element = layerElements?.frontNode;
   if (!element) {
     console.warn(`Unable to create base layer element for ${entry.id}`);
     return true;
@@ -1427,7 +1533,13 @@ function applyBaseEntry(entry) {
   element.style.top = `${placement.y}px`;
 
   const previous = state.baseLayers.get(slot);
-  if (previous?.node && previous.node !== dom.baseAvatar) {
+  if (previous?.nodes?.length) {
+    previous.nodes.forEach((node) => {
+      if (node && node !== dom.baseAvatar) {
+        node.remove();
+      }
+    });
+  } else if (previous?.node && previous.node !== dom.baseAvatar) {
     previous.node.remove();
   }
 
@@ -1440,6 +1552,8 @@ function applyBaseEntry(entry) {
     filename: entry.filename,
     pathSegments: entry.pathSegments,
     node: element,
+    frontNode: element,
+    nodes: [element],
     metadata: entry.metadata,
     type: entry.type,
     original: { x: entry.initialX, y: entry.initialY },
@@ -1461,7 +1575,13 @@ function findFirstEntryWithPrefix(prefix) {
 
 function clearBaseLayers() {
   state.baseLayers.forEach((layer) => {
-    if (layer.node && layer.node !== dom.baseAvatar) {
+    if (layer?.nodes?.length) {
+      layer.nodes.forEach((node) => {
+        if (node && node !== dom.baseAvatar) {
+          node.remove();
+        }
+      });
+    } else if (layer.node && layer.node !== dom.baseAvatar) {
       layer.node.remove();
     }
   });
@@ -1624,7 +1744,17 @@ function createLayerElement(entry, { className = "layer-item" } = {}) {
     };
     image.src = assetUrl;
 
-    return canvas;
+    const result = {
+      frontNode: canvas,
+      nodes: [canvas],
+      frontPlacement: "foreground",
+    };
+
+    if (entry.category === "boards" && !entry.metadata?.middleEffect) {
+      result.frontPlacement = isBoardLayerAbove(entry.metadata) ? "foreground" : "background";
+    }
+
+    return result;
   }
 
   const img = document.createElement("img");
@@ -1637,7 +1767,17 @@ function createLayerElement(entry, { className = "layer-item" } = {}) {
       updatePivotHandle();
     }
   });
-  return img;
+  const result = {
+    frontNode: img,
+    nodes: [img],
+    frontPlacement: "foreground",
+  };
+
+  if (entry.category === "boards" && !entry.metadata?.middleEffect) {
+    result.frontPlacement = isBoardLayerAbove(entry.metadata) ? "foreground" : "background";
+  }
+
+  return result;
 }
 
 function handleAssetSelection(entry) {
@@ -1654,19 +1794,37 @@ function handleAssetSelection(entry) {
     return;
   }
 
-  const element = createLayerElement(entry);
-  if (!element) {
+  const created = createLayerElement(entry);
+  const frontNode = created?.frontNode;
+  if (!frontNode) {
     console.warn(`Unable to create layer element for ${entry.id}`);
     return;
   }
 
-  element.dataset.key = entry.key;
+  const nodes = [];
+  if (frontNode) {
+    nodes.push(frontNode);
+  }
+  if (created?.nodes?.length) {
+    created.nodes.forEach((node) => {
+      if (node && !nodes.includes(node)) {
+        nodes.push(node);
+      }
+    });
+  }
+
+  const backNode = created?.backNode && created.backNode !== frontNode ? created.backNode : null;
+  const frontPlacement = created?.frontPlacement === "background" ? "background" : "foreground";
+
+  nodes.forEach((node) => {
+    if (!node) {
+      return;
+    }
+    node.dataset.key = entry.key;
+  });
+
   const initialPosition = resolvePlacement(entry);
   const initialPivot = resolvePivot(entry);
-  element.style.left = `${initialPosition.x}px`;
-  element.style.top = `${initialPosition.y}px`;
-
-  dom.layerContainer.appendChild(element);
 
   const layer = {
     key: entry.key,
@@ -1674,7 +1832,11 @@ function handleAssetSelection(entry) {
     category: entry.category,
     filename: entry.filename,
     pathSegments: entry.pathSegments,
-    node: element,
+    node: frontNode,
+    frontNode,
+    backNode,
+    nodes,
+    frontPlacement,
     metadata: entry.metadata,
     type: entry.type,
     original: { x: entry.initialX, y: entry.initialY },
@@ -1687,11 +1849,16 @@ function handleAssetSelection(entry) {
   setLayerVisibility(layer, true);
   attachDragHandlers(layer);
   state.layers.push(layer);
+  updateLayerPosition(layer, initialPosition.x, initialPosition.y);
   updateLayerOrder();
   selectLayer(layer);
 }
 
 function attachDragHandlers(layer) {
+  const handleNode = layer?.frontNode;
+  if (!handleNode) {
+    return;
+  }
   let isDragging = false;
   let startX = 0;
   let startY = 0;
@@ -1707,7 +1874,9 @@ function attachDragHandlers(layer) {
     startY = event.clientY;
     originLeft = layer.position.x;
     originTop = layer.position.y;
-    layer.node.setPointerCapture(event.pointerId);
+    if (typeof handleNode.setPointerCapture === "function") {
+      handleNode.setPointerCapture(event.pointerId);
+    }
   };
 
   const onPointerMove = (event) => {
@@ -1723,19 +1892,33 @@ function attachDragHandlers(layer) {
   const onPointerUp = (event) => {
     if (!isDragging) return;
     isDragging = false;
-    layer.node.releasePointerCapture(event.pointerId);
+    if (typeof handleNode.releasePointerCapture === "function") {
+      handleNode.releasePointerCapture(event.pointerId);
+    }
   };
 
-  layer.node.addEventListener("pointerdown", onPointerDown);
-  layer.node.addEventListener("pointermove", onPointerMove);
-  layer.node.addEventListener("pointerup", onPointerUp);
-  layer.node.addEventListener("pointerleave", onPointerUp);
+  handleNode.addEventListener("pointerdown", onPointerDown);
+  handleNode.addEventListener("pointermove", onPointerMove);
+  handleNode.addEventListener("pointerup", onPointerUp);
+  handleNode.addEventListener("pointerleave", onPointerUp);
 }
 
 function updateLayerOrder() {
   state.layers.forEach((layer, index) => {
-    dom.layerContainer.appendChild(layer.node);
-    layer.node.style.zIndex = 10 + index;
+    const frontNode = layer.frontNode;
+    const backNode = layer.backNode;
+    const placeFrontInForeground = layer.frontPlacement !== "background";
+
+    if (backNode && dom.layerBehindContainer) {
+      dom.layerBehindContainer.appendChild(backNode);
+      backNode.style.zIndex = String(5 + index);
+    }
+
+    if (frontNode) {
+      const targetContainer = placeFrontInForeground ? dom.layerContainer : dom.layerBehindContainer;
+      targetContainer?.appendChild(frontNode);
+      frontNode.style.zIndex = String(placeFrontInForeground ? 10 + index : 6 + index);
+    }
   });
   renderLayerPanel();
   updatePivotHandle();
@@ -1939,16 +2122,17 @@ function resetLayerDragState() {
 }
 
 function getLayerDimensions(layer) {
-  if (!layer?.node) {
+  const node = layer?.frontNode ?? layer?.node;
+  if (!node) {
     return { width: 0, height: 0 };
   }
-  const width = layer.node.offsetWidth
-    || layer.node.naturalWidth
+  const width = node.offsetWidth
+    || node.naturalWidth
     || layer.metadata?.frameWidth
     || layer.metadata?.splitX
     || 0;
-  const height = layer.node.offsetHeight
-    || layer.node.naturalHeight
+  const height = node.offsetHeight
+    || node.naturalHeight
     || layer.metadata?.frameHeight
     || layer.metadata?.splitY
     || 0;
@@ -1967,13 +2151,16 @@ function getLayerPivotPosition(layer, width, height) {
 }
 
 function applyLayerPivot(layer) {
-  if (!layer?.node) {
+  const nodes = layer?.nodes?.length ? layer.nodes : layer?.frontNode ? [layer.frontNode] : [];
+  if (!nodes.length) {
     return;
   }
   const pivotX = clamp(layer?.pivot?.x ?? 0.5, 0, 1);
   const pivotY = clamp(layer?.pivot?.y ?? 0.5, 0, 1);
   layer.pivot = { x: pivotX, y: pivotY };
-  layer.node.style.transformOrigin = `${pivotX * 100}% ${pivotY * 100}%`;
+  nodes.forEach((node) => {
+    node.style.transformOrigin = `${pivotX * 100}% ${pivotY * 100}%`;
+  });
 }
 
 function setLayerPivot(layer, pivotX, pivotY) {
@@ -1994,12 +2181,15 @@ function isLayerVisible(layer) {
 }
 
 function setLayerVisibility(layer, visible = true) {
-  if (!layer?.node) {
+  const nodes = layer?.nodes?.length ? layer.nodes : layer?.frontNode ? [layer.frontNode] : [];
+  if (!nodes.length) {
     return;
   }
   const nextVisible = visible !== false;
   layer.visible = nextVisible;
-  layer.node.style.display = nextVisible ? "" : "none";
+  nodes.forEach((node) => {
+    node.style.display = nextVisible ? "" : "none";
+  });
   if (state.selectedLayer?.key === layer.key) {
     updatePivotHandle();
   }
@@ -2255,7 +2445,7 @@ function handleLayerKeyboardMovement(event) {
 function selectLayer(layer) {
   state.selectedLayer = layer;
   state.layers.forEach((entry) => {
-    entry.node.classList.toggle("selected", entry.key === layer.key);
+    entry.frontNode?.classList.toggle("selected", entry.key === layer.key);
   });
   updateSelectionPanel();
   updatePivotHandle();
@@ -2279,8 +2469,11 @@ function updateSelectionPanel() {
 function updateLayerPosition(layer, x, y) {
   layer.position.x = Math.round(coerceNumber(x, layer.position.x));
   layer.position.y = Math.round(coerceNumber(y, layer.position.y));
-  layer.node.style.left = `${layer.position.x}px`;
-  layer.node.style.top = `${layer.position.y}px`;
+  const nodes = layer?.nodes?.length ? layer.nodes : layer?.frontNode ? [layer.frontNode] : [];
+  nodes.forEach((node) => {
+    node.style.left = `${layer.position.x}px`;
+    node.style.top = `${layer.position.y}px`;
+  });
   if (state.selectedLayer?.key === layer.key) {
     dom.inputX.value = layer.position.x;
     dom.inputY.value = layer.position.y;
@@ -2300,8 +2493,12 @@ function removeSelectedLayer() {
   const index = state.layers.findIndex((layer) => layer.key === state.selectedLayer.key);
   if (index !== -1) {
     const [layer] = state.layers.splice(index, 1);
-    layer.node.remove();
-    
+    if (layer?.nodes?.length) {
+      layer.nodes.forEach((node) => node?.remove?.());
+    } else {
+      layer.node?.remove?.();
+    }
+
   }
   state.selectedLayer = null;
   renderLayerPanel();
@@ -2315,7 +2512,11 @@ function clearAllLayers() {
   }
 
   state.layers.forEach((layer) => {
-    layer.node.remove();
+    if (layer?.nodes?.length) {
+      layer.nodes.forEach((node) => node?.remove?.());
+    } else {
+      layer.node?.remove?.();
+    }
   });
 
   state.layers = [];
