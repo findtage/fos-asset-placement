@@ -1,666 +1,816 @@
 {
-    "hair": {
-        "female": {
-        "hair20": {
-            "cost": 1000,
-            "name": "Girl Hair"
-        },
-        "hair21": {
-            "cost": 1000,
-            "name": "Girl Hair"
-        },
-        "hair23": {
-            "cost": 1000,
-            "name": "Girl Hair"
-        },
-        "hair24": {
-            "cost": 1000,
-            "name": "Girl Hair 03bl"
-        },
-        "hair25": {
-            "cost": 1000,
-            "name": "Girl Hair 03gr"
-        },
-        "hair26": {
-            "cost": 1000,
-            "name": "Girl Hair"
-        },
-        "hair582": {
-            "cost": 1000,
-            "name": "Girl Hair"
-        },
-        "hair28": {
-            "cost": 1000,
-            "name": "Girl Hair"
-        },
-        "hair29": {
-            "cost": 1000,
-            "name": "Girl Hair 06bl"
-        },
-        "hair30": {
-            "cost": 1000,
-            "name": "Girl Hair"
-        },
-        "hair583": {
-            "cost": 1000,
-            "name": "Girl Hair"
-        },
-        "hair584": {
-            "cost": 1000,
-            "name": "Girl Hair 08blu"
-        },
-        "hair585": {
-            "cost": 1000,
-            "name": "Girl Hair 08p"
-        },
-        "hair586": {
-            "cost": 1000,
-            "name": "Girl Hair 08v"
-        },
-        "hair587": {
-            "cost": 1000,
-            "name": "Girl Hair"
-        },
-        "hair589": {
-            "cost": 1000,
-            "name": "Girl Hair"
-        },
-        "hair590": {
-            "cost": 1000,
-            "name": "Girl Hair 10blu"
-        },
-        "hair591": {
-            "cost": 1000,
-            "name": "Girl Hair 10p"
-        },
-        "hair592": {
-            "cost": 1000,
-            "name": "Girl Hair 10v"
-        },
-        "hair593": {
-            "cost": 1000,
-            "name": "Girl Hair 2007black"
-        },
-        "hair594": {
-            "cost": 1000,
-            "name": "Girl Hair 2007blonde"
-        },
-        "hair595": {
-            "cost": 1000,
-            "name": "Girl Hair 2007brown"
-        },
-        "hair31": {
-            "cost": 1000,
-            "name": "Girl Hair 2008santa"
-        },
-        "hair32": {
-            "cost": 1000,
-            "name": "Girl Hair 2009egg"
-        },
-        "hair596": {
-            "cost": 1000,
-            "name": "Girl Hair 80s"
-        },
-        "hair602": {
-            "cost": 1000,
-            "name": "Girl Hair Alvahair"
-        },
-        "hair37": {
-            "cost": 1000,
-            "name": "Girl Hair Andblonde"
-        },
-        "hair38": {
-            "cost": 1000,
-            "name": "Girl Hair Andpink"
-        },
-        "hair39": {
-            "cost": 1000,
-            "name": "Girl Hair Angeljp"
-        },
-        "hair40": {
-            "cost": 1000,
-            "name": "Girl Hair Apple"
-        },
-        "hair547": {
-            "cost": 1000,
-            "name": "Girl Hair Banddark"
-        },
-        "hair548": {
-            "cost": 1000,
-            "name": "Girl Hair Bandolive"
-        },
-        "hair42": {
-            "cost": 1000,
-            "name": "Girl Hair Bearhat01"
-        },
-        "hair43": {
-            "cost": 1000,
-            "name": "Girl Hair Bearhat02"
-        },
-        "hair44": {
-            "cost": 1000,
-            "name": "Girl Hair Bearhat03"
-        },
-        "hair606": {
-            "cost": 1000,
-            "name": "Girl Hair Beehive"
-        },
-        "hair45": {
-            "cost": 1000,
-            "name": "Girl Hair Betacrownbld"
-        },
-        "hair46": {
-            "cost": 1000,
-            "name": "Girl Hair Betacrownblk"
-        },
-        "hair47": {
-            "cost": 1000,
-            "name": "Girl Hair Betacrownbrwn"
-        },
-        "hair50": {
-            "cost": 1000,
-            "name": "Girl Hair Black Ribon Hat"
-        },
-        "hair609": {
-            "cost": 1000,
-            "name": "Girl Hair Blacklong"
-        },
-        "hair618": {
-            "cost": 1000,
-            "name": "Girl Hair Blondhat"
-        },
-        "hair621": {
-            "cost": 1000,
-            "name": "Girl Hair Blondshort"
-        },
-        "hair623": {
-            "cost": 1000,
-            "name": "Girl Hair Blondside"
-        },
-        "hair624": {
-            "cost": 1000,
-            "name": "Girl Hair Blondwpinkribbon"
-        },
-        "hair614": {
-            "cost": 1000,
-            "name": "Girl Hair Blond Ponytail"
-        },
-        "hair626": {
-            "cost": 1000,
-            "name": "Girl Hair Blue"
-        },
-        "hair61": {
-            "cost": 1000,
-            "name": "Girl Hair Bluebobt"
-        },
-        "hair63": {
-            "cost": 1000,
-            "name": "Girl Hair Bluegoggles"
-        },
-        "hair628": {
-            "cost": 1000,
-            "name": "Girl Hair Bluehairrare"
-        },
-        "hair629": {
-            "cost": 1000,
-            "name": "Girl Hair Bluelonghair"
-        },
-        "hair64": {
-            "cost": 1000,
-            "name": "Girl Hair Bluepet"
-        },
-        "hair66": {
-            "cost": 1000,
-            "name": "Girl Hair Bonehead"
-        },
-        "hair636": {
-            "cost": 1000,
-            "name": "Girl Hair Brown"
-        },
-        "hair71": {
-            "cost": 1000,
-            "name": "Girl Hair Brownpigtails"
-        },
-        "hair72": {
-            "cost": 1000,
-            "name": "Girl Hair Brownponytail"
-        },
-        "hair73": {
-            "cost": 1000,
-            "name": "Girl Hair Brownshortnm"
-        },
-        "hair645": {
-            "cost": 1000,
-            "name": "Girl Hair Caitlyn"
-        },
-        "hair649": {
-            "cost": 1000,
-            "name": "Girl Hair Candygirl"
-        },
-        "hair77": {
-            "cost": 1000,
-            "name": "Girl Hair Cathat01"
-        },
-        "hair78": {
-            "cost": 1000,
-            "name": "Girl Hair Cathat02"
-        },
-        "hair79": {
-            "cost": 1000,
-            "name": "Girl Hair Cathat03"
-        },
-        "hair651": {
-            "cost": 1000,
-            "name": "Girl Hair Cherrypony"
-        },
-        "hair654": {
-            "cost": 1000,
-            "name": "Girl Hair Chocolatehair"
-        },
-        "hair660": {
-            "cost": 1000,
-            "name": "Girl Hair Curlysue"
-        },
-        "hair661": {
-            "cost": 1000,
-            "name": "Girl Hair Cutebrown"
-        },
-        "hair662": {
-            "cost": 1000,
-            "name": "Girl Hair Cutiehoney"
-        },
-        "hair663": {
-            "cost": 1000,
-            "name": "Girl Hair Daisy"
-        },
-        "hair87": {
-            "cost": 1000,
-            "name": "Girl Hair Dan63r0u5"
-        },
-        "hair88": {
-            "cost": 1000,
-            "name": "Girl Hair Easterbunny2008"
-        },
-        "hair89": {
-            "cost": 1000,
-            "name": "Girl Hair Easterchickie2008"
-        },
-        "hair665": {
-            "cost": 1000,
-            "name": "Girl Hair Elctricblue"
-        },
-        "hair666": {
-            "cost": 1000,
-            "name": "Girl Hair Electpink"
-        },
-        "hair667": {
-            "cost": 1000,
-            "name": "Girl Hair Electricpunk"
-        },
-        "hair90": {
-            "cost": 1000,
-            "name": "Girl Hair Emeraldheadband"
-        },
-        "hair671": {
-            "cost": 1000,
-            "name": "Girl Hair Fallgirl"
-        },
-        "hair677": {
-            "cost": 1000,
-            "name": "Girl Hair Flowerhat"
-        },
-        "hair92": {
-            "cost": 1000,
-            "name": "Girl Hair Framed"
-        },
-        "hair93": {
-            "cost": 1000,
-            "name": "Girl Hair Framedbandblue"
-        },
-        "hair678": {
-            "cost": 1000,
-            "name": "Girl Hair Frenchcurl"
-        },
-        "hair100": {
-            "cost": 1000,
-            "name": "Girl Hair Goldencurly"
-        },
-        "hair681": {
-            "cost": 1000,
-            "name": "Girl Hair Gracepurple"
-        },
-        "hair102": {
-            "cost": 1000,
-            "name": "Girl Hair Greenhina"
-        },
-        "hair103": {
-            "cost": 1000,
-            "name": "Girl Hair Greenloli"
-        },
-        "hair692": {
-            "cost": 1000,
-            "name": "Girl Hair Intriguing"
-        },
-        "hair693": {
-            "cost": 1000,
-            "name": "Girl Hair Intriguingblonde"
-        },
-        "hair123": {
-            "cost": 1000,
-            "name": "Girl Hair Jodipencils"
-        },
-        "hair124": {
-            "cost": 1000,
-            "name": "Girl Hair Joker01"
-        },
-        "hair125": {
-            "cost": 1000,
-            "name": "Girl Hair Joker02"
-        },
-        "hair126": {
-            "cost": 1000,
-            "name": "Girl Hair Joker03"
-        },
-        "hair697": {
-            "cost": 1000,
-            "name": "Girl Hair Jwhair"
-        },
-        "hair127": {
-            "cost": 1000,
-            "name": "Girl Hair Khakicut"
-        },
-        "hair700": {
-            "cost": 1000,
-            "name": "Girl Hair Kimmy"
-        },
-        "hair701": {
-            "cost": 1000,
-            "name": "Girl Hair Kimmydark"
-        },
-        "hair128": {
-            "cost": 1000,
-            "name": "Girl Hair Kisan"
-        },
-        "hair129": {
-            "cost": 1000,
-            "name": "Girl Hair Kisanhat"
-        },
-        "hair132": {
-            "cost": 1000,
-            "name": "Girl Hair Lib"
-        },
-        "hair135": {
-            "cost": 1000,
-            "name": "Girl Hair Limitedautumn"
-        },
-        "hair140": {
-            "cost": 1000,
-            "name": "Girl Hair Lolli"
-        },
-        "hair711": {
-            "cost": 1000,
-            "name": "Girl Hair Longbrownpigtails"
-        },
-        "hair141": {
-            "cost": 1000,
-            "name": "Girl Hair Magentaside"
-        },
-        "hair714": {
-            "cost": 1000,
-            "name": "Girl Hair Mangahairwithheadband"
-        },
-        "hair718": {
-            "cost": 1000,
-            "name": "Girl Hair Mayablonde"
-        },
-        "hair142": {
-            "cost": 1000,
-            "name": "Girl Hair Miyu"
-        },
-        "hair722": {
-            "cost": 1000,
-            "name": "Girl Hair Naruko10"
-        },
-        "hair155": {
-            "cost": 1000,
-            "name": "Girl Hair Nonbrown"
-        },
-        "hair748": {
-            "cost": 1000,
-            "name": "Girl Hair Orange"
-        },
-        "hair549": {
-            "cost": 1000,
-            "name": "Girl Hair Orange"
-        },
-        "hair750": {
-            "cost": 1000,
-            "name": "Girl Hair Orangehippie"
-        },
-        "hair178": {
-            "cost": 1000,
-            "name": "Girl Hair Orangepop"
-        },
-        "hair179": {
-            "cost": 1000,
-            "name": "Girl Hair Orgshrtwave"
-        },
-        "hair181": {
-            "cost": 1000,
-            "name": "Girl Hair Paperbag"
-        },
-        "hair752": {
-            "cost": 1000,
-            "name": "Girl Hair Patty2009"
-        },
-        "hair183": {
-            "cost": 1000,
-            "name": "Girl Hair Pinkdream"
-        },
-        "hair760": {
-            "cost": 1000,
-            "name": "Girl Hair Pinkhat"
-        },
-        "hair763": {
-            "cost": 1000,
-            "name": "Girl Hair Pinkpompon"
-        },
-        "hair190": {
-            "cost": 1000,
-            "name": "Girl Hair Pokaband"
-        },
-        "hair192": {
-            "cost": 1000,
-            "name": "Girl Hair Polkadotbandana"
-        },
-        "hair769": {
-            "cost": 1000,
-            "name": "Girl Hair Poofycap"
-        },
-        "hair195": {
-            "cost": 1000,
-            "name": "Girl Hair Purgrey"
-        },
-        "hair196": {
-            "cost": 1000,
-            "name": "Girl Hair Purpigtail"
-        },
-        "hair772": {
-            "cost": 1000,
-            "name": "Girl Hair Purple"
-        },
-        "hair777": {
-            "cost": 1000,
-            "name": "Girl Hair Purplewaves"
-        },
-        "hair779": {
-            "cost": 1000,
-            "name": "Girl Hair Rabbitears"
-        },
-        "hair781": {
-            "cost": 1000,
-            "name": "Girl Hair Red Brown Hair"
-        },
-        "hair782": {
-            "cost": 1000,
-            "name": "Girl Hair Red Flower"
-        },
-        "hair783": {
-            "cost": 1000,
-            "name": "Girl Hair Red Ribon"
-        },
-        "hair786": {
-            "cost": 1000,
-            "name": "Girl Hair Redbrown"
-        },
-        "hair787": {
-            "cost": 1000,
-            "name": "Girl Hair Redcaphair"
-        },
-        "hair206": {
-            "cost": 1000,
-            "name": "Girl Hair Redlolita"
-        },
-        "hair788": {
-            "cost": 1000,
-            "name": "Girl Hair Redlong"
-        },
-        "hair210": {
-            "cost": 1000,
-            "name": "Girl Hair Retro"
-        },
-        "hair211": {
-            "cost": 1000,
-            "name": "Girl Hair Ribbonblond"
-        },
-        "hair789": {
-            "cost": 1000,
-            "name": "Girl Hair Ribboncurly"
-        },
-        "hair212": {
-            "cost": 1000,
-            "name": "Girl Hair Ribbonheadband"
-        },
-        "hair213": {
-            "cost": 1000,
-            "name": "Girl Hair Rollerhair"
-        },
-        "hair214": {
-            "cost": 1000,
-            "name": "Girl Hair Roundpigtailswithbows"
-        },
-        "hair792": {
-            "cost": 1000,
-            "name": "Girl Hair Samsonbrown"
-        },
-        "hair793": {
-            "cost": 1000,
-            "name": "Girl Hair Samsonpink"
-        },
-        "hair795": {
-            "cost": 1000,
-            "name": "Girl Hair Santa2007c"
-        },
-        "hair216": {
-            "cost": 1000,
-            "name": "Girl Hair Santahat"
-        },
-        "hair796": {
-            "cost": 1000,
-            "name": "Girl Hair Santahat"
-        },
-        "hair797": {
-            "cost": 1000,
-            "name": "Girl Hair Santahatsale"
-        },
-        "hair220": {
-            "cost": 1000,
-            "name": "Girl Hair Seasgreendj"
-        },
-        "hair221": {
-            "cost": 1000,
-            "name": "Girl Hair Secretarydblue"
-        },
-        "hair222": {
-            "cost": 1000,
-            "name": "Girl Hair Shinygold"
-        },
-        "hair224": {
-            "cost": 1000,
-            "name": "Girl Hair Shortbrown"
-        },
-        "hair226": {
-            "cost": 1000,
-            "name": "Girl Hair Shortponytail"
-        },
-        "hair229": {
-            "cost": 1000,
-            "name": "Girl Hair Skihelmet"
-        },
-        "hair231": {
-            "cost": 1000,
-            "name": "Girl Hair Snmbrown"
-        },
-        "hair239": {
-            "cost": 1000,
-            "name": "Girl Hair Strblo"
-        },
-        "hair811": {
-            "cost": 1000,
-            "name": "Girl Hair Uggsthair"
-        },
-        "hair813": {
-            "cost": 1000,
-            "name": "Girl Hair Vicky"
-        },
-        "hair252": {
-            "cost": 1000,
-            "name": "Girl Hair Vogcut"
-        },
-        "hair820": {
-            "cost": 1000,
-            "name": "Girl Hair Winter"
-        },
-        "hair256": {
-            "cost": 1000,
-            "name": "Girl Hair Winter2"
-        },
-        "hair821": {
-            "cost": 1000,
-            "name": "Girl Hair Winterbelle"
-        },
-        "hair822": {
-            "cost": 1000,
-            "name": "Girl Hair Winterhat"
-        },
-        "hair827": {
-            "cost": 1000,
-            "name": "Girl Hair Yellowhatblond"
-        },
-        "hair513": {
-            "cost": 1000,
-            "name": "Girl Har4 Brownone"
-        },
-        "hair514": {
-            "cost": 1000,
-            "name": "Girl Har4 Longpurple"
-        },
-        "hair269": {
-            "cost": 1000,
-            "name": "Girl Nm Basic"
-        },
-        "hair271": {
-            "cost": 1000,
-            "name": "Girl Pink Bun"
-        },
-        "hair521": {
-            "cost": 1000,
-            "name": "Girl Shiny Black"
-        },
-        "hair840": {
-            "cost": 1000,
-            "name": "Long Curly Brown Hair"
-        }
-        }
+  "hair": {
+    "female": {
+      "hair20": {
+        "cost": 1000,
+        "name": "Girl Hair"
+      },
+      "hair21": {
+        "cost": 1000,
+        "name": "Girl Hair"
+      },
+      "hair23": {
+        "cost": 1000,
+        "name": "Girl Hair"
+      },
+      "hair24": {
+        "cost": 1000,
+        "name": "Girl Hair 03bl"
+      },
+      "hair25": {
+        "cost": 1000,
+        "name": "Girl Hair 03gr"
+      },
+      "hair26": {
+        "cost": 1000,
+        "name": "Girl Hair"
+      },
+      "hair582": {
+        "cost": 1000,
+        "name": "Girl Hair"
+      },
+      "hair28": {
+        "cost": 1000,
+        "name": "Girl Hair"
+      },
+      "hair29": {
+        "cost": 1000,
+        "name": "Girl Hair 06bl"
+      },
+      "hair30": {
+        "cost": 1000,
+        "name": "Girl Hair"
+      },
+      "hair583": {
+        "cost": 1000,
+        "name": "Girl Hair"
+      },
+      "hair584": {
+        "cost": 1000,
+        "name": "Girl Hair 08blu"
+      },
+      "hair585": {
+        "cost": 1000,
+        "name": "Girl Hair 08p"
+      },
+      "hair586": {
+        "cost": 1000,
+        "name": "Girl Hair 08v"
+      },
+      "hair587": {
+        "cost": 1000,
+        "name": "Girl Hair"
+      },
+      "hair589": {
+        "cost": 1000,
+        "name": "Girl Hair"
+      },
+      "hair590": {
+        "cost": 1000,
+        "name": "Girl Hair 10blu"
+      },
+      "hair591": {
+        "cost": 1000,
+        "name": "Girl Hair 10p"
+      },
+      "hair592": {
+        "cost": 1000,
+        "name": "Girl Hair 10v"
+      },
+      "hair593": {
+        "cost": 1000,
+        "name": "Girl Hair 2007black"
+      },
+      "hair594": {
+        "cost": 1000,
+        "name": "Girl Hair 2007blonde"
+      },
+      "hair595": {
+        "cost": 1000,
+        "name": "Girl Hair 2007brown"
+      },
+      "hair31": {
+        "cost": 1000,
+        "name": "Girl Hair 2008santa"
+      },
+      "hair32": {
+        "cost": 1000,
+        "name": "Girl Hair 2009egg"
+      },
+      "hair596": {
+        "cost": 1000,
+        "name": "Girl Hair 80s"
+      },
+      "hair602": {
+        "cost": 1000,
+        "name": "Girl Hair Alvahair"
+      },
+      "hair37": {
+        "cost": 1000,
+        "name": "Girl Hair Andblonde"
+      },
+      "hair38": {
+        "cost": 1000,
+        "name": "Girl Hair Andpink"
+      },
+      "hair39": {
+        "cost": 1000,
+        "name": "Girl Hair Angeljp"
+      },
+      "hair40": {
+        "cost": 1000,
+        "name": "Girl Hair Apple"
+      },
+      "hair547": {
+        "cost": 1000,
+        "name": "Girl Hair Banddark"
+      },
+      "hair548": {
+        "cost": 1000,
+        "name": "Girl Hair Bandolive"
+      },
+      "hair42": {
+        "cost": 1000,
+        "name": "Girl Hair Bearhat01"
+      },
+      "hair43": {
+        "cost": 1000,
+        "name": "Girl Hair Bearhat02"
+      },
+      "hair44": {
+        "cost": 1000,
+        "name": "Girl Hair Bearhat03"
+      },
+      "hair606": {
+        "cost": 1000,
+        "name": "Girl Hair Beehive"
+      },
+      "hair45": {
+        "cost": 1000,
+        "name": "Girl Hair Betacrownbld"
+      },
+      "hair46": {
+        "cost": 1000,
+        "name": "Girl Hair Betacrownblk"
+      },
+      "hair47": {
+        "cost": 1000,
+        "name": "Girl Hair Betacrownbrwn"
+      },
+      "hair50": {
+        "cost": 1000,
+        "name": "Girl Hair Black Ribon Hat"
+      },
+      "hair609": {
+        "cost": 1000,
+        "name": "Girl Hair Blacklong"
+      },
+      "hair618": {
+        "cost": 1000,
+        "name": "Girl Hair Blondhat"
+      },
+      "hair621": {
+        "cost": 1000,
+        "name": "Girl Hair Blondshort"
+      },
+      "hair623": {
+        "cost": 1000,
+        "name": "Girl Hair Blondside"
+      },
+      "hair624": {
+        "cost": 1000,
+        "name": "Girl Hair Blondwpinkribbon"
+      },
+      "hair614": {
+        "cost": 1000,
+        "name": "Girl Hair Blond Ponytail"
+      },
+      "hair626": {
+        "cost": 1000,
+        "name": "Girl Hair Blue"
+      },
+      "hair61": {
+        "cost": 1000,
+        "name": "Girl Hair Bluebobt"
+      },
+      "hair63": {
+        "cost": 1000,
+        "name": "Girl Hair Bluegoggles"
+      },
+      "hair628": {
+        "cost": 1000,
+        "name": "Girl Hair Bluehairrare"
+      },
+      "hair629": {
+        "cost": 1000,
+        "name": "Girl Hair Bluelonghair"
+      },
+      "hair64": {
+        "cost": 1000,
+        "name": "Girl Hair Bluepet"
+      },
+      "hair66": {
+        "cost": 1000,
+        "name": "Girl Hair Bonehead"
+      },
+      "hair636": {
+        "cost": 1000,
+        "name": "Girl Hair Brown"
+      },
+      "hair71": {
+        "cost": 1000,
+        "name": "Girl Hair Brownpigtails"
+      },
+      "hair72": {
+        "cost": 1000,
+        "name": "Girl Hair Brownponytail"
+      },
+      "hair73": {
+        "cost": 1000,
+        "name": "Girl Hair Brownshortnm"
+      },
+      "hair645": {
+        "cost": 1000,
+        "name": "Girl Hair Caitlyn"
+      },
+      "hair649": {
+        "cost": 1000,
+        "name": "Girl Hair Candygirl"
+      },
+      "hair77": {
+        "cost": 1000,
+        "name": "Girl Hair Cathat01"
+      },
+      "hair78": {
+        "cost": 1000,
+        "name": "Girl Hair Cathat02"
+      },
+      "hair79": {
+        "cost": 1000,
+        "name": "Girl Hair Cathat03"
+      },
+      "hair651": {
+        "cost": 1000,
+        "name": "Girl Hair Cherrypony"
+      },
+      "hair654": {
+        "cost": 1000,
+        "name": "Girl Hair Chocolatehair"
+      },
+      "hair660": {
+        "cost": 1000,
+        "name": "Girl Hair Curlysue"
+      },
+      "hair661": {
+        "cost": 1000,
+        "name": "Girl Hair Cutebrown"
+      },
+      "hair662": {
+        "cost": 1000,
+        "name": "Girl Hair Cutiehoney"
+      },
+      "hair663": {
+        "cost": 1000,
+        "name": "Girl Hair Daisy"
+      },
+      "hair87": {
+        "cost": 1000,
+        "name": "Girl Hair Dan63r0u5"
+      },
+      "hair88": {
+        "cost": 1000,
+        "name": "Girl Hair Easterbunny2008"
+      },
+      "hair89": {
+        "cost": 1000,
+        "name": "Girl Hair Easterchickie2008"
+      },
+      "hair665": {
+        "cost": 1000,
+        "name": "Girl Hair Elctricblue"
+      },
+      "hair666": {
+        "cost": 1000,
+        "name": "Girl Hair Electpink"
+      },
+      "hair667": {
+        "cost": 1000,
+        "name": "Girl Hair Electricpunk"
+      },
+      "hair90": {
+        "cost": 1000,
+        "name": "Girl Hair Emeraldheadband"
+      },
+      "hair671": {
+        "cost": 1000,
+        "name": "Girl Hair Fallgirl"
+      },
+      "hair677": {
+        "cost": 1000,
+        "name": "Girl Hair Flowerhat"
+      },
+      "hair92": {
+        "cost": 1000,
+        "name": "Girl Hair Framed"
+      },
+      "hair93": {
+        "cost": 1000,
+        "name": "Girl Hair Framedbandblue"
+      },
+      "hair678": {
+        "cost": 1000,
+        "name": "Girl Hair Frenchcurl"
+      },
+      "hair100": {
+        "cost": 1000,
+        "name": "Girl Hair Goldencurly"
+      },
+      "hair681": {
+        "cost": 1000,
+        "name": "Girl Hair Gracepurple"
+      },
+      "hair102": {
+        "cost": 1000,
+        "name": "Girl Hair Greenhina"
+      },
+      "hair103": {
+        "cost": 1000,
+        "name": "Girl Hair Greenloli"
+      },
+      "hair692": {
+        "cost": 1000,
+        "name": "Girl Hair Intriguing"
+      },
+      "hair693": {
+        "cost": 1000,
+        "name": "Girl Hair Intriguingblonde"
+      },
+      "hair123": {
+        "cost": 1000,
+        "name": "Girl Hair Jodipencils"
+      },
+      "hair124": {
+        "cost": 1000,
+        "name": "Girl Hair Joker01"
+      },
+      "hair125": {
+        "cost": 1000,
+        "name": "Girl Hair Joker02"
+      },
+      "hair126": {
+        "cost": 1000,
+        "name": "Girl Hair Joker03"
+      },
+      "hair697": {
+        "cost": 1000,
+        "name": "Girl Hair Jwhair"
+      },
+      "hair127": {
+        "cost": 1000,
+        "name": "Girl Hair Khakicut"
+      },
+      "hair700": {
+        "cost": 1000,
+        "name": "Girl Hair Kimmy"
+      },
+      "hair701": {
+        "cost": 1000,
+        "name": "Girl Hair Kimmydark"
+      },
+      "hair128": {
+        "cost": 1000,
+        "name": "Girl Hair Kisan"
+      },
+      "hair129": {
+        "cost": 1000,
+        "name": "Girl Hair Kisanhat"
+      },
+      "hair132": {
+        "cost": 1000,
+        "name": "Girl Hair Lib"
+      },
+      "hair135": {
+        "cost": 1000,
+        "name": "Girl Hair Limitedautumn"
+      },
+      "hair140": {
+        "cost": 1000,
+        "name": "Girl Hair Lolli"
+      },
+      "hair711": {
+        "cost": 1000,
+        "name": "Girl Hair Longbrownpigtails"
+      },
+      "hair141": {
+        "cost": 1000,
+        "name": "Girl Hair Magentaside"
+      },
+      "hair714": {
+        "cost": 1000,
+        "name": "Girl Hair Mangahairwithheadband"
+      },
+      "hair718": {
+        "cost": 1000,
+        "name": "Girl Hair Mayablonde"
+      },
+      "hair142": {
+        "cost": 1000,
+        "name": "Girl Hair Miyu"
+      },
+      "hair722": {
+        "cost": 1000,
+        "name": "Girl Hair Naruko10"
+      },
+      "hair155": {
+        "cost": 1000,
+        "name": "Girl Hair Nonbrown"
+      },
+      "hair748": {
+        "cost": 1000,
+        "name": "Girl Hair Orange"
+      },
+      "hair549": {
+        "cost": 1000,
+        "name": "Girl Hair Orange"
+      },
+      "hair750": {
+        "cost": 1000,
+        "name": "Girl Hair Orangehippie"
+      },
+      "hair178": {
+        "cost": 1000,
+        "name": "Girl Hair Orangepop"
+      },
+      "hair179": {
+        "cost": 1000,
+        "name": "Girl Hair Orgshrtwave"
+      },
+      "hair181": {
+        "cost": 1000,
+        "name": "Girl Hair Paperbag"
+      },
+      "hair752": {
+        "cost": 1000,
+        "name": "Girl Hair Patty2009"
+      },
+      "hair183": {
+        "cost": 1000,
+        "name": "Girl Hair Pinkdream"
+      },
+      "hair760": {
+        "cost": 1000,
+        "name": "Girl Hair Pinkhat"
+      },
+      "hair763": {
+        "cost": 1000,
+        "name": "Girl Hair Pinkpompon"
+      },
+      "hair190": {
+        "cost": 1000,
+        "name": "Girl Hair Pokaband"
+      },
+      "hair192": {
+        "cost": 1000,
+        "name": "Girl Hair Polkadotbandana"
+      },
+      "hair769": {
+        "cost": 1000,
+        "name": "Girl Hair Poofycap"
+      },
+      "hair195": {
+        "cost": 1000,
+        "name": "Girl Hair Purgrey"
+      },
+      "hair196": {
+        "cost": 1000,
+        "name": "Girl Hair Purpigtail"
+      },
+      "hair772": {
+        "cost": 1000,
+        "name": "Girl Hair Purple"
+      },
+      "hair777": {
+        "cost": 1000,
+        "name": "Girl Hair Purplewaves"
+      },
+      "hair779": {
+        "cost": 1000,
+        "name": "Girl Hair Rabbitears"
+      },
+      "hair781": {
+        "cost": 1000,
+        "name": "Girl Hair Red Brown Hair"
+      },
+      "hair782": {
+        "cost": 1000,
+        "name": "Girl Hair Red Flower"
+      },
+      "hair783": {
+        "cost": 1000,
+        "name": "Girl Hair Red Ribon"
+      },
+      "hair786": {
+        "cost": 1000,
+        "name": "Girl Hair Redbrown"
+      },
+      "hair787": {
+        "cost": 1000,
+        "name": "Girl Hair Redcaphair"
+      },
+      "hair206": {
+        "cost": 1000,
+        "name": "Girl Hair Redlolita"
+      },
+      "hair788": {
+        "cost": 1000,
+        "name": "Girl Hair Redlong"
+      },
+      "hair210": {
+        "cost": 1000,
+        "name": "Girl Hair Retro"
+      },
+      "hair211": {
+        "cost": 1000,
+        "name": "Girl Hair Ribbonblond"
+      },
+      "hair789": {
+        "cost": 1000,
+        "name": "Girl Hair Ribboncurly"
+      },
+      "hair212": {
+        "cost": 1000,
+        "name": "Girl Hair Ribbonheadband"
+      },
+      "hair213": {
+        "cost": 1000,
+        "name": "Girl Hair Rollerhair"
+      },
+      "hair214": {
+        "cost": 1000,
+        "name": "Girl Hair Roundpigtailswithbows"
+      },
+      "hair792": {
+        "cost": 1000,
+        "name": "Girl Hair Samsonbrown"
+      },
+      "hair793": {
+        "cost": 1000,
+        "name": "Girl Hair Samsonpink"
+      },
+      "hair795": {
+        "cost": 1000,
+        "name": "Girl Hair Santa2007c"
+      },
+      "hair216": {
+        "cost": 1000,
+        "name": "Girl Hair Santahat"
+      },
+      "hair796": {
+        "cost": 1000,
+        "name": "Girl Hair Santahat"
+      },
+      "hair797": {
+        "cost": 1000,
+        "name": "Girl Hair Santahatsale"
+      },
+      "hair220": {
+        "cost": 1000,
+        "name": "Girl Hair Seasgreendj"
+      },
+      "hair221": {
+        "cost": 1000,
+        "name": "Girl Hair Secretarydblue"
+      },
+      "hair222": {
+        "cost": 1000,
+        "name": "Girl Hair Shinygold"
+      },
+      "hair224": {
+        "cost": 1000,
+        "name": "Girl Hair Shortbrown"
+      },
+      "hair226": {
+        "cost": 1000,
+        "name": "Girl Hair Shortponytail"
+      },
+      "hair229": {
+        "cost": 1000,
+        "name": "Girl Hair Skihelmet"
+      },
+      "hair231": {
+        "cost": 1000,
+        "name": "Girl Hair Snmbrown"
+      },
+      "hair239": {
+        "cost": 1000,
+        "name": "Girl Hair Strblo"
+      },
+      "hair811": {
+        "cost": 1000,
+        "name": "Girl Hair Uggsthair"
+      },
+      "hair813": {
+        "cost": 1000,
+        "name": "Girl Hair Vicky"
+      },
+      "hair252": {
+        "cost": 1000,
+        "name": "Girl Hair Vogcut"
+      },
+      "hair820": {
+        "cost": 1000,
+        "name": "Girl Hair Winter"
+      },
+      "hair256": {
+        "cost": 1000,
+        "name": "Girl Hair Winter2"
+      },
+      "hair821": {
+        "cost": 1000,
+        "name": "Girl Hair Winterbelle"
+      },
+      "hair822": {
+        "cost": 1000,
+        "name": "Girl Hair Winterhat"
+      },
+      "hair827": {
+        "cost": 1000,
+        "name": "Girl Hair Yellowhatblond"
+      },
+      "hair513": {
+        "cost": 1000,
+        "name": "Girl Har4 Brownone"
+      },
+      "hair514": {
+        "cost": 1000,
+        "name": "Girl Har4 Longpurple"
+      },
+      "hair269": {
+        "cost": 1000,
+        "name": "Girl Nm Basic"
+      },
+      "hair271": {
+        "cost": 1000,
+        "name": "Girl Pink Bun"
+      },
+      "hair521": {
+        "cost": 1000,
+        "name": "Girl Shiny Black"
+      },
+      "hair840": {
+        "cost": 1000,
+        "name": "Long Curly Brown Hair"
+      }
+    },
+    "male": {
+      "mhair106": {
+        "cost": 1000,
+        "name": "Street 5 12 11 Hair"
+      },
+      "mhair135": {
+        "cost": 1000,
+        "name": "Hair4 PMprizeboy Hair"
+      },
+      "mhair0": {
+        "cost": 1000,
+        "name": "01 Hair"
+      },
+      "mhair19": {
+        "cost": 1000,
+        "name": "02 Hair"
+      },
+      "mhair20": {
+        "cost": 1000,
+        "name": "02Or Hair"
+      },
+      "mhair21": {
+        "cost": 1000,
+        "name": "04 Hair"
+      },
+      "mhair22": {
+        "cost": 1000,
+        "name": "05 Hair"
+      },
+      "mhair23": {
+        "cost": 1000,
+        "name": "06 Hair"
+      },
+      "mhair24": {
+        "cost": 1000,
+        "name": "08 Hair"
+      },
+      "mhair25": {
+        "cost": 1000,
+        "name": "09 Hair"
+      },
+      "mhair26": {
+        "cost": 1000,
+        "name": "09Blu Hair"
+      },
+      "mhair27": {
+        "cost": 1000,
+        "name": "10 Hair"
+      },
+      "mhair28": {
+        "cost": 1000,
+        "name": "10Blu Hair"
+      },
+      "mhair29": {
+        "cost": 1000,
+        "name": "Bald Hair"
+      },
+      "mhair30": {
+        "cost": 1000,
+        "name": "Batt Hair"
+      },
+      "mhair31": {
+        "cost": 1000,
+        "name": "Blackhat Hair"
+      },
+      "mhair77": {
+        "cost": 1000,
+        "name": "Blondalfalfa Hair"
+      },
+      "mhair35": {
+        "cost": 1000,
+        "name": "Blondshrtwave Hair"
+      },
+      "mhair36": {
+        "cost": 1000,
+        "name": "Blue Stripe Hat Hair"
+      },
+      "mhair38": {
+        "cost": 1000,
+        "name": "Bluehatr Hair"
+      },
+      "mhair78": {
+        "cost": 1000,
+        "name": "Bluekitty Hair"
+      },
+      "mhair79": {
+        "cost": 1000,
+        "name": "Bluemohawk Hair"
+      },
+      "mhair39": {
+        "cost": 1000,
+        "name": "Bluestar Hair"
+      },
+      "mhair40": {
+        "cost": 1000,
+        "name": "Blueup Hair"
+      },
+      "mhair80": {
+        "cost": 1000,
+        "name": "Chlobo Hair"
+      },
+      "mhair81": {
+        "cost": 1000,
+        "name": "Dredsbrown Hair"
+      },
+      "mhair44": {
+        "cost": 1000,
+        "name": "Easterbunny Hair"
+      },
+      "mhair45": {
+        "cost": 1000,
+        "name": "Fall Hair"
+      },
+      "mhair83": {
+        "cost": 1000,
+        "name": "Fighterred Hair"
+      },
+      "mhair47": {
+        "cost": 1000,
+        "name": "Fishfishjp Hair"
+      },
+      "mhair50": {
+        "cost": 1000,
+        "name": "Greencurly Hair"
+      },
+      "mhair51": {
+        "cost": 1000,
+        "name": "Hiphopboy Hair"
+      },
+      "mhair54": {
+        "cost": 1000,
+        "name": "Michael Hair"
+      },
+      "mhair88": {
+        "cost": 1000,
+        "name": "Mohawkblonde Hair"
+      },
+      "mhair65": {
+        "cost": 1000,
+        "name": "Rarepageboycap Hair"
+      },
+      "mhair68": {
+        "cost": 1000,
+        "name": "Vincehair Hair"
+      },
+      "mhair70": {
+        "cost": 1000,
+        "name": "Winter Hair"
+      }
     }
+  }
 }
