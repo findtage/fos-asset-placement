@@ -20,6 +20,10 @@
               Shop
               <select id="shop-filter"></select>
             </label>
+            <label class="rare-filter-toggle">
+              <input id="rare-filter" type="checkbox" />
+              <span>Show rares only</span>
+            </label>
           </div>
         </header>
         <div id="asset-list"></div>
@@ -91,6 +95,19 @@
           <fieldset id="shop-editor" class="shop-editor" hidden>
             <legend>Shop Listing</legend>
             <div id="shop-editor-rows" class="shop-editor-rows"></div>
+          </fieldset>
+          <fieldset id="rare-editor" class="rare-editor" hidden>
+            <legend>Rare Metadata</legend>
+            <div class="rare-editor-fields">
+              <label>
+                Name
+                <input id="rare-name" type="text" placeholder="Rare item name" />
+              </label>
+              <label>
+                Rarity
+                <input id="rare-rarity" type="number" step="1" min="0" placeholder="Rarity value" />
+              </label>
+            </div>
           </fieldset>
           <div class="selection-actions">
             <button id="reset-position" type="button">Reset Position</button>

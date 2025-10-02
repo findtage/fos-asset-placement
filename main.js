@@ -13,6 +13,7 @@ import {
 } from "./assets/data.js";
 
 const BOARD_METADATA_PATH = "./assets/boards_metadata.json";
+const RARE_DATA_PATH = "./assets/rares.json";
 const SHOP_DATA_SOURCES = {
   le_shop: { label: "Le Shop", path: "./assets/le_shop.json" },
   jesters: { label: "Jesters", path: "./assets/jesters.json" },
@@ -35,6 +36,9 @@ const state = {
   boards: {},
   shopCatalogs: {},
   shopCatalogBaselines: {},
+  rareCatalog: {},
+  rareCatalogBaseline: {},
+  rareEntriesById: new Map(),
   assetIndex: [],
   assetIndexById: new Map(),
   assetIndexByKey: new Map(),
@@ -45,8 +49,7 @@ const state = {
   stageTransform: { x: 0, y: 0, scale: 1 },
   savedPlacements: savedData.placements,
   savedShopChanges: savedData.shops,
-  savedPlacements: savedData.placements,
-  savedShopChanges: savedData.shops,
+  savedRareChanges: savedData.rares,
   isGizmoDraggingEnabled: false,
 };
 
@@ -59,6 +62,7 @@ const dom = {
   search: document.getElementById("asset-search"),
   categoryFilter: document.getElementById("category-filter"),
   shopFilter: document.getElementById("shop-filter"),
+  rareFilter: document.getElementById("rare-filter"),
   assetList: document.getElementById("asset-list"),
   showGirl: document.getElementById("show-girl"),
   showBoy: document.getElementById("show-boy"),
@@ -74,6 +78,9 @@ const dom = {
   selectionTitle: document.getElementById("selection-title"),
   shopEditor: document.getElementById("shop-editor"),
   shopEditorRows: document.getElementById("shop-editor-rows"),
+  rareEditor: document.getElementById("rare-editor"),
+  rareNameInput: document.getElementById("rare-name"),
+  rareRarityInput: document.getElementById("rare-rarity"),
   inputX: document.getElementById("input-x"),
   inputY: document.getElementById("input-y"),
   resetPosition: document.getElementById("reset-position"),
@@ -108,7 +115,7 @@ function applyAssetTransformOrigin(node) {
 }
 
 function loadSavedData() {
-  const defaults = { placements: {}, shops: {} };
+  const defaults = { placements: {}, shops: {}, rares: {} };
 
   try {
     const raw = localStorage.getItem(LOCAL_STORAGE_KEY);
@@ -118,13 +125,18 @@ function loadSavedData() {
       return defaults;
     }
 
-    if (Object.prototype.hasOwnProperty.call(parsed, "placements") || Object.prototype.hasOwnProperty.call(parsed, "shops")) {
+    if (
+      Object.prototype.hasOwnProperty.call(parsed, "placements") ||
+      Object.prototype.hasOwnProperty.call(parsed, "shops") ||
+      Object.prototype.hasOwnProperty.call(parsed, "rares")
+    ) {
       const placements = parsed?.placements && typeof parsed.placements === "object" ? parsed.placements : {};
       const shops = parsed?.shops && typeof parsed.shops === "object" ? parsed.shops : {};
-      return { placements, shops };
+      const rares = parsed?.rares && typeof parsed.rares === "object" ? parsed.rares : {};
+      return { placements, shops, rares };
     }
 
-    return { placements: parsed, shops: {} };
+    return { placements: parsed, shops: {}, rares: {} };
   } catch (err) {
     console.warn("Failed to read saved data", err);
     return defaults;
@@ -135,6 +147,7 @@ function persistSavedData() {
   const payload = {
     placements: state.savedPlacements,
     shops: state.savedShopChanges,
+    rares: state.savedRareChanges,
   };
   localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(payload));
 }
@@ -747,6 +760,208 @@ async function loadShopCatalogs() {
   return Object.fromEntries(entries);
 }
 
+async function loadRareCatalog() {
+  try {
+    const response = await fetch(RARE_DATA_PATH);
+    if (!response.ok) {
+      throw new Error("Unable to load rare metadata");
+    }
+    const data = await response.json();
+    return data && typeof data === "object" ? data : {};
+  } catch (error) {
+    console.warn("Unable to load rare metadata", error);
+    return {};
+  }
+}
+
+function normalizeRareDetail(detail) {
+  if (!detail || typeof detail !== "object") {
+    return {};
+  }
+
+  const normalized = {};
+
+  if (Object.prototype.hasOwnProperty.call(detail, "name") && typeof detail.name === "string") {
+    const trimmed = detail.name.trim();
+    if (trimmed) {
+      normalized.name = trimmed;
+    }
+  }
+
+  if (Object.prototype.hasOwnProperty.call(detail, "rarity")) {
+    const parsed = Number(detail.rarity);
+    if (Number.isFinite(parsed)) {
+      normalized.rarity = parsed;
+    }
+  }
+
+  return normalized;
+}
+
+function cloneRareCatalog(catalog = {}) {
+  const clone = {};
+
+  Object.entries(catalog).forEach(([group, entries]) => {
+    if (!entries || typeof entries !== "object") {
+      return;
+    }
+
+    const groupClone = {};
+    Object.entries(entries).forEach(([assetId, detail]) => {
+      groupClone[assetId] = normalizeRareDetail(detail);
+    });
+
+    clone[group] = groupClone;
+  });
+
+  return clone;
+}
+
+function applyRareChanges(changes, catalog) {
+  if (!changes || typeof changes !== "object" || !catalog) {
+    return;
+  }
+
+  Object.entries(changes).forEach(([group, groupChanges]) => {
+    if (!groupChanges || typeof groupChanges !== "object") {
+      return;
+    }
+
+    if (!catalog[group] || typeof catalog[group] !== "object") {
+      catalog[group] = {};
+    }
+
+    Object.entries(groupChanges).forEach(([assetId, detail]) => {
+      if (detail === null) {
+        delete catalog[group][assetId];
+        return;
+      }
+
+      catalog[group][assetId] = normalizeRareDetail(detail);
+    });
+  });
+}
+
+function buildRareIndex(catalog = {}) {
+  const rareIndex = new Map();
+
+  Object.entries(catalog).forEach(([group, entries]) => {
+    if (!entries || typeof entries !== "object") {
+      return;
+    }
+
+    Object.entries(entries).forEach(([assetId, detail]) => {
+      rareIndex.set(assetId, { group, ...normalizeRareDetail(detail) });
+    });
+  });
+
+  return rareIndex;
+}
+
+function annotateAssetIndexWithRares(assetIndex, rareIndex) {
+  if (!Array.isArray(assetIndex) || !rareIndex) {
+    return;
+  }
+
+  assetIndex.forEach((entry) => {
+    const detail = rareIndex.get(entry.id);
+    entry.isRare = Boolean(detail);
+    entry.rare = detail ? { ...detail } : null;
+  });
+}
+
+function getRareDisplaySegments(entry) {
+  if (!entry?.isRare) {
+    return [];
+  }
+
+  const segments = [];
+  if (entry.rare?.name) {
+    segments.push(entry.rare.name);
+  }
+  if (typeof entry.rare?.rarity === "number" && Number.isFinite(entry.rare.rarity)) {
+    segments.push(`Rarity ${entry.rare.rarity}`);
+  }
+  if (!segments.length) {
+    segments.push("Rare item");
+  }
+  return segments;
+}
+
+function buildAssetButtonTitle(entry, shopLabels, rareSegments) {
+  const detailSegments = [];
+  if (rareSegments.length) {
+    detailSegments.push(`Rare – ${rareSegments.join(" · ")}`);
+  }
+  if (shopLabels.length) {
+    detailSegments.push(shopLabels.join(", "));
+  }
+  return detailSegments.length ? `${entry.id} – ${detailSegments.join(" | ")}` : entry.id;
+}
+
+function isSameRareDetail(a, b) {
+  const nameA = typeof a?.name === "string" ? a.name : "";
+  const nameB = typeof b?.name === "string" ? b.name : "";
+  const rarityA = typeof a?.rarity === "number" && Number.isFinite(a.rarity) ? a.rarity : null;
+  const rarityB = typeof b?.rarity === "number" && Number.isFinite(b.rarity) ? b.rarity : null;
+  return nameA === nameB && rarityA === rarityB;
+}
+
+function computeRareChanges() {
+  const changes = {};
+  const current = state.rareCatalog ?? {};
+  const baseline = state.rareCatalogBaseline ?? {};
+
+  const groups = new Set([
+    ...Object.keys(current),
+    ...Object.keys(baseline),
+  ]);
+
+  groups.forEach((group) => {
+    const currentEntries = current[group] && typeof current[group] === "object" ? current[group] : {};
+    const baselineEntries = baseline[group] && typeof baseline[group] === "object" ? baseline[group] : {};
+    const assetIds = new Set([
+      ...Object.keys(currentEntries),
+      ...Object.keys(baselineEntries),
+    ]);
+
+    const groupChanges = {};
+
+    assetIds.forEach((assetId) => {
+      const currentHas = Object.prototype.hasOwnProperty.call(currentEntries, assetId);
+      const baselineHas = Object.prototype.hasOwnProperty.call(baselineEntries, assetId);
+
+      if (!currentHas && !baselineHas) {
+        return;
+      }
+
+      if (!currentHas && baselineHas) {
+        groupChanges[assetId] = null;
+        return;
+      }
+
+      const currentDetail = normalizeRareDetail(currentEntries[assetId]);
+
+      if (!baselineHas) {
+        groupChanges[assetId] = currentDetail;
+        return;
+      }
+
+      const baselineDetail = normalizeRareDetail(baselineEntries[assetId]);
+
+      if (!isSameRareDetail(currentDetail, baselineDetail)) {
+        groupChanges[assetId] = currentDetail;
+      }
+    });
+
+    if (Object.keys(groupChanges).length) {
+      changes[group] = groupChanges;
+    }
+  });
+
+  return changes;
+}
+
 const CLOSET_COLLECTIONS = {
   assets: closetAssets,
   tops: topsMetadata,
@@ -1035,13 +1250,17 @@ function updateAssetButtonShopMetadata(assetId) {
   }
 
   const shopStrings = getShopDisplayStrings(entry);
-  const title = shopStrings.length ? `${entry.id} – ${shopStrings.join(", ")}` : entry.id;
+  const rareSegments = getRareDisplaySegments(entry);
+  const title = buildAssetButtonTitle(entry, shopStrings, rareSegments);
   const value = shopStrings.join(", ");
+  const rareValue = rareSegments.join(" · ");
 
   const buttons = dom.assetList.querySelectorAll(".asset-button");
   buttons.forEach((button) => {
     if (button.dataset.key === entry.key) {
       button.dataset.shops = value;
+      button.dataset.rare = rareValue;
+      button.classList.toggle("is-rare", entry.isRare);
       button.title = title;
     }
   });
@@ -1230,6 +1449,94 @@ function renderShopEditor(layer) {
     });
 }
 
+function updateRareDetail(assetId, field, value) {
+  const rareEntry = state.rareEntriesById?.get(assetId);
+  if (!rareEntry) {
+    return;
+  }
+
+  const { group } = rareEntry;
+  if (!group) {
+    return;
+  }
+
+  if (!state.rareCatalog[group] || typeof state.rareCatalog[group] !== "object") {
+    state.rareCatalog[group] = {};
+  }
+
+  const detail = state.rareCatalog[group][assetId] && typeof state.rareCatalog[group][assetId] === "object"
+    ? { ...state.rareCatalog[group][assetId] }
+    : {};
+
+  if (field === "name") {
+    const next = typeof value === "string" ? value.trim() : "";
+    if (next) {
+      detail.name = next;
+    } else {
+      delete detail.name;
+    }
+  } else if (field === "rarity") {
+    if (value === "" || value === null || value === undefined) {
+      delete detail.rarity;
+    } else {
+      const parsed = Number(value);
+      if (Number.isFinite(parsed)) {
+        detail.rarity = parsed;
+      } else {
+        delete detail.rarity;
+      }
+    }
+  }
+
+  const normalized = normalizeRareDetail(detail);
+  state.rareCatalog[group][assetId] = normalized;
+  state.rareEntriesById.set(assetId, { group, ...normalized });
+
+  const entry = state.assetIndexById?.get(assetId);
+  if (entry) {
+    entry.isRare = true;
+    entry.rare = { group, ...normalized };
+  }
+
+  updateAssetButtonShopMetadata(assetId);
+
+  if (state.selectedLayer?.id === assetId) {
+    renderRareEditor(state.selectedLayer);
+  }
+
+  renderAssetList();
+}
+
+function renderRareEditor(layer) {
+  const editor = dom.rareEditor;
+  const nameInput = dom.rareNameInput;
+  const rarityInput = dom.rareRarityInput;
+  if (!editor || !nameInput || !rarityInput) {
+    return;
+  }
+
+  if (!layer) {
+    editor.hidden = true;
+    nameInput.value = "";
+    rarityInput.value = "";
+    return;
+  }
+
+  const rareEntry = state.rareEntriesById?.get(layer.id);
+  if (!rareEntry) {
+    editor.hidden = true;
+    nameInput.value = "";
+    rarityInput.value = "";
+    return;
+  }
+
+  editor.hidden = false;
+  nameInput.value = rareEntry.name ?? "";
+  rarityInput.value = typeof rareEntry.rarity === "number" && Number.isFinite(rareEntry.rarity)
+    ? rareEntry.rarity
+    : "";
+}
+
 function populateCategoryFilter(categories) {
   const filter = dom.categoryFilter;
   filter.innerHTML = "";
@@ -1281,14 +1588,17 @@ function filterAssets() {
   const query = dom.search.value.trim().toLowerCase();
   const categoryFilter = dom.categoryFilter.value;
   const shopFilter = dom.shopFilter?.value ?? "";
+  const rareOnly = dom.rareFilter?.checked ?? false;
 
   return state.assetIndex.filter((entry) => {
     const matchesQuery = !query ||
       entry.id.toLowerCase().includes(query) ||
-      entry.filename.toLowerCase().includes(query);
+      entry.filename.toLowerCase().includes(query) ||
+      (entry.rare?.name && entry.rare.name.toLowerCase().includes(query));
     const matchesCategory = !categoryFilter || entry.category === categoryFilter;
     const matchesShop = !shopFilter || (Array.isArray(entry.shopIds) && entry.shopIds.includes(shopFilter));
-    return matchesQuery && matchesCategory && matchesShop;
+    const matchesRare = !rareOnly || entry.isRare;
+    return matchesQuery && matchesCategory && matchesShop && matchesRare;
   });
 }
 
@@ -1331,13 +1641,11 @@ function renderAssetList() {
       button.dataset.key = entry.key;
       button.innerHTML = `<span>${entry.id}</span><small>${entry.filename}</small>`;
       const shopLabels = getShopDisplayStrings(entry);
-      if (shopLabels.length) {
-        button.dataset.shops = shopLabels.join(", ");
-        button.title = `${entry.id} – ${shopLabels.join(", ")}`;
-      } else {
-        button.dataset.shops = "";
-        button.title = entry.id;
-      }
+      const rareSegments = getRareDisplaySegments(entry);
+      button.dataset.shops = shopLabels.join(", ");
+      button.dataset.rare = rareSegments.join(" · ");
+      button.classList.toggle("is-rare", entry.isRare);
+      button.title = buildAssetButtonTitle(entry, shopLabels, rareSegments);
       button.addEventListener("click", () => handleAssetSelection(entry));
       container.appendChild(button);
     });
@@ -2455,6 +2763,7 @@ function updateSelectionPanel() {
   if (!state.selectedLayer) {
     dom.selectionPanel.hidden = true;
     renderShopEditor(null);
+    renderRareEditor(null);
     updatePivotHandle();
     return;
   }
@@ -2464,6 +2773,7 @@ function updateSelectionPanel() {
   dom.inputX.value = Math.round(state.selectedLayer.position.x);
   dom.inputY.value = Math.round(state.selectedLayer.position.y);
   renderShopEditor(state.selectedLayer);
+  renderRareEditor(state.selectedLayer);
 }
 
 function updateLayerPosition(layer, x, y) {
@@ -2635,6 +2945,7 @@ function savePlacements() {
     }
   });
   state.savedShopChanges = computeShopChanges();
+  state.savedRareChanges = computeRareChanges();
   persistSavedData();
   alert("Placements saved locally.");
 }
@@ -2642,9 +2953,14 @@ function savePlacements() {
 function downloadMetadata() {
   const payload = computePlacementChanges();
   const shopChanges = computeShopChanges();
+  const rareChanges = computeRareChanges();
 
   if (Object.keys(shopChanges).length) {
     payload.shops = shopChanges;
+  }
+
+  if (Object.keys(rareChanges).length) {
+    payload.rares = rareChanges;
   }
 
   const blob = new Blob([JSON.stringify(payload, null, 2)], { type: "application/json" });
@@ -2738,20 +3054,34 @@ function applySavedShopChanges() {
   applyShopChangesToCatalogs(state.savedShopChanges, state.shopCatalogs);
 }
 
+function applySavedRareChanges() {
+  if (!state.savedRareChanges || !state.rareCatalog) {
+    return;
+  }
+
+  applyRareChanges(state.savedRareChanges, state.rareCatalog);
+}
+
 async function init() {
-  const [boards, shopCatalogs] = await Promise.all([
+  const [boards, shopCatalogs, rareCatalog] = await Promise.all([
     loadBoardMetadata(),
     loadShopCatalogs(),
+    loadRareCatalog(),
   ]);
   state.boards = boards;
   state.shopCatalogs = shopCatalogs;
   state.shopCatalogBaselines = cloneShopCatalogs(shopCatalogs);
+  state.rareCatalog = cloneRareCatalog(rareCatalog);
+  state.rareCatalogBaseline = cloneRareCatalog(rareCatalog);
   applySavedShopChanges();
+  applySavedRareChanges();
   state.shopAssignments = new Map();
+  state.rareEntriesById = buildRareIndex(state.rareCatalog);
   state.assetIndex = buildAssetIndex(state.boards);
   state.assetIndexById = new Map(state.assetIndex.map((entry) => [entry.id, entry]));
   state.assetIndexByKey = new Map(state.assetIndex.map((entry) => [entry.key, entry]));
   annotateAssetIndexWithShops(state.assetIndex, state.shopCatalogs);
+  annotateAssetIndexWithRares(state.assetIndex, state.rareEntriesById);
   const categories = Array.from(new Set(state.assetIndex.map((entry) => entry.category)));
   populateCategoryFilter(categories);
   populateShopFilter(state.shopCatalogs);
@@ -2769,6 +3099,7 @@ async function init() {
   { element: dom.search, event: "input" },
   { element: dom.categoryFilter, event: "input" },
   { element: dom.shopFilter, event: "change" },
+  { element: dom.rareFilter, event: "change" },
 ].forEach(({ element, event }) => {
   if (!element) {
     return;
@@ -2789,6 +3120,20 @@ dom.inputY.addEventListener("change", () => {
   if (!state.selectedLayer) return;
   const value = Number(dom.inputY.value);
   updateLayerPosition(state.selectedLayer, state.selectedLayer.position.x, value);
+});
+
+dom.rareNameInput?.addEventListener("input", (event) => {
+  if (!state.selectedLayer) {
+    return;
+  }
+  updateRareDetail(state.selectedLayer.id, "name", event.currentTarget.value);
+});
+
+dom.rareRarityInput?.addEventListener("input", (event) => {
+  if (!state.selectedLayer) {
+    return;
+  }
+  updateRareDetail(state.selectedLayer.id, "rarity", event.currentTarget.value);
 });
 
 dom.resetPosition.addEventListener("click", resetSelectedLayer);
