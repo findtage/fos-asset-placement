@@ -5,196 +5,196 @@ export const assets = {
             "hair0": {
                 "path": "assets/closet/hairs/female/singleframe/2014_12_bingo_girl_hair.png",
                 "properties": {},
-                "fitX": 1,
-                "fitY": -103,
+                "fitX": 0,
+                "fitY": -100,
                 "type": "image"
             },
             "hair1": {
                 "path": "assets/closet/hairs/female/singleframe/2015_04_girl_hair_user_inspired_3.png",
                 "properties": {},
-                "fitX": 2,
-                "fitY": -92,
+                "fitX": 1,
+                "fitY": -91,
                 "type": "image"
             },
             "hair2": {
                 "path": "assets/closet/hairs/female/singleframe/2015_05_girl_hair_summercamp_lm_1.png",
                 "properties": {},
-                "fitX": 2,
-                "fitY": -92,
+                "fitX": 1,
+                "fitY": -91,
                 "type": "image"
             },
             "hair3": {
                 "path": "assets/closet/hairs/female/singleframe/2015_07_girl_hair_fairytale1_lm_1.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -101,
                 "type": "image"
             },
             "hair4": {
                 "path": "assets/closet/hairs/female/singleframe/2015_12_girl_hair3_holiday_lm_3.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -103,
                 "type": "image"
             },
             "hair5": {
                 "path": "assets/closet/hairs/female/singleframe/2016_04_girl_hair3_boutique2_longbraid.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -83,
                 "type": "image"
             },
             "hair6": {
                 "path": "assets/closet/hairs/female/singleframe/2016_06_girl_hair3_boutique4_eowoodong.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -99,
                 "type": "image"
             },
             "hair7": {
                 "path": "assets/closet/hairs/female/singleframe/2016_09_girl_hair_unicorn_rwd.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair8": {
                 "path": "assets/closet/hairs/female/singleframe/2016_10_girl_hair3_hw_lm2.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -104,
                 "type": "image"
             },
             "hair9": {
                 "path": "assets/closet/hairs/female/singleframe/2017_01_girl_har3_boutique.png",
                 "properties": {},
-                "fitX": 0,
+                "fitX": -1,
                 "fitY": -102,
                 "type": "image"
             },
             "hair10": {
                 "path": "assets/closet/hairs/female/singleframe/2017_04_girl_hair_easter_lm2.png",
                 "properties": {},
-                "fitX": 2,
-                "fitY": -92,
+                "fitX": 1,
+                "fitY": -91,
                 "type": "image"
             },
             "hair11": {
                 "path": "assets/closet/hairs/female/singleframe/2017_08_girl_hair_icecream.png",
                 "properties": {},
-                "fitX": 2,
-                "fitY": -92,
+                "fitX": 1,
+                "fitY": -91,
                 "type": "image"
             },
             "hair12": {
                 "path": "assets/closet/hairs/female/singleframe/2017_10_girl_hair3_halloween_lm2.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 0,
                 "fitY": -103,
                 "type": "image"
             },
             "hair13": {
                 "path": "assets/closet/hairs/female/singleframe/2018_02_girl_hair3_chinese_ny_lm.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -101,
                 "type": "image"
             },
             "hair14": {
                 "path": "assets/closet/hairs/female/singleframe/2018_02_girl_hair_valentine_lm2.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair15": {
                 "path": "assets/closet/hairs/female/singleframe/2018_02_girl_hair_valentine_rg1.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair16": {
                 "path": "assets/closet/hairs/female/singleframe/female-HAR3_bunhair_stars_07_2013.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -103,
                 "type": "image"
             },
             "hair17": {
                 "path": "assets/closet/hairs/female/singleframe/girl-acc-hockey-01-2012.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -103,
                 "type": "image"
             },
             "hair18": {
                 "path": "assets/closet/hairs/female/singleframe/girl-acc-redhatprize-11-2012.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -97,
                 "type": "image"
             },
             "hair19": {
                 "path": "assets/closet/hairs/female/singleframe/girl-brownwavy-11-2013.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -103,
                 "type": "image"
             },
             "hair20": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-01.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair21": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-02.png",
                 "properties": {},
-                "fitX": 3,
-                "fitY": -92,
+                "fitX": 1,
+                "fitY": -91,
                 "type": "image"
             },
             "hair22": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-02blu.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair23": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-03.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair24": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-03bl.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair25": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-03gr.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair26": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-04.png",
                 "properties": {},
-                "fitX": 2,
-                "fitY": -92,
+                "fitX": 1,
+                "fitY": -91,
                 "type": "image"
             },
             "hair27": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-04p.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
@@ -202,153 +202,153 @@ export const assets = {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-06.png",
                 "properties": {},
                 "fitX": 1,
-                "fitY": -93,
+                "fitY": -91,
                 "type": "image"
             },
             "hair29": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-06bl.png",
                 "properties": {},
                 "fitX": 1,
-                "fitY": -93,
+                "fitY": -91,
                 "type": "image"
             },
             "hair30": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-07.png",
                 "properties": {},
-                "fitX": 2,
-                "fitY": -92,
+                "fitX": 1,
+                "fitY": -91,
                 "type": "image"
             },
             "hair31": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-2008santa.png",
                 "properties": {},
-                "fitX": 2,
-                "fitY": -92,
+                "fitX": 1,
+                "fitY": -91,
                 "type": "image"
             },
             "hair32": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-2009egg.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -102,
                 "type": "image"
             },
             "hair33": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-50sponytail.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -93,
                 "type": "image"
             },
             "hair34": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-acorn-10-2013.png",
                 "properties": {},
-                "fitX": 3,
+                "fitX": 2,
                 "fitY": -97,
                 "type": "image"
             },
             "hair35": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-acornhead-11-2010.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -103,
                 "type": "image"
             },
             "hair36": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-afrobrown-06-2011.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -103,
                 "type": "image"
             },
             "hair37": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-andblonde.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -103,
                 "type": "image"
             },
             "hair38": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-andpink.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -103,
                 "type": "image"
             },
             "hair39": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-angeljp-04-2010.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -103,
                 "type": "image"
             },
             "hair40": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-apple.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -103,
                 "type": "image"
             },
             "hair41": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-ayanamirei-08-2013.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair42": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-bearhat01.png",
                 "properties": {},
-                "fitX": 2,
-                "fitY": -92,
+                "fitX": 1,
+                "fitY": -91,
                 "type": "image"
             },
             "hair43": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-bearhat02.png",
                 "properties": {},
-                "fitX": 2,
-                "fitY": -92,
+                "fitX": 1,
+                "fitY": -91,
                 "type": "image"
             },
             "hair44": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-bearhat03.png",
                 "properties": {},
-                "fitX": 2,
-                "fitY": -92,
+                "fitX": 1,
+                "fitY": -91,
                 "type": "image"
             },
             "hair45": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-betacrownbld.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair46": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-betacrownblk.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair47": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-betacrownbrwn.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair48": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-bigbraids-05-2011.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -103,
                 "type": "image"
             },
             "hair49": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-black-05-2011.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
@@ -356,664 +356,664 @@ export const assets = {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-black-ribon-hat-04-2010.png",
                 "properties": {},
                 "fitX": 1,
-                "fitY": -92,
+                "fitY": -91,
                 "type": "image"
             },
             "hair51": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-blndponytail-02-2014.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair52": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-blobebun-04-2011.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -103,
                 "type": "image"
             },
             "hair53": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-blondbun-02-2011.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair54": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-blondbun-08-2012.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair55": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-blondebob-04-2011.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair56": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-blondebraid-11-2013.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair57": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-blondpony-06-2012.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -103,
                 "type": "image"
             },
             "hair58": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-blondstreak-04-2013.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair59": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-blort-08-2011.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair60": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-blue-08-2011.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair61": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-bluebobt-05-2010.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair62": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-bluefeather-11-2012.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -103,
                 "type": "image"
             },
             "hair63": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-bluegoggles-10-2010.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -103,
                 "type": "image"
             },
             "hair64": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-bluepet-09-2010.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair65": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-bluepigtails-09-2012.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -103,
                 "type": "image"
             },
             "hair66": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-bonehead-10-2009.png",
                 "properties": {},
-                "fitX": 2,
-                "fitY": -92,
+                "fitX": 1,
+                "fitY": -91,
                 "type": "image"
             },
             "hair67": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-brain-10-2010.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -103,
                 "type": "image"
             },
             "hair68": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-brown-sidepony-05-2013.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair69": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-brownhairredcap-12-2012.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair70": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-brownhat-08-2011.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair71": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-brownpigtails-12-2010.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -103,
                 "type": "image"
             },
             "hair72": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-brownponytail-09-2009.png",
                 "properties": {},
-                "fitX": 3,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair73": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-brownshortnm-08-2010.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair74": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-brwnsidetwin-09-2013.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair75": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-brwntail-09-2013.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair76": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-candy-10-2013.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -103,
                 "type": "image"
             },
             "hair77": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-cathat01.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair78": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-cathat02.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair79": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-cathat03.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair80": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-cdhair-09-2013.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair81": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-chicken-04-2012.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair82": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-chlobocop.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -103,
                 "type": "image"
             },
             "hair83": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-clown-06-2011.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -103,
                 "type": "image"
             },
             "hair84": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-clownrec-06-2011.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -103,
                 "type": "image"
             },
             "hair85": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-cornrows-06-2011.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -103,
                 "type": "image"
             },
             "hair86": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-cotcand-04-2013.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -103,
                 "type": "image"
             },
             "hair87": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-dan63r0u5.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair88": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-easterbunny2008.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair89": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-easterchickie2008.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair90": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-emeraldHeadband.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair91": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-firework-06-2011.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -103,
                 "type": "image"
             },
             "hair92": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-framed.png",
                 "properties": {},
-                "fitX": 2,
-                "fitY": -92,
+                "fitX": 1,
+                "fitY": -91,
                 "type": "image"
             },
             "hair93": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-framedbandblue.png",
                 "properties": {},
-                "fitX": 2,
-                "fitY": -92,
+                "fitX": 1,
+                "fitY": -91,
                 "type": "image"
             },
             "hair94": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-frog-08-2011.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -103,
                 "type": "image"
             },
             "hair95": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-frogrc-08-2011.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -103,
                 "type": "image"
             },
             "hair96": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-furpompom-01-2014.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -103,
                 "type": "image"
             },
             "hair97": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-ginger-10-2011.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair98": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-giraffehat-08-2011.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair99": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-gjhair-03-2011.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -103,
                 "type": "image"
             },
             "hair100": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-goldencurly-10-2010.png",
                 "properties": {},
-                "fitX": 2,
-                "fitY": -92,
+                "fitX": 1,
+                "fitY": -91,
                 "type": "image"
             },
             "hair101": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-greenhat-11-2011.png",
                 "properties": {},
-                "fitX": 3,
-                "fitY": -92,
+                "fitX": 1,
+                "fitY": -91,
                 "type": "image"
             },
             "hair102": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-greenhina-06-2010.png",
                 "properties": {},
-                "fitX": 3,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair103": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-greenloli-09-2010.png",
                 "properties": {},
-                "fitX": 3,
-                "fitY": -92,
+                "fitX": 1,
+                "fitY": -91,
                 "type": "image"
             },
             "hair104": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-greenpumpkin-10-2013.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -103,
                 "type": "image"
             },
             "hair105": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-greenpumpkinHap-10-2013.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -103,
                 "type": "image"
             },
             "hair106": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-greenpumpkinMad-10-2013.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -103,
                 "type": "image"
             },
             "hair107": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-greenpumpkinSad-10-2013.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -103,
                 "type": "image"
             },
             "hair108": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-hedbndbrn-02-2014.png",
                 "properties": {},
-                "fitX": 3,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair109": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-hedbndwht-02-2014.png",
                 "properties": {},
-                "fitX": 3,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair110": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-helmet1-11-2011.png",
                 "properties": {},
-                "fitX": 3,
-                "fitY": -92,
+                "fitX": 1,
+                "fitY": -91,
                 "type": "image"
             },
             "hair111": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-helmet2-11-2011.png",
                 "properties": {},
-                "fitX": 3,
-                "fitY": -92,
+                "fitX": 1,
+                "fitY": -91,
                 "type": "image"
             },
             "hair112": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-helmet3-11-2011.png",
                 "properties": {},
-                "fitX": 3,
-                "fitY": -92,
+                "fitX": 1,
+                "fitY": -91,
                 "type": "image"
             },
             "hair113": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-helmet4-11-2011.png",
                 "properties": {},
-                "fitX": 3,
-                "fitY": -92,
+                "fitX": 1,
+                "fitY": -91,
                 "type": "image"
             },
             "hair114": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-helmet5-11-2011.png",
                 "properties": {},
-                "fitX": 3,
-                "fitY": -92,
+                "fitX": 1,
+                "fitY": -91,
                 "type": "image"
             },
             "hair115": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-helmet6-11-2011.png",
                 "properties": {},
-                "fitX": 3,
-                "fitY": -92,
+                "fitX": 1,
+                "fitY": -91,
                 "type": "image"
             },
             "hair116": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-hipster-10-2011.png",
                 "properties": {},
-                "fitX": 3,
-                "fitY": -92,
+                "fitX": 1,
+                "fitY": -91,
                 "type": "image"
             },
             "hair117": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-icecreamvendor-06-2011.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair118": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-icecreamvendorrec-06-2011.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair119": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-indianb-11-2010.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -103,
                 "type": "image"
             },
             "hair120": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-indianhead-11-2010.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -103,
                 "type": "image"
             },
             "hair121": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-isleb-06-2013.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -103,
                 "type": "image"
             },
             "hair122": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-jackfrost-11-2012.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair123": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-jodipencils-08-2010.png",
                 "properties": {},
-                "fitX": 2,
-                "fitY": -104,
+                "fitX": 0,
+                "fitY": -103,
                 "type": "image"
             },
             "hair124": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-joker01.png",
                 "properties": {},
-                "fitX": 3,
-                "fitY": -92,
+                "fitX": 1,
+                "fitY": -91,
                 "type": "image"
             },
             "hair125": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-joker02.png",
                 "properties": {},
-                "fitX": 3,
-                "fitY": -92,
+                "fitX": 1,
+                "fitY": -91,
                 "type": "image"
             },
             "hair126": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-joker03.png",
                 "properties": {},
-                "fitX": 3,
-                "fitY": -92,
+                "fitX": 1,
+                "fitY": -91,
                 "type": "image"
             },
             "hair127": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-khakicut-12-2010.png",
                 "properties": {},
-                "fitX": 2,
-                "fitY": -92,
+                "fitX": 1,
+                "fitY": -91,
                 "type": "image"
             },
             "hair128": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-kisan.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -104,
                 "type": "image"
             },
             "hair129": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-kisanhat.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -104,
                 "type": "image"
             },
             "hair130": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-lemonhead-04-2011.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -103,
                 "type": "image"
             },
             "hair131": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-leopardribbon-07-2011.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 0,
                 "fitY": -103,
                 "type": "image"
             },
             "hair132": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-lib.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -103,
                 "type": "image"
             },
             "hair133": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-libpunk.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -103,
                 "type": "image"
             },
             "hair134": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-limitedautumn-02-2013.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -103,
                 "type": "image"
             },
             "hair135": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-limitedautumn-10-2010.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -103,
                 "type": "image"
             },
             "hair136": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-limitedhat-07-2013.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -103,
                 "type": "image"
             },
             "hair137": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-lma-10-2012.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -103,
                 "type": "image"
             },
             "hair138": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-lmcoolb-04-2012.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -103,
                 "type": "image"
             },
             "hair139": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-lmfasiona-06-2012.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -103,
                 "type": "image"
             },
             "hair140": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-lolli-01-2010.png",
                 "properties": {},
-                "fitX": 1,
-                "fitY": -102,
+                "fitX": 0,
+                "fitY": -103,
                 "type": "image"
             },
             "hair141": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-magentaside-11-2010.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -103,
                 "type": "image"
             },
             "hair142": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-miyu-09-2010.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -104,
                 "type": "image"
             },
             "hair143": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-monster-12-2011.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -103,
                 "type": "image"
             },
             "hair144": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-mummy-10-2012.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
@@ -1027,189 +1027,189 @@ export const assets = {
             "hair146": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-newyears-01-2013.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -103,
                 "type": "image"
             },
             "hair147": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-nightcap-05-2012.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -103,
                 "type": "image"
             },
             "hair148": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-nimp-01-2011.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -103,
                 "type": "image"
             },
             "hair149": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-nmbrown-12-2012.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair150": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-nmbrwnbob-11-2013.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair151": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-nmshort-05-2011.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair152": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-nmtba-04-2013.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair153": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-non-12-2011.png",
                 "properties": {},
-                "fitX": 3,
-                "fitY": -92,
+                "fitX": 1,
+                "fitY": -91,
                 "type": "image"
             },
             "hair154": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-nonb-10-2011.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair155": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-nonbrown-03-3011.png",
                 "properties": {},
-                "fitX": 2,
-                "fitY": -92,
+                "fitX": 1,
+                "fitY": -91,
                 "type": "image"
             },
             "hair156": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-nondarkbrown-09-2012.png",
                 "properties": {},
-                "fitX": 2,
-                "fitY": -92,
+                "fitX": 1,
+                "fitY": -91,
                 "type": "image"
             },
             "hair157": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-nongray-01-2012.png",
                 "properties": {},
-                "fitX": 3,
-                "fitY": -92,
+                "fitX": 1,
+                "fitY": -91,
                 "type": "image"
             },
             "hair158": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-nonmem-01-2013.png",
                 "properties": {},
-                "fitX": 2,
-                "fitY": -92,
+                "fitX": 1,
+                "fitY": -91,
                 "type": "image"
             },
             "hair159": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-nonmem-02-2012.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair160": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-nonmem-04-2013.png",
                 "properties": {},
-                "fitX": 2,
-                "fitY": -92,
+                "fitX": 1,
+                "fitY": -91,
                 "type": "image"
             },
             "hair161": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-nonmem-05-2013.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair162": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-nonmem-06-2012.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -103,
                 "type": "image"
             },
             "hair163": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-nonmema-1-2012.png",
                 "properties": {},
-                "fitX": 3,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair164": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-nonmember-05-2012.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair165": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-nonmember-07-2011.png",
                 "properties": {},
-                "fitX": 2,
-                "fitY": -92,
+                "fitX": 1,
+                "fitY": -91,
                 "type": "image"
             },
             "hair166": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-nonmember-11-2012.png",
                 "properties": {},
-                "fitX": 3,
-                "fitY": -92,
+                "fitX": 1,
+                "fitY": -91,
                 "type": "image"
             },
             "hair167": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-nonmembrown-03-2013.png",
                 "properties": {},
-                "fitX": 2,
-                "fitY": -92,
+                "fitX": 1,
+                "fitY": -91,
                 "type": "image"
             },
             "hair168": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-nonmembrown-04-2011.png",
                 "properties": {},
-                "fitX": 2,
-                "fitY": -92,
+                "fitX": 1,
+                "fitY": -91,
                 "type": "image"
             },
             "hair169": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-nonmemolive-07-2012.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair170": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-nonmemyellow-08-2012.png",
                 "properties": {},
-                "fitX": 3,
-                "fitY": -92,
+                "fitX": 1,
+                "fitY": -91,
                 "type": "image"
             },
             "hair171": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-nonorange-11-2011.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair172": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-nonpony-01-2012.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -103,
                 "type": "image"
             },
@@ -1230,42 +1230,42 @@ export const assets = {
             "hair175": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-olivegreen-11-2011.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -103,
                 "type": "image"
             },
             "hair176": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-orangebraid-07-2012.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair177": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-orangepony-11-2011.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair178": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-orangepop-11-2010.png",
                 "properties": {},
-                "fitX": 2,
-                "fitY": -92,
+                "fitX": 1,
+                "fitY": -91,
                 "type": "image"
             },
             "hair179": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-orgshrtwave-06-2010.png",
                 "properties": {},
-                "fitX": 2,
-                "fitY": -93,
+                "fitX": 1,
+                "fitY": -92,
                 "type": "image"
             },
             "hair180": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-owl-11-2010.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -103,
                 "type": "image"
             },
@@ -1279,672 +1279,672 @@ export const assets = {
             "hair182": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-pineapple-06-2013.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -103,
                 "type": "image"
             },
             "hair183": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-pinkdream-07-2009.png",
                 "properties": {},
-                "fitX": 3,
+                "fitX": 2,
                 "fitY": -92,
                 "type": "image"
             },
             "hair184": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-pinkflower-02-2011.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -103,
                 "type": "image"
             },
             "hair185": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-pinkponytail-08-2011.png",
                 "properties": {},
-                "fitX": 2,
-                "fitY": -92,
+                "fitX": 1,
+                "fitY": -91,
                 "type": "image"
             },
             "hair186": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-pinkponytails-04-2011.png",
                 "properties": {},
-                "fitX": 1,
-                "fitY": -104,
+                "fitX": 0,
+                "fitY": -103,
                 "type": "image"
             },
             "hair187": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-pinkpoof-07-2011.png",
                 "properties": {},
-                "fitX": 2,
-                "fitY": -92,
+                "fitX": 1,
+                "fitY": -91,
                 "type": "image"
             },
             "hair188": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-pinkribbon-07-2011.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -103,
                 "type": "image"
             },
             "hair189": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-pogo-07-2012.png",
                 "properties": {},
-                "fitX": 1,
-                "fitY": -104,
+                "fitX": 0,
+                "fitY": -103,
                 "type": "image"
             },
             "hair190": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-pokaband-04-2010.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -103,
                 "type": "image"
             },
             "hair191": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-policehat-02-2012.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -103,
                 "type": "image"
             },
             "hair192": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-polkadotBandana.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair193": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-puffy-08-2011.png",
                 "properties": {},
-                "fitX": 3,
-                "fitY": -92,
+                "fitX": 1,
+                "fitY": -91,
                 "type": "image"
             },
             "hair194": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-pumpkinhead-10-2009.png",
                 "properties": {},
-                "fitX": 3,
+                "fitX": 2,
                 "fitY": -92,
                 "type": "image"
             },
             "hair195": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-purgrey-08-2010.png",
                 "properties": {},
-                "fitX": 2,
-                "fitY": -92,
+                "fitX": 1,
+                "fitY": -91,
                 "type": "image"
             },
             "hair196": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-purpigtail-10-2010.png",
                 "properties": {},
-                "fitX": 1,
-                "fitY": -104,
+                "fitX": 0,
+                "fitY": -103,
                 "type": "image"
             },
             "hair197": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-purpjester-03-2011.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -103,
                 "type": "image"
             },
             "hair198": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-purple-10-2011.png",
                 "properties": {},
-                "fitX": 3,
-                "fitY": -92,
+                "fitX": 1,
+                "fitY": -91,
                 "type": "image"
             },
             "hair199": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-racehelmet-11-2011.png",
                 "properties": {},
-                "fitX": 2,
-                "fitY": -92,
+                "fitX": 1,
+                "fitY": -91,
                 "type": "image"
             },
             "hair200": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-rarecleopatra.png",
                 "properties": {},
-                "fitX": 3,
-                "fitY": -92,
+                "fitX": 1,
+                "fitY": -91,
                 "type": "image"
             },
             "hair201": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-rarekawaii.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair202": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-rarepagegirlcap.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair203": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-rarepurple-06-2011.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -103,
                 "type": "image"
             },
             "hair204": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-raresenorita.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair205": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-redhatprize-11-2012.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -97,
                 "type": "image"
             },
             "hair206": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-redlolita-08-2010.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -103,
                 "type": "image"
             },
             "hair207": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-redpink-11-2011.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -92,
                 "type": "image"
             },
             "hair208": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-redpony-01-2013.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -103,
                 "type": "image"
             },
             "hair209": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-reindeer-hat-12-2013.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -108,
                 "type": "image"
             },
             "hair210": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-retro.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -103,
                 "type": "image"
             },
             "hair211": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-ribbonblond-11-2010.png",
                 "properties": {},
-                "fitX": 3,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair212": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-ribbonheadband-02-2010.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair213": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-rollerhair.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair214": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-roundPigTailsWithBows.png",
                 "properties": {},
-                "fitX": 2,
-                "fitY": -92,
+                "fitX": 1,
+                "fitY": -91,
                 "type": "image"
             },
             "hair215": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-safari-08-2011.png",
                 "properties": {},
-                "fitX": 3,
-                "fitY": -92,
+                "fitX": 1,
+                "fitY": -91,
                 "type": "image"
             },
             "hair216": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-santahat-12-2009.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair217": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-scholar-06-2011.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair218": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-schoolb-09-2012.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair219": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-scientist-09-2011.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair220": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-seasgreendj-07-2010.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -103,
                 "type": "image"
             },
             "hair221": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-secretarydblue.png",
                 "properties": {},
-                "fitX": 2,
-                "fitY": -92,
+                "fitX": 1,
+                "fitY": -91,
                 "type": "image"
             },
             "hair222": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-shinygold_0615.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair223": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-shortbr-04-2013.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair224": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-shortbrown-01-2010.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair225": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-shortdark-11-2012.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair226": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-shortponytail-07-2009.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -93,
                 "type": "image"
             },
             "hair227": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-shrtblonde-09-2013.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair228": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-simplycut-01-2011.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair229": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-skihelmet-12-2010.png",
                 "properties": {},
-                "fitX": 2,
-                "fitY": -92,
+                "fitX": 1,
+                "fitY": -91,
                 "type": "image"
             },
             "hair230": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-slimehair-03-2011.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair231": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-snmbrown-10-2010.png",
                 "properties": {},
-                "fitX": 3,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair232": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-snowman-12-2011.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -103,
                 "type": "image"
             },
             "hair233": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-snowman-12-2012.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair234": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-snowman-12-2013.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -103,
                 "type": "image"
             },
             "hair235": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-springa-02-2012.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -103,
                 "type": "image"
             },
             "hair236": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-springb-02-2012.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -103,
                 "type": "image"
             },
             "hair237": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-st-patty2008.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair238": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-strawberry-05-2011.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair239": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-strblo-07-2010.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair240": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-summerprize-08-2012.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair241": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-summersea-06-2013.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -103,
                 "type": "image"
             },
             "hair242": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-swimmingcap-06-2011.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair243": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-tangle-10-2011.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -103,
                 "type": "image"
             },
             "hair244": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-tinyhat-01-2013.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair245": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-triceratops.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -103,
                 "type": "image"
             },
             "hair246": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-turkey-11-2012.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair247": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-turkeyhat-11-2010.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -103,
                 "type": "image"
             },
             "hair248": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-turkeyhat-11-2011.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -103,
                 "type": "image"
             },
             "hair249": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-turkeyhatb-11-2010.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -103,
                 "type": "image"
             },
             "hair250": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-violet-pigtail-05-2013.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -103,
                 "type": "image"
             },
             "hair251": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-violetcut-10-2011.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair252": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-vogcut-12-2009.png",
                 "properties": {},
-                "fitX": 2,
-                "fitY": -92,
+                "fitX": 1,
+                "fitY": -91,
                 "type": "image"
             },
             "hair253": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-vogcutblu-02-2014.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair254": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-vogcutprp-02-2014.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair255": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-walrushead-12-2010.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -103,
                 "type": "image"
             },
             "hair256": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-winter2.png",
                 "properties": {},
-                "fitX": 2,
-                "fitY": -92,
+                "fitX": 1,
+                "fitY": -91,
                 "type": "image"
             },
             "hair257": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-wolfhat-11-2011.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair258": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-wolfhatrc-11-2011.png",
                 "properties": {},
-                "fitX": 9,
+                "fitX": 8,
                 "fitY": -110,
                 "type": "image"
             },
             "hair259": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-yellowbun-10-2011.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -103,
                 "type": "image"
             },
             "hair260": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-yellowcandy-07-2011.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -103,
                 "type": "image"
             },
             "hair261": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-yellowcap-03-2011.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -103,
                 "type": "image"
             },
             "hair262": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-yellowpipi-12-2010.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -103,
                 "type": "image"
             },
             "hair263": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-yetihead-12-2010.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -103,
                 "type": "image"
             },
             "hair264": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair3-luxury-05-2011.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -103,
                 "type": "image"
             },
             "hair265": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair4-furhat-10-2011.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -103,
                 "type": "image"
             },
             "hair266": {
                 "path": "assets/closet/hairs/female/singleframe/girl-HAR-pinkheadband-10-2009.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair267": {
                 "path": "assets/closet/hairs/female/singleframe/girl-HAR-redscarf-10-2009.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair268": {
                 "path": "assets/closet/hairs/female/singleframe/girl-nm-11-2013.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair269": {
                 "path": "assets/closet/hairs/female/singleframe/girl-NM-basic-11-2010.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair270": {
                 "path": "assets/closet/hairs/female/singleframe/girl-nm-chocosongee-09-2013.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair271": {
                 "path": "assets/closet/hairs/female/singleframe/girl-pink-bun-0609.png",
                 "properties": {},
-                "fitX": 2,
-                "fitY": -92,
+                "fitX": 1,
+                "fitY": -91,
                 "type": "image"
             },
             "hair272": {
                 "path": "assets/closet/hairs/female/singleframe/girl-pinkbunhair-09-2013.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -103,
                 "type": "image"
             },
             "hair273": {
                 "path": "assets/closet/hairs/female/singleframe/girl_hair_2014_09.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair274": {
                 "path": "assets/closet/hairs/female/singleframe/girl_hair_marionette_08_2014.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair275": {
                 "path": "assets/closet/hairs/female/singleframe/girl_hair_stella2_12_2014.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -103,
                 "type": "image"
             },
             "hair276": {
                 "path": "assets/closet/hairs/female/singleframe/girl_hair_tegan_08_2014.png",
                 "properties": {},
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -91,
                 "type": "image"
             },
             "hair277": {
                 "path": "assets/closet/hairs/female/fourframe/2015_04_girl_hair4_user_inspired_1.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -80,
                 "type": "sprite",
                 "splitX": 136,
@@ -1953,7 +1953,7 @@ export const assets = {
             "hair278": {
                 "path": "assets/closet/hairs/female/fourframe/2016_04_girl_hair4_boutique1.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -98,
                 "type": "sprite",
                 "splitX": 136,
@@ -1962,7 +1962,7 @@ export const assets = {
             "hair279": {
                 "path": "assets/closet/hairs/female/fourframe/2016_04_girl_hair4_boutique2_cherryblossom.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -82,
                 "type": "sprite",
                 "splitX": 136,
@@ -1971,7 +1971,7 @@ export const assets = {
             "hair280": {
                 "path": "assets/closet/hairs/female/fourframe/2016_08_girl_hair4_boutique_au.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -1980,7 +1980,7 @@ export const assets = {
             "hair281": {
                 "path": "assets/closet/hairs/female/fourframe/2017_03_girl_hair4_lmedtion1.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -1989,7 +1989,7 @@ export const assets = {
             "hair282": {
                 "path": "assets/closet/hairs/female/fourframe/2017_03_girl_hair4_rare.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -83,
                 "type": "sprite",
                 "splitX": 136,
@@ -1998,7 +1998,7 @@ export const assets = {
             "hair283": {
                 "path": "assets/closet/hairs/female/fourframe/2017_04_girl_hair4_anniversary.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -2007,7 +2007,7 @@ export const assets = {
             "hair284": {
                 "path": "assets/closet/hairs/female/fourframe/2017_06_girl_hair4_anime.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -89,
                 "type": "sprite",
                 "splitX": 136,
@@ -2016,7 +2016,7 @@ export const assets = {
             "hair285": {
                 "path": "assets/closet/hairs/female/fourframe/2017_08_girl_hair4_limited_edition_diva.png",
                 "properties": {},
-                "fitX": 16,
+                "fitX": 15,
                 "fitY": -96,
                 "type": "sprite",
                 "splitX": 136,
@@ -2026,7 +2026,7 @@ export const assets = {
             "hair286": {
                 "path": "assets/closet/hairs/female/fourframe/2017_10_girl_hair4_limited_gamethrone.png",
                 "properties": {},
-                "fitX": 15,
+                "fitX": 14,
                 "fitY": -95,
                 "type": "sprite",
                 "splitX": 136,
@@ -2036,7 +2036,7 @@ export const assets = {
             "hair287": {
                 "path": "assets/closet/hairs/female/fourframe/2017_11_girl_hair4_le_diamond.png",
                 "properties": {},
-                "fitX": 16,
+                "fitX": 15,
                 "fitY": -96,
                 "type": "sprite",
                 "splitX": 136,
@@ -2046,7 +2046,7 @@ export const assets = {
             "hair288": {
                 "path": "assets/closet/hairs/female/fourframe/2017_12_girl_hair4_le_crstm.png",
                 "properties": {},
-                "fitX": 18,
+                "fitX": 17,
                 "fitY": -98,
                 "type": "sprite",
                 "splitX": 136,
@@ -2055,7 +2055,7 @@ export const assets = {
             "hair289": {
                 "path": "assets/closet/hairs/female/fourframe/2018_01_girl_hair4_limited_edition.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -2064,7 +2064,7 @@ export const assets = {
             "hair290": {
                 "path": "assets/closet/hairs/female/fourframe/2018_02_girl_hair4_le_olympic.png",
                 "properties": {},
-                "fitX": 18,
+                "fitX": 17,
                 "fitY": -97,
                 "type": "sprite",
                 "splitX": 136,
@@ -2073,7 +2073,7 @@ export const assets = {
             "hair291": {
                 "path": "assets/closet/hairs/female/fourframe/girl-acc-lmb-10-2012.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -2082,7 +2082,7 @@ export const assets = {
             "hair292": {
                 "path": "assets/closet/hairs/female/fourframe/girl-acc-lmc-10-2012.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -2091,7 +2091,7 @@ export const assets = {
             "hair293": {
                 "path": "assets/closet/hairs/female/fourframe/girl-acc-pinkbird-08-2011.png",
                 "properties": {},
-                "fitX": 19,
+                "fitX": 18,
                 "fitY": -100,
                 "type": "sprite",
                 "splitX": 136,
@@ -2100,7 +2100,7 @@ export const assets = {
             "hair294": {
                 "path": "assets/closet/hairs/female/fourframe/girl-blondwaviehair-09-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -2109,7 +2109,7 @@ export const assets = {
             "hair295": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair-blacknsparkles-07-2012.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -2118,7 +2118,7 @@ export const assets = {
             "hair296": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair-blond-08-2010.png",
                 "properties": {},
-                "fitX": 18,
+                "fitX": 17,
                 "fitY": -94,
                 "type": "sprite",
                 "splitX": 136,
@@ -2127,7 +2127,7 @@ export const assets = {
             "hair297": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair-brownfeather-04-2011.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -2136,7 +2136,7 @@ export const assets = {
             "hair298": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair-cody.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -100,
                 "type": "sprite",
                 "splitX": 136,
@@ -2145,7 +2145,7 @@ export const assets = {
             "hair299": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair-finkelstein-08-2011.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -107,
                 "type": "sprite",
                 "splitX": 136,
@@ -2154,7 +2154,7 @@ export const assets = {
             "hair300": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair-flashb-04-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -2163,7 +2163,7 @@ export const assets = {
             "hair301": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair-flowerblonde-04-2011.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -2172,7 +2172,7 @@ export const assets = {
             "hair302": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair-flowerblonderc-05-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -2181,7 +2181,7 @@ export const assets = {
             "hair303": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair-flowerhat-04-2011.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -2190,7 +2190,7 @@ export const assets = {
             "hair304": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair-hawaiia-05-2012.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -2199,7 +2199,7 @@ export const assets = {
             "hair305": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair-hockey-2-2012.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -2208,7 +2208,7 @@ export const assets = {
             "hair306": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair-limitedred-08-2011.png",
                 "properties": {},
-                "fitX": 18,
+                "fitX": 17,
                 "fitY": -100,
                 "type": "sprite",
                 "splitX": 136,
@@ -2217,7 +2217,7 @@ export const assets = {
             "hair307": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair-limitedyellow-08-2011.png",
                 "properties": {},
-                "fitX": 18,
+                "fitX": 17,
                 "fitY": -100,
                 "type": "sprite",
                 "splitX": 136,
@@ -2226,7 +2226,7 @@ export const assets = {
             "hair308": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair-longblonde-01-2013.png",
                 "properties": {},
-                "fitX": 16,
+                "fitX": 15,
                 "fitY": -82,
                 "type": "sprite",
                 "splitX": 136,
@@ -2235,7 +2235,7 @@ export const assets = {
             "hair309": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair-milkpink-01-2012.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -2244,7 +2244,7 @@ export const assets = {
             "hair310": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair-moonstonelimited-07-2011.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -2253,7 +2253,7 @@ export const assets = {
             "hair311": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair-paleblondehat-02-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -2262,7 +2262,7 @@ export const assets = {
             "hair312": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair-pinkribbon-08-2011.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -99,
                 "type": "sprite",
                 "splitX": 136,
@@ -2272,7 +2272,7 @@ export const assets = {
             "hair313": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair-pinkstreak-10-2011.png",
                 "properties": {},
-                "fitX": 19,
+                "fitX": 18,
                 "fitY": -101,
                 "type": "sprite",
                 "splitX": 136,
@@ -2281,7 +2281,7 @@ export const assets = {
             "hair314": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair-pinktrucker-07-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -2290,7 +2290,7 @@ export const assets = {
             "hair315": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair-rare-12-2011.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -100,
                 "type": "sprite",
                 "splitX": 136,
@@ -2299,7 +2299,7 @@ export const assets = {
             "hair316": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair-summerlong-06-2011.png",
                 "properties": {},
-                "fitX": 18,
+                "fitX": 17,
                 "fitY": -78,
                 "type": "sprite",
                 "splitX": 136,
@@ -2308,7 +2308,7 @@ export const assets = {
             "hair317": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair-userblack-07-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -2317,7 +2317,7 @@ export const assets = {
             "hair318": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair-vdayblonde-2-2012.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -93,
                 "type": "sprite",
                 "splitX": 136,
@@ -2326,7 +2326,7 @@ export const assets = {
             "hair319": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair-vdaybrown-2-2012.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -2335,7 +2335,7 @@ export const assets = {
             "hair320": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair-violetwave-02-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -2344,7 +2344,7 @@ export const assets = {
             "hair321": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair-warrior-11-2011.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -2353,7 +2353,7 @@ export const assets = {
             "hair322": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair-whitemage-12-2012.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -2362,7 +2362,7 @@ export const assets = {
             "hair323": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair-whitemageg-12-2012.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -2371,7 +2371,7 @@ export const assets = {
             "hair324": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair-witnergreen-12-2011.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -93,
                 "type": "sprite",
                 "splitX": 136,
@@ -2380,7 +2380,7 @@ export const assets = {
             "hair325": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair-witnerpink-12-2011.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -2389,7 +2389,7 @@ export const assets = {
             "hair326": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-alice-04-2011.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -85,
                 "type": "sprite",
                 "splitX": 136,
@@ -2398,7 +2398,7 @@ export const assets = {
             "hair327": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-alice-08-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -2407,7 +2407,7 @@ export const assets = {
             "hair328": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-applehat-09-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -2416,7 +2416,7 @@ export const assets = {
             "hair329": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-ariel-05-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -2425,7 +2425,7 @@ export const assets = {
             "hair330": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-ashie-07-2011.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -101,
                 "type": "sprite",
                 "splitX": 136,
@@ -2434,7 +2434,7 @@ export const assets = {
             "hair331": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-asuna-09-2013.png",
                 "properties": {},
-                "fitX": 18,
+                "fitX": 17,
                 "fitY": -84,
                 "type": "sprite",
                 "splitX": 136,
@@ -2443,7 +2443,7 @@ export const assets = {
             "hair332": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-aviator-08-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -2452,7 +2452,7 @@ export const assets = {
             "hair333": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-balloonhat-08-2013.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -118,
                 "type": "sprite",
                 "splitX": 136,
@@ -2461,7 +2461,7 @@ export const assets = {
             "hair334": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-belly-05-2012.png",
                 "properties": {},
-                "fitX": 18,
+                "fitX": 17,
                 "fitY": -93,
                 "type": "sprite",
                 "splitX": 136,
@@ -2470,7 +2470,7 @@ export const assets = {
             "hair335": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-bighat-04-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -2479,7 +2479,7 @@ export const assets = {
             "hair336": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-bigpony-09-2013.png",
                 "properties": {},
-                "fitX": 19,
+                "fitX": 18,
                 "fitY": -100,
                 "type": "sprite",
                 "splitX": 136,
@@ -2488,7 +2488,7 @@ export const assets = {
             "hair337": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-blackcave-03-2012.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -2497,7 +2497,7 @@ export const assets = {
             "hair338": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-blackcruise-08-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -93,
                 "type": "sprite",
                 "splitX": 136,
@@ -2506,7 +2506,7 @@ export const assets = {
             "hair339": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-blackflower-01-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -93,
                 "type": "sprite",
                 "splitX": 136,
@@ -2515,7 +2515,7 @@ export const assets = {
             "hair340": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-blackisland-06-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -93,
                 "type": "sprite",
                 "splitX": 136,
@@ -2524,7 +2524,7 @@ export const assets = {
             "hair341": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-blackouta-06-2012.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -2533,7 +2533,7 @@ export const assets = {
             "hair342": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-blackoutb-06-2012.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -2542,7 +2542,7 @@ export const assets = {
             "hair343": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-blackqueen.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -100,
                 "type": "sprite",
                 "splitX": 136,
@@ -2551,7 +2551,7 @@ export const assets = {
             "hair344": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-blackwhat-02-2013.png",
                 "properties": {},
-                "fitX": 16,
+                "fitX": 15,
                 "fitY": -90,
                 "type": "sprite",
                 "splitX": 136,
@@ -2560,7 +2560,7 @@ export const assets = {
             "hair345": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-blondecave-03-2012.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -2569,7 +2569,7 @@ export const assets = {
             "hair346": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-blondeisland-06-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -2578,7 +2578,7 @@ export const assets = {
             "hair347": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-blondeprin-04-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -2587,7 +2587,7 @@ export const assets = {
             "hair348": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-blondeslick-08-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -2596,7 +2596,7 @@ export const assets = {
             "hair349": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-blondhat-08-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -2605,7 +2605,7 @@ export const assets = {
             "hair350": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-brown-12-2011.png",
                 "properties": {},
-                "fitX": 16,
+                "fitX": 15,
                 "fitY": -93,
                 "type": "sprite",
                 "splitX": 136,
@@ -2614,7 +2614,7 @@ export const assets = {
             "hair351": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-brownflowy-11-2011.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -100,
                 "type": "sprite",
                 "splitX": 136,
@@ -2623,7 +2623,7 @@ export const assets = {
             "hair352": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-bunny-03-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -93,
                 "type": "sprite",
                 "splitX": 136,
@@ -2632,7 +2632,7 @@ export const assets = {
             "hair353": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-camp-07-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -2641,7 +2641,7 @@ export const assets = {
             "hair354": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-candyhair-03-2011.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -2650,7 +2650,7 @@ export const assets = {
             "hair355": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-carna-04-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -2659,7 +2659,7 @@ export const assets = {
             "hair356": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-carnb-04-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -2668,7 +2668,7 @@ export const assets = {
             "hair357": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-catears-09-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -2677,7 +2677,7 @@ export const assets = {
             "hair358": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-cathat-11-2011.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -2686,7 +2686,7 @@ export const assets = {
             "hair359": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-charityblonde-12-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -2695,7 +2695,7 @@ export const assets = {
             "hair360": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-cheetah-05-2011.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -2704,7 +2704,7 @@ export const assets = {
             "hair361": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-chocolate-09-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -2713,7 +2713,7 @@ export const assets = {
             "hair362": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-cindeline-12-2013.png",
                 "properties": {},
-                "fitX": 16,
+                "fitX": 15,
                 "fitY": -111,
                 "type": "sprite",
                 "splitX": 136,
@@ -2722,7 +2722,7 @@ export const assets = {
             "hair363": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-coonhat-07-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -2731,7 +2731,7 @@ export const assets = {
             "hair364": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-dayfourprz-04-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -2740,7 +2740,7 @@ export const assets = {
             "hair365": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-dda-04-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -2749,7 +2749,7 @@ export const assets = {
             "hair366": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-ddb-04-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -2758,7 +2758,7 @@ export const assets = {
             "hair367": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-doghat-11-2011.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -2767,7 +2767,7 @@ export const assets = {
             "hair368": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-dolphincap-06-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -2776,7 +2776,7 @@ export const assets = {
             "hair369": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-easterb-03-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -2785,7 +2785,7 @@ export const assets = {
             "hair370": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-eday-04-2011.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -2794,7 +2794,7 @@ export const assets = {
             "hair371": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-elegantblond-04-2011.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -2803,7 +2803,7 @@ export const assets = {
             "hair372": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-fairy-11-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -2812,7 +2812,7 @@ export const assets = {
             "hair373": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-falllimit-10-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -2821,7 +2821,7 @@ export const assets = {
             "hair374": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-falllimit_02-10-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -2830,7 +2830,7 @@ export const assets = {
             "hair375": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-fire-06-2012.png",
                 "properties": {},
-                "fitX": 16,
+                "fitX": 15,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -2839,7 +2839,7 @@ export const assets = {
             "hair376": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-flashsale-06-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -93,
                 "type": "sprite",
                 "splitX": 136,
@@ -2848,7 +2848,7 @@ export const assets = {
             "hair377": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-flora-08-2011.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -100,
                 "type": "sprite",
                 "splitX": 136,
@@ -2857,7 +2857,7 @@ export const assets = {
             "hair378": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-flowerdrop-04-2011.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -2866,7 +2866,7 @@ export const assets = {
             "hair379": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-futuristic-08-2011.png",
                 "properties": {},
-                "fitX": 16,
+                "fitX": 15,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -2875,7 +2875,7 @@ export const assets = {
             "hair380": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-ghosthat-07-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -93,
                 "type": "sprite",
                 "splitX": 136,
@@ -2884,7 +2884,7 @@ export const assets = {
             "hair381": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-ghosthata-07-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -2893,7 +2893,7 @@ export const assets = {
             "hair382": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-glowinghat-06-2012.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -2902,7 +2902,7 @@ export const assets = {
             "hair383": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-glowtime-08-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -2911,7 +2911,7 @@ export const assets = {
             "hair384": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-goldpumpkin-10-2013.png",
                 "properties": {},
-                "fitX": 18,
+                "fitX": 17,
                 "fitY": -102,
                 "type": "sprite",
                 "splitX": 136,
@@ -2920,7 +2920,7 @@ export const assets = {
             "hair385": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-goldpumpkinHap-10-2013.png",
                 "properties": {},
-                "fitX": 18,
+                "fitX": 17,
                 "fitY": -102,
                 "type": "sprite",
                 "splitX": 136,
@@ -2929,7 +2929,7 @@ export const assets = {
             "hair386": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-goldpumpkinMad-10-2013.png",
                 "properties": {},
-                "fitX": 18,
+                "fitX": 17,
                 "fitY": -102,
                 "type": "sprite",
                 "splitX": 136,
@@ -2938,7 +2938,7 @@ export const assets = {
             "hair387": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-goldpumpkinSad-10-2013.png",
                 "properties": {},
-                "fitX": 18,
+                "fitX": 17,
                 "fitY": -102,
                 "type": "sprite",
                 "splitX": 136,
@@ -2947,7 +2947,7 @@ export const assets = {
             "hair388": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-gray-12-2011.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -2956,7 +2956,7 @@ export const assets = {
             "hair389": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-greenstraight-03-2011.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -2965,7 +2965,7 @@ export const assets = {
             "hair390": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-grnstripe-01-2012.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -2974,7 +2974,7 @@ export const assets = {
             "hair391": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-guru-09-2011.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -2983,7 +2983,7 @@ export const assets = {
             "hair392": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-gypsy-06-2011.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -2992,7 +2992,7 @@ export const assets = {
             "hair393": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-hardhat-08-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -3001,7 +3001,7 @@ export const assets = {
             "hair394": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-hawaiib-05-2012.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -3010,7 +3010,7 @@ export const assets = {
             "hair395": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-icecreamman-05-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -3019,7 +3019,7 @@ export const assets = {
             "hair396": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-icewave-06-2011.png",
                 "properties": {},
-                "fitX": 19,
+                "fitX": 18,
                 "fitY": -99,
                 "type": "sprite",
                 "splitX": 136,
@@ -3028,7 +3028,7 @@ export const assets = {
             "hair397": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-islanda-06-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -3037,7 +3037,7 @@ export const assets = {
             "hair398": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-islandb-06-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -3046,7 +3046,7 @@ export const assets = {
             "hair399": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-islea-06-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -3055,7 +3055,7 @@ export const assets = {
             "hair400": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-jelly-08-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -3064,7 +3064,7 @@ export const assets = {
             "hair401": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-jestergirl-03-2011.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -3073,7 +3073,7 @@ export const assets = {
             "hair402": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-judgeprizea-04-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -3082,7 +3082,7 @@ export const assets = {
             "hair403": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-kidsa-03-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -3091,7 +3091,7 @@ export const assets = {
             "hair404": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-kidspm-03-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -3100,7 +3100,7 @@ export const assets = {
             "hair405": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-licorice-09-2013.png",
                 "properties": {},
-                "fitX": 18,
+                "fitX": 17,
                 "fitY": -112,
                 "type": "sprite",
                 "splitX": 136,
@@ -3109,7 +3109,7 @@ export const assets = {
             "hair406": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-lifesaver-08-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -3118,7 +3118,7 @@ export const assets = {
             "hair407": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-LIfools-a-03-2012.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -3127,7 +3127,7 @@ export const assets = {
             "hair408": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-LIfools-b-03-2012.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -3136,7 +3136,7 @@ export const assets = {
             "hair409": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-limited-08-2011.png",
                 "properties": {},
-                "fitX": 18,
+                "fitX": 17,
                 "fitY": -101,
                 "type": "sprite",
                 "splitX": 136,
@@ -3145,7 +3145,7 @@ export const assets = {
             "hair410": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-lissa-08-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -3154,7 +3154,7 @@ export const assets = {
             "hair411": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-LMa-03-2012.png",
                 "properties": {},
-                "fitX": 16,
+                "fitX": 15,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -3163,7 +3163,7 @@ export const assets = {
             "hair412": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-LMb-03-2012.png",
                 "properties": {},
-                "fitX": 16,
+                "fitX": 15,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -3172,7 +3172,7 @@ export const assets = {
             "hair413": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-lmcoola-04-2012.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -93,
                 "type": "sprite",
                 "splitX": 136,
@@ -3181,7 +3181,7 @@ export const assets = {
             "hair414": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-lmeartha-04-2012.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -3190,7 +3190,7 @@ export const assets = {
             "hair415": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-lmearthb-04-2012.png",
                 "properties": {},
-                "fitX": 16,
+                "fitX": 15,
                 "fitY": -93,
                 "type": "sprite",
                 "splitX": 136,
@@ -3199,7 +3199,7 @@ export const assets = {
             "hair416": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-lmflower-05-2012.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -3208,7 +3208,7 @@ export const assets = {
             "hair417": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-lmpink-05-2012.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -3217,7 +3217,7 @@ export const assets = {
             "hair418": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-lmpinkflower-05-2012.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -3226,7 +3226,7 @@ export const assets = {
             "hair419": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-locked-04-2012.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -3235,7 +3235,7 @@ export const assets = {
             "hair420": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-longblond-07-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -3244,7 +3244,7 @@ export const assets = {
             "hair421": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-longpony-02-2012.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -3253,7 +3253,7 @@ export const assets = {
             "hair422": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-magenta-08-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -93,
                 "type": "sprite",
                 "splitX": 136,
@@ -3262,7 +3262,7 @@ export const assets = {
             "hair423": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-magic-05-2012.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -3271,7 +3271,7 @@ export const assets = {
             "hair424": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-magichat-07-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -97,
                 "type": "sprite",
                 "splitX": 136,
@@ -3280,7 +3280,7 @@ export const assets = {
             "hair425": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-mda-05-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -3289,7 +3289,7 @@ export const assets = {
             "hair426": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-mdb-05-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -3298,7 +3298,7 @@ export const assets = {
             "hair427": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-michelle-04-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -3307,7 +3307,7 @@ export const assets = {
             "hair428": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-mjrleaguer-09-2011.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -100,
                 "type": "sprite",
                 "splitX": 136,
@@ -3316,7 +3316,7 @@ export const assets = {
             "hair429": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-mothersday-05-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -3325,7 +3325,7 @@ export const assets = {
             "hair430": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-mushroom-08-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -3334,7 +3334,7 @@ export const assets = {
             "hair431": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-newyears-12-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -3343,7 +3343,7 @@ export const assets = {
             "hair432": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-noncody-01-2012.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -100,
                 "type": "sprite",
                 "splitX": 136,
@@ -3352,7 +3352,7 @@ export const assets = {
             "hair433": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-nya-12-2012.png",
                 "properties": {},
-                "fitX": 16,
+                "fitX": 15,
                 "fitY": -94,
                 "type": "sprite",
                 "splitX": 136,
@@ -3361,7 +3361,7 @@ export const assets = {
             "hair434": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-nyb-12-2012.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -94,
                 "type": "sprite",
                 "splitX": 136,
@@ -3370,7 +3370,7 @@ export const assets = {
             "hair435": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-nychest-12-2012.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -93,
                 "type": "sprite",
                 "splitX": 136,
@@ -3379,7 +3379,7 @@ export const assets = {
             "hair436": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-octogirl-08-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -3388,7 +3388,7 @@ export const assets = {
             "hair437": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-olympianb-08-2012.png",
                 "properties": {},
-                "fitX": 15,
+                "fitX": 14,
                 "fitY": -94,
                 "type": "sprite",
                 "splitX": 136,
@@ -3397,7 +3397,7 @@ export const assets = {
             "hair438": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-pet-tombo-06-2011.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -3406,7 +3406,7 @@ export const assets = {
             "hair439": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-picnica-05-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -93,
                 "type": "sprite",
                 "splitX": 136,
@@ -3415,7 +3415,7 @@ export const assets = {
             "hair440": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-picnicb-05-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -3424,7 +3424,7 @@ export const assets = {
             "hair441": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-pigtails-07-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -93,
                 "type": "sprite",
                 "splitX": 136,
@@ -3433,7 +3433,7 @@ export const assets = {
             "hair442": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-pinkcurly-03-2011.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -93,
                 "type": "sprite",
                 "splitX": 136,
@@ -3442,7 +3442,7 @@ export const assets = {
             "hair443": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-pinkhat-01-2012.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -3451,7 +3451,7 @@ export const assets = {
             "hair444": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-pinkpony-09-2013.png",
                 "properties": {},
-                "fitX": 8,
+                "fitX": 7,
                 "fitY": -111,
                 "type": "sprite",
                 "splitX": 136,
@@ -3460,7 +3460,7 @@ export const assets = {
             "hair445": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-pinkribbon-05-2011.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -3469,7 +3469,7 @@ export const assets = {
             "hair446": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-pmblue-08-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -3478,7 +3478,7 @@ export const assets = {
             "hair447": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-pmgift-03-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -3487,7 +3487,7 @@ export const assets = {
             "hair448": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-pmgift-05-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -3496,7 +3496,7 @@ export const assets = {
             "hair449": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-pmgift-09-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -3505,7 +3505,7 @@ export const assets = {
             "hair450": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-pmgift-12-2012.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -3514,7 +3514,7 @@ export const assets = {
             "hair451": {
                 "path": "assets/closet/hairs/female/fourframe/Movie Star Hair.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -93,
                 "type": "sprite",
                 "splitX": 136,
@@ -3523,7 +3523,7 @@ export const assets = {
             "hair452": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-pmprizegirl-12-2010.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -3532,7 +3532,7 @@ export const assets = {
             "hair453": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-pmtba-04-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -3541,7 +3541,7 @@ export const assets = {
             "hair454": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-poolparty-06-2011.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -3550,7 +3550,7 @@ export const assets = {
             "hair455": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-popstar-04-2012.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -3559,7 +3559,7 @@ export const assets = {
             "hair456": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-premem-09-2011.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -3568,7 +3568,7 @@ export const assets = {
             "hair457": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-premmem-11-2011.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -100,
                 "type": "sprite",
                 "splitX": 136,
@@ -3577,7 +3577,7 @@ export const assets = {
             "hair458": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-pretty-06-2011.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -3586,7 +3586,7 @@ export const assets = {
             "hair459": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-princess-04-2012.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -3595,7 +3595,7 @@ export const assets = {
             "hair460": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-prizehat-06-2012.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -3604,7 +3604,7 @@ export const assets = {
             "hair461": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-proma-05-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -3613,7 +3613,7 @@ export const assets = {
             "hair462": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-promb-05-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -3622,7 +3622,7 @@ export const assets = {
             "hair463": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-purpcurly-04-2011.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -3631,7 +3631,7 @@ export const assets = {
             "hair464": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-purplecurl-12-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -3640,7 +3640,7 @@ export const assets = {
             "hair465": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-raver-07-2011.png",
                 "properties": {},
-                "fitX": 19,
+                "fitX": 18,
                 "fitY": -100,
                 "type": "sprite",
                 "splitX": 136,
@@ -3649,7 +3649,7 @@ export const assets = {
             "hair466": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-rba-05-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -3658,7 +3658,7 @@ export const assets = {
             "hair467": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-rbb-05-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -3667,7 +3667,7 @@ export const assets = {
             "hair468": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-redcave-03-2012.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -93,
                 "type": "sprite",
                 "splitX": 136,
@@ -3676,7 +3676,7 @@ export const assets = {
             "hair469": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-redhat-02-2012.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -93,
                 "type": "sprite",
                 "splitX": 136,
@@ -3685,7 +3685,7 @@ export const assets = {
             "hair470": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-rocker-01-2014.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -93,
                 "type": "sprite",
                 "splitX": 136,
@@ -3694,7 +3694,7 @@ export const assets = {
             "hair471": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-royballa-04-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -3703,7 +3703,7 @@ export const assets = {
             "hair472": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-royballb-04-2013.png",
                 "properties": {},
-                "fitX": 16,
+                "fitX": 15,
                 "fitY": -91,
                 "type": "sprite",
                 "splitX": 136,
@@ -3712,7 +3712,7 @@ export const assets = {
             "hair473": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-sandman-11-2012.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -3721,7 +3721,7 @@ export const assets = {
             "hair474": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-scout-07-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -3730,7 +3730,7 @@ export const assets = {
             "hair475": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-scouthat-07-2011.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -3739,7 +3739,7 @@ export const assets = {
             "hair476": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-scoutleader-07-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -3748,7 +3748,7 @@ export const assets = {
             "hair477": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-shortblonde-11-2011.png",
                 "properties": {},
-                "fitX": 16,
+                "fitX": 15,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -3757,7 +3757,7 @@ export const assets = {
             "hair478": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-shoulderblonde-07-2012.png",
                 "properties": {},
-                "fitX": 16,
+                "fitX": 15,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -3766,7 +3766,7 @@ export const assets = {
             "hair479": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-shpurp-08-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -3775,7 +3775,7 @@ export const assets = {
             "hair480": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-slime-10-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -93,
                 "type": "sprite",
                 "splitX": 136,
@@ -3784,7 +3784,7 @@ export const assets = {
             "hair481": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-snake-08-2011.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -108,
                 "type": "sprite",
                 "splitX": 136,
@@ -3793,7 +3793,7 @@ export const assets = {
             "hair482": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-snorkel-05-2012.png",
                 "properties": {},
-                "fitX": 15,
+                "fitX": 14,
                 "fitY": -95,
                 "type": "sprite",
                 "splitX": 136,
@@ -3802,7 +3802,7 @@ export const assets = {
             "hair483": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-spinner-08-2011.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -101,
                 "type": "sprite",
                 "splitX": 136,
@@ -3811,7 +3811,7 @@ export const assets = {
             "hair484": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-spring1-03-2012.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -93,
                 "type": "sprite",
                 "splitX": 136,
@@ -3820,7 +3820,7 @@ export const assets = {
             "hair485": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-spring2-03-2012.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -3829,7 +3829,7 @@ export const assets = {
             "hair486": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-springa-03-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -3838,7 +3838,7 @@ export const assets = {
             "hair487": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-springb-03-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -3847,7 +3847,7 @@ export const assets = {
             "hair488": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-springpm-03-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -3856,7 +3856,7 @@ export const assets = {
             "hair489": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-static-05-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -3865,7 +3865,7 @@ export const assets = {
             "hair490": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-stpata-03-2013.png",
                 "properties": {},
-                "fitX": 16,
+                "fitX": 15,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -3874,7 +3874,7 @@ export const assets = {
             "hair491": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-stpatb-03-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -3883,7 +3883,7 @@ export const assets = {
             "hair492": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-stpatc-03-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -3892,7 +3892,7 @@ export const assets = {
             "hair493": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-strblza-02-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -3901,7 +3901,7 @@ export const assets = {
             "hair494": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-strblzb-02-2013.png",
                 "properties": {},
-                "fitX": 16,
+                "fitX": 15,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -3910,7 +3910,7 @@ export const assets = {
             "hair495": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-superhero-04-2012.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -93,
                 "type": "sprite",
                 "splitX": 136,
@@ -3919,7 +3919,7 @@ export const assets = {
             "hair496": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-theatera-05-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -3928,7 +3928,7 @@ export const assets = {
             "hair497": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-theaterb-05-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -3937,7 +3937,7 @@ export const assets = {
             "hair498": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-uibluepink-07-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -3946,7 +3946,7 @@ export const assets = {
             "hair499": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-uired-07-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -93,
                 "type": "sprite",
                 "splitX": 136,
@@ -3955,7 +3955,7 @@ export const assets = {
             "hair500": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-umbrella-06-2012.png",
                 "properties": {},
-                "fitX": 16,
+                "fitX": 15,
                 "fitY": -104,
                 "type": "sprite",
                 "splitX": 136,
@@ -3964,7 +3964,7 @@ export const assets = {
             "hair501": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-vda-02-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -3973,7 +3973,7 @@ export const assets = {
             "hair502": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-vdb-02-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -3982,7 +3982,7 @@ export const assets = {
             "hair503": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-viking-10-2012.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -3991,7 +3991,7 @@ export const assets = {
             "hair504": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-wba-01-2013.png",
                 "properties": {},
-                "fitX": 16,
+                "fitX": 15,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -4000,7 +4000,7 @@ export const assets = {
             "hair505": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-wbb-01-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -93,
                 "type": "sprite",
                 "splitX": 136,
@@ -4009,7 +4009,7 @@ export const assets = {
             "hair506": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-wbblueprize-01-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -4018,7 +4018,7 @@ export const assets = {
             "hair507": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-whitefeather-06-2011.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -4027,7 +4027,7 @@ export const assets = {
             "hair508": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-whitequeen.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -100,
                 "type": "sprite",
                 "splitX": 136,
@@ -4036,7 +4036,7 @@ export const assets = {
             "hair509": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-witch-10-2011.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -87,
                 "type": "sprite",
                 "splitX": 136,
@@ -4045,7 +4045,7 @@ export const assets = {
             "hair510": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-worrior-05-2012.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -93,
                 "type": "sprite",
                 "splitX": 136,
@@ -4054,7 +4054,7 @@ export const assets = {
             "hair511": {
                 "path": "assets/closet/hairs/female/fourframe/girl-har4-blondpony-02-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -4063,7 +4063,7 @@ export const assets = {
             "hair512": {
                 "path": "assets/closet/hairs/female/fourframe/girl-har4-blondpony-03-2011.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -4072,7 +4072,7 @@ export const assets = {
             "hair513": {
                 "path": "assets/closet/hairs/female/fourframe/girl-har4-brownone-02-2010.png",
                 "properties": {},
-                "fitX": 18,
+                "fitX": 17,
                 "fitY": -77,
                 "type": "sprite",
                 "splitX": 136,
@@ -4081,7 +4081,7 @@ export const assets = {
             "hair514": {
                 "path": "assets/closet/hairs/female/fourframe/girl-har4-longpurple-02-2010.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -77,
                 "type": "sprite",
                 "splitX": 136,
@@ -4090,7 +4090,7 @@ export const assets = {
             "hair515": {
                 "path": "assets/closet/hairs/female/fourframe/girl-har4-mastermind-04-2012.png",
                 "properties": {},
-                "fitX": 16,
+                "fitX": 15,
                 "fitY": -93,
                 "type": "sprite",
                 "splitX": 136,
@@ -4099,7 +4099,7 @@ export const assets = {
             "hair516": {
                 "path": "assets/closet/hairs/female/fourframe/girl-har4-pinktail-08-2011.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -4108,7 +4108,7 @@ export const assets = {
             "hair517": {
                 "path": "assets/closet/hairs/female/fourframe/girl-har4-springlma-03-2011.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -93,
                 "type": "sprite",
                 "splitX": 136,
@@ -4117,7 +4117,7 @@ export const assets = {
             "hair518": {
                 "path": "assets/closet/hairs/female/fourframe/girl-har4-springlmb-03-2011.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -4126,7 +4126,7 @@ export const assets = {
             "hair519": {
                 "path": "assets/closet/hairs/female/fourframe/girl-har4-springlmc-03-2011.png",
                 "properties": {},
-                "fitX": 16,
+                "fitX": 15,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -4135,7 +4135,7 @@ export const assets = {
             "hair520": {
                 "path": "assets/closet/hairs/female/fourframe/girl-har4-trendsetter-03-2011.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -4144,8 +4144,8 @@ export const assets = {
             "hair521": {
                 "path": "assets/closet/hairs/female/fourframe/girl-shiny-black-02-2010.png",
                 "properties": {},
-                "fitX": 17,
-                "fitY": -93,
+                "fitX": 16,
+                "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
                 "splitY": 105
@@ -4153,7 +4153,7 @@ export const assets = {
             "hair522": {
                 "path": "assets/closet/hairs/female/fourframe/girl-shiny-mardibeads-03-2011.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -4162,7 +4162,7 @@ export const assets = {
             "hair523": {
                 "path": "assets/closet/hairs/female/fourframe/girl_hair4_catfish_06_2014.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -4171,7 +4171,7 @@ export const assets = {
             "hair524": {
                 "path": "assets/closet/hairs/female/fourframe/girl_hair4_chocohair_02_2014.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -4180,7 +4180,7 @@ export const assets = {
             "hair525": {
                 "path": "assets/closet/hairs/female/fourframe/girl_hair4_cosmiccrest_09_2014.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -75,
                 "type": "sprite",
                 "splitX": 136,
@@ -4189,7 +4189,7 @@ export const assets = {
             "hair526": {
                 "path": "assets/closet/hairs/female/fourframe/girl_hair4_fashion_05_2014.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -93,
                 "type": "sprite",
                 "splitX": 136,
@@ -4198,7 +4198,7 @@ export const assets = {
             "hair527": {
                 "path": "assets/closet/hairs/female/fourframe/girl_hair4_flyingcarpet_05_2014.png",
                 "properties": {},
-                "fitX": 19,
+                "fitX": 18,
                 "fitY": -112,
                 "type": "sprite",
                 "splitX": 136,
@@ -4207,7 +4207,7 @@ export const assets = {
             "hair528": {
                 "path": "assets/closet/hairs/female/fourframe/girl_hair4_fools_04_2014.png",
                 "properties": {},
-                "fitX": 7,
+                "fitX": 6,
                 "fitY": -103,
                 "type": "sprite",
                 "splitX": 136,
@@ -4216,7 +4216,7 @@ export const assets = {
             "hair529": {
                 "path": "assets/closet/hairs/female/fourframe/girl_hair4_hatter_08_2014.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -4225,7 +4225,7 @@ export const assets = {
             "hair530": {
                 "path": "assets/closet/hairs/female/fourframe/girl_hair4_princess_06_2014.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -93,
                 "type": "sprite",
                 "splitX": 136,
@@ -4234,7 +4234,7 @@ export const assets = {
             "hair531": {
                 "path": "assets/closet/hairs/female/fourframe/2015_01_girl_hair4_rare_1.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -4243,7 +4243,7 @@ export const assets = {
             "hair532": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair-limitedblond-0901-2010.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -4252,7 +4252,7 @@ export const assets = {
             "hair533": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-blond-03-2011.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -4261,7 +4261,7 @@ export const assets = {
             "hair534": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-blondepony-04-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -4270,7 +4270,7 @@ export const assets = {
             "hair535": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-eastera-03-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -4279,7 +4279,7 @@ export const assets = {
             "hair536": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-egg-03-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -4288,7 +4288,7 @@ export const assets = {
             "hair537": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-hatter-08-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -4297,8 +4297,8 @@ export const assets = {
             "hair538": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-helmethead-05-2011.png",
                 "properties": {},
-                "fitX": 17,
-                "fitY": -94,
+                "fitX": 16,
+                "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
                 "splitY": 105
@@ -4306,7 +4306,7 @@ export const assets = {
             "hair539": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-islandc-06-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -4315,7 +4315,7 @@ export const assets = {
             "hair540": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-kidsb-03-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -4324,7 +4324,7 @@ export const assets = {
             "hair541": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-multicolored-03-2013.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -4333,7 +4333,7 @@ export const assets = {
             "hair542": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-pm-12-2011.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -4342,7 +4342,7 @@ export const assets = {
             "hair543": {
                 "path": "assets/closet/hairs/female/fourframe/girl_hair4_clown_08_2014.png",
                 "properties": {},
-                "fitX": 17,
+                "fitX": 16,
                 "fitY": -92,
                 "type": "sprite",
                 "splitX": 136,
@@ -4351,7 +4351,7 @@ export const assets = {
             "hair544": {
                 "path": "assets/closet/hairs/female/fourframe/girl-hair4-santatails-12-2013.png",
                 "properties": {},
-                "fitX": 5,
+                "fitX": 4,
                 "fitY": -84,
                 "type": "sprite",
                 "splitX": 136,
@@ -4360,287 +4360,287 @@ export const assets = {
             "hair545": {
                 "path": "assets/closet/hairs/female/singleframe/2016_10_girl_hair3_halloween_reward.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -101,
                 "type": "image"
             },
             "hair546": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-applehead-04-2011.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -101,
                 "type": "image"
             },
             "hair547": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-banddark.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -101,
                 "type": "image"
             },
             "hair548": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-bandolive.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -101,
                 "type": "image"
             },
             "hair549": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-orange.png",
                 "properties": {},
-                "fitX": 1,
-                "fitY": -103,
+                "fitX": 0,
+                "fitY": -101,
                 "type": "image"
             },
             "hair550": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-orangehead-04-2011.png",
                 "properties": {},
-                "fitX": 1,
+                "fitX": 0,
                 "fitY": -101,
                 "type": "image"
             },
             "hair551": {
                 "path": "assets/closet/hairs/female/singleframe/2014_11_bingo_girl_hair.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair552": {
                 "path": "assets/closet/hairs/female/singleframe/2015_02_girl_hair_valentine_lm1.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair553": {
                 "path": "assets/closet/hairs/female/singleframe/2015_04_girl_hair2_user_inspired_4.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair554": {
                 "path": "assets/closet/hairs/female/singleframe/2015_07_girl_hair_blackout1_lm.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair555": {
                 "path": "assets/closet/hairs/female/singleframe/2015_07_girl_hair_fairytale1_lm_3.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair556": {
                 "path": "assets/closet/hairs/female/singleframe/2015_09_girl_hair_unicorn_reward.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair557": {
                 "path": "assets/closet/hairs/female/singleframe/2015_10_girl_hair_halloween_lm.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair558": {
                 "path": "assets/closet/hairs/female/singleframe/2015_12_girl_har2_pmgift.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair559": {
                 "path": "assets/closet/hairs/female/singleframe/2016_01_girl_hair2_rare.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair560": {
                 "path": "assets/closet/hairs/female/singleframe/2016_02_girl_hair2_valentine_lm_1.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair561": {
                 "path": "assets/closet/hairs/female/singleframe/2016_02_girl_hair2_valentine_lm_2.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair562": {
                 "path": "assets/closet/hairs/female/singleframe/2016_02_girl_hair2_valentine_lm_3.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair563": {
                 "path": "assets/closet/hairs/female/singleframe/2016_03_girl_har2_rare.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair564": {
                 "path": "assets/closet/hairs/female/singleframe/2016_04_girl_hair2_easter_lm1.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair565": {
                 "path": "assets/closet/hairs/female/singleframe/2016_04_girl_hair2_user_inspired_2.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair566": {
                 "path": "assets/closet/hairs/female/singleframe/2016_06_girl_hair2_4july_darkbrownpony.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair567": {
                 "path": "assets/closet/hairs/female/singleframe/2016_09_girl_hair2_rare.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair568": {
                 "path": "assets/closet/hairs/female/singleframe/2016_09_girl_hair2_unicorn_lm1.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair569": {
                 "path": "assets/closet/hairs/female/singleframe/2016_09_girl_hair2_unicorn_lm2.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair570": {
                 "path": "assets/closet/hairs/female/singleframe/2017_01_girl_har2_stellar1.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair571": {
                 "path": "assets/closet/hairs/female/singleframe/2017_02_girl_har2_rare.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair572": {
                 "path": "assets/closet/hairs/female/singleframe/2017_04_girl_har2_4thofjuly.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair573": {
                 "path": "assets/closet/hairs/female/singleframe/2017_09_girl_hair2_royalchance.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair574": {
                 "path": "assets/closet/hairs/female/singleframe/2017_09_girl_hair2_thanksgiving2.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair575": {
                 "path": "assets/closet/hairs/female/singleframe/2017_09_girl_hair2_user_inspired_2.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair576": {
                 "path": "assets/closet/hairs/female/singleframe/2018_01_girl_hair2_newyear_lm.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair577": {
                 "path": "assets/closet/hairs/female/singleframe/2018_01_girl_hair2_rare.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair578": {
                 "path": "assets/closet/hairs/female/singleframe/2018_02_girl_hair2_valentine_lm1.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair579": {
                 "path": "assets/closet/hairs/female/singleframe/2018_03_girl_hair2_aurora_lm.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair580": {
                 "path": "assets/closet/hairs/female/singleframe/2018_04_girl_hair2_prom_lm2.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair581": {
                 "path": "assets/closet/hairs/female/singleframe/girl-darkbrown-pinkbow-11-2013.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair582": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-05.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair583": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-08.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair584": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-08blu.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair585": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-08p.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
@@ -4654,63 +4654,63 @@ export const assets = {
             "hair587": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-09.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair588": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-09p.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair589": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-10.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair590": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-10blu.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair591": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-10p.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair592": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-10v.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair593": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-2007black.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair594": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-2007blonde.png",
                 "properties": {},
-                "fitX": 4,
-                "fitY": -81,
+                "fitX": 3,
+                "fitY": -82,
                 "type": "image"
             },
             "hair595": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-2007brown.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
@@ -4718,825 +4718,825 @@ export const assets = {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-80s.png",
                 "properties": {},
                 "fitX": 3,
-                "fitY": -95,
+                "fitY": -82,
                 "type": "image"
             },
             "hair597": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-LSa-03-2012.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair598": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-LSb-03-2012.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair599": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-LSc-03-2012.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair600": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-LSnon-03-2012.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair601": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-agent-09-2011.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair602": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-alvahair-07-2009.png",
                 "properties": {},
-                "fitX": 5,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair603": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-bdaya-09-2012.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair604": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-bdayb-09-2012.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair605": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-beachcowgirl-05-2012.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair606": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-beehive-03-2010.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair607": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-blackbraid-07-2012.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair608": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-blacklong-10-2009.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair609": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-blacklong-10-2010.png",
                 "properties": {},
-                "fitX": 5,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair610": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-blacklongrec-10-2009.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair611": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-blizzy-07-2012.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair612": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-blond-03-2012.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair613": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-blond-12-2012.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair614": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-blond_ponytail.png",
                 "properties": {},
-                "fitX": -4,
-                "fitY": -98,
+                "fitX": 3,
+                "fitY": -82,
                 "type": "image"
             },
             "hair615": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-blondehat-11-2012.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair616": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-blondepony-09-2012.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair617": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-blonderibbon-12-2011.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair618": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-blondhat-11-2009.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair619": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-blondrc-12-2012.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair620": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-blondreg-03-2012.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair621": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-blondshort-10-2009.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair622": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-blondshortpony-05-2012.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair623": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-blondside-08-2010.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair624": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-blondwpinkribbon-08-2009.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair625": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-blondybun-01-2011.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair626": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-blue-09-2009.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair627": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-blue-long-curly-rare-hair0515.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair628": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-bluehairrare-08-2009.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair629": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-bluelonghair-11-2009.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair630": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-blueribbon-02-2012.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair631": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-bluestreaks-08-2011.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair632": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-brightbrown-08-2011.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair633": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-brown-01-2012.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair634": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-brown-03-2011.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair635": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-brown-03-2012.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair636": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-brown-05-2010.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair637": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-brown-bangbraid-05-2013.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair638": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-brown-hairband-06-2013.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair639": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-browngraceful-01-2011.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair640": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-brownpigtails-07-2012.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair641": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-brownshort-03-2010.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair642": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-brownwave-03-2013.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair643": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-brownwblueband-02-2012.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair644": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-brownwflower-12-2012.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair645": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-caitlyn-10-2009.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair646": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-camplma-07-2012.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair647": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-camplmb-07-2012.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair648": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-candy-02-2011.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair649": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-candygirl_0615.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair650": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-charity-12-2013.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair651": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-cherrypony-11-2009.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair652": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-chloe-10-2011.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair653": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-chocohair-09-2013.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair654": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-chocolatehair-02-2010.png",
                 "properties": {},
-                "fitX": 4,
-                "fitY": -81,
+                "fitX": 3,
+                "fitY": -82,
                 "type": "image"
             },
             "hair655": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-cruise1-07-2012.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair656": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-cruise2-07-2012.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair657": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-cruisea-08-2012.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair658": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-cruiseb-08-2012.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair659": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-curlypigtails-08-2012.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair660": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-curlysue-06-2010.png",
                 "properties": {},
-                "fitX": 4,
-                "fitY": -81,
+                "fitX": 3,
+                "fitY": -82,
                 "type": "image"
             },
             "hair661": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-cutebrown-03-2010.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair662": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-cutiehoney.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair663": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-daisy-05-2010.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair664": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-diamonds-11-2012.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair665": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-elctricblue-06-2010.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair666": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-electpink-05-2010.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair667": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-electricpunk-02-2010.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair668": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-elf-12-2012.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair669": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-eucrown-12-2011.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair670": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-fairy-11-2012.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair671": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-fallgirl-11-2010.png",
                 "properties": {},
-                "fitX": 4,
-                "fitY": -81,
+                "fitX": 3,
+                "fitY": -82,
                 "type": "image"
             },
             "hair672": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-farmer-11-2012.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair673": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-fishfisheventjp-06-2010.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair674": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-fishinghat-07-2012.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair675": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-flasha-04-2013.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair676": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-flowerblonde-11-2012.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair677": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-flowerhat-09-2009.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair678": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-frenchcurl-09-2010.png",
                 "properties": {},
-                "fitX": 4,
-                "fitY": -81,
+                "fitX": 3,
+                "fitY": -82,
                 "type": "image"
             },
             "hair679": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-furry-01-2013.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair680": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-goldenhair-01-2011.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair681": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-gracepurple_0615.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair682": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-green-05-2011.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair683": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-greencap-03-2010.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair684": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-greenflower-06-2012.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair685": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-greenprize-07-2012.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair686": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-greenribbon-07-2012.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair687": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-greenrose-08-2011.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair688": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-halloweena-10-2012.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair689": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-halloweenb-10-2012.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair690": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-holidaya-12-2012.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair691": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-holidayb-12-2012.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair692": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-intriguing.png",
                 "properties": {},
-                "fitX": 0,
-                "fitY": -92,
+                "fitX": 3,
+                "fitY": -82,
                 "type": "image"
             },
             "hair693": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-intriguingblonde.png",
                 "properties": {},
                 "fitX": 3,
-                "fitY": -83,
+                "fitY": -82,
                 "type": "image"
             },
             "hair694": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-intriguingbraidred.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair695": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-ivorycap-04-2011.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair696": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-jeanfedora-08-2012.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair697": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-jwhair-07-2009.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair698": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-kids-03-2013.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair699": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-kidsnm-03-2013.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair700": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-kimmy.png",
                 "properties": {},
-                "fitX": 0,
-                "fitY": -96,
+                "fitX": 3,
+                "fitY": -82,
                 "type": "image"
             },
             "hair701": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-kimmydark.png",
                 "properties": {},
-                "fitX": 0,
-                "fitY": -96,
+                "fitX": 3,
+                "fitY": -82,
                 "type": "image"
             },
             "hair702": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-leopardhat-08-2011.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair703": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-lightbrown-06-2012.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair704": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-limited-08-2011.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair705": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-lmblue-06-2012.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair706": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-lmfashionb-06-2012.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair707": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-lmpink-06-2012.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair708": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-longblond-01-2011.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair709": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-longbrown-05-2012.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair710": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-longbrown-11-2012.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair711": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-longbrownpigtails-07-2010.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair712": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-longhat-12-2011.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair713": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-longyellow-06-2011.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
@@ -5544,692 +5544,692 @@ export const assets = {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-mangaHairWithHeadband.png",
                 "properties": {},
                 "fitX": 3,
-                "fitY": -83,
+                "fitY": -82,
                 "type": "image"
             },
             "hair715": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-marrianbrown-04-2011.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair716": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-marrianyell-04-2011.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair717": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-maurice-05-2013.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair718": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-mayablonde.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair719": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-medievala-08-2012.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair720": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-medievalb-08-2012.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair721": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-missionnine-05-2012.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair722": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-naruko10.png",
                 "properties": {},
-                "fitX": 1,
-                "fitY": -101,
+                "fitX": 3,
+                "fitY": -82,
                 "type": "image"
             },
             "hair723": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-newrega-04-2013.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair724": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-newregb-04-2013.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair725": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-newregc-04-2013.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair726": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-newregd-04-2013.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair727": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-ninja-01-2011.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair728": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-ninjaprize-01-2011.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair729": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-nmblack-01-2014.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair730": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-nonbrown-03-2012.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair731": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-nonmem-02-2013.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair732": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-nonmem-06-2013.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair733": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-nonmema-02-2012.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair734": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-nonmemb-02-2012.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair735": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-nonmemb-1-2012.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair736": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-nonmemc-02-2012.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair737": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-nonmemc-1-2012.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair738": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-nonmemd-1-2012.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair739": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-nonmeme-1-2012.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair740": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-nonmemf-1-2012.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair741": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-nonmemg-1-2012.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair742": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-notable-06-2011.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair743": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-nychest-12-2012.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair744": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-olive-01-2012.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair745": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-olympiana-08-2012.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair746": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-orange-03-2011.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair747": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-orange-03-2013.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair748": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-orange-09-2009.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair749": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-orangebrown-03-2012.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair750": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-orangehippie-07-2010.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair751": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-orangerocker-02-2013.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair752": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-patty2009.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair753": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-peasant-04-2011.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair754": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-peteventa-07-2012.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair755": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-peteventb-07-2012.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair756": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-pink-12-2012.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair757": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-pinkbraid-04-2013.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair758": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-pinkbraids-08-2011.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair759": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-pinkhat-01-2012.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair760": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-pinkhat-10-2009.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair761": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-pinkheartpin-03-2010.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair762": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-pinkpin-02-2011.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair763": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-pinkpompon-01-2010.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair764": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-pinkspring-01-2011.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair765": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-pinkstreak-09-2012.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair766": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-pinkylong-04-2011.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair767": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-pinkyroll-01-2011.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair768": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-polkadots-10-2013.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair769": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-poofycap-03-2010.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair770": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-prduo-10-2010.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair771": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-purple-03-2010.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair772": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-purple-08-2009.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair773": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-purple-08-2011.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair774": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-purplehat-03-2013.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair775": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-purplekitty-05-2010.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair776": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-purplewave-03-2013.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair777": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-purplewaves-03-2010.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair778": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-queen-08-2012.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair779": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-rabbitears-12-2010.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair780": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-raggedy-03-2013.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair781": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-red-brown-hair-0515.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair782": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-red-flower-03-2010.png",
                 "properties": {},
-                "fitX": 4,
-                "fitY": -81,
+                "fitX": 3,
+                "fitY": -82,
                 "type": "image"
             },
             "hair783": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-red-ribon-04-2010.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair784": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-redanimal-02-2011.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair785": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-redbeads-05-2012.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair786": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-redbrown-01-2010.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair787": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-redcaphair-08-2009.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair788": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-redlong-11-2010.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair789": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-ribboncurly-12-2009.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair790": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-romanticwave-06-2013.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair791": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-rosie-12-2012.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair792": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-samsonbrown.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair793": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-samsonpink.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair794": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-santa-12-2012.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair795": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-santa2007c.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair796": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-santahat-12-2010.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair797": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-santahatsale-12-2010.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair798": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-schoola-09-2012.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair799": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-silverstrange-06-2011.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair800": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-spacea-08-2012.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair801": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-spaceb-08-2012.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair802": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-springc-2-2012.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair803": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-springd-2-2012.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair804": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-stpatricks-03-2011.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair805": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-straightbrown-06-2012.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair806": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-strawhat-11-2012.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair807": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-summera-08-2012.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair808": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-summerb-08-2012.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair809": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-thanksa-11-2012.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair810": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-thanksb-11-2012.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair811": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-uggsthair-12-2009.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair812": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-vdayscav-02-2013.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
@@ -6237,230 +6237,230 @@ export const assets = {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-vicky.png",
                 "properties": {},
                 "fitX": 3,
-                "fitY": -98,
+                "fitY": -82,
                 "type": "image"
             },
             "hair814": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-violetflower-06-2012.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair815": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-warmwinter-01-2011.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair816": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-wbgreenprize-01-2013.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair817": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-wbpurpprize-01-2013.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair818": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-wbredprize-01-2013.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair819": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-whitehat-12-2012.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair820": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-winter.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair821": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-winterbelle-12-2009.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair822": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-winterhat-12-2009.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair823": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-winterhat-12-2011.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair824": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-wizard-08-2012.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair825": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-yellcurl-01-2011.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair826": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-yellowhairband-05-2012.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair827": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-yellowhatblond-02-2010.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair828": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair-zebrahat-08-2011.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair829": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair2-brownflower-05-2011.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair830": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair2-ladygaga-05-2011.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair831": {
                 "path": "assets/closet/hairs/female/singleframe/girl-hair4-daythreeprz-04-2013.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair832": {
                 "path": "assets/closet/hairs/female/singleframe/girl-har2-blondbraid-01-2014.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair833": {
                 "path": "assets/closet/hairs/female/singleframe/girl-peachblond-11-2013.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair834": {
                 "path": "assets/closet/hairs/female/singleframe/girl_hair_bff_violet_snapback_09_2014.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair835": {
                 "path": "assets/closet/hairs/female/singleframe/girl_hair_comborce_05_2014.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair836": {
                 "path": "assets/closet/hairs/female/singleframe/girl_hair_comborcm_05_2014.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair837": {
                 "path": "assets/closet/hairs/female/singleframe/girl_hair_holidays_12_2014.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair838": {
                 "path": "assets/closet/hairs/female/singleframe/girl_hair_pilgrim_11_2014.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair839": {
                 "path": "assets/closet/hairs/female/singleframe/girl_hair_sheriff_03_2014.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair840": {
                 "path": "assets/closet/hairs/female/singleframe/long-curly-brown-hair 0515.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -82,
                 "type": "image"
             },
             "hair841": {
                 "path": "assets/closet/hairs/female/singleframe/2016_01_girl_hair2_chez_fantage_lm_3.png",
                 "properties": {},
-                "fitX": 4,
+                "fitX": 3,
                 "fitY": -84,
                 "type": "image"
             },
             "hair842": {
                 "path": "assets/closet/hairs/female/singleframe/2015_09_girl_hair_rare.png",
                 "properties": {},
-                "fitX": 8,
+                "fitX": 7,
                 "fitY": -72,
                 "type": "image"
             },
             "hair843": {
                 "path": "assets/closet/hairs/female/singleframe/2015_11_girl_hair2_thanksgiving.png",
                 "properties": {},
-                "fitX": 8,
+                "fitX": 7,
                 "fitY": -72,
                 "type": "image"
             },
             "hair844": {
                 "path": "assets/closet/hairs/female/singleframe/2017_08_04_girl_HAR2_wide_orangekitty.png",
                 "properties": {},
-                "fitX": 8,
+                "fitX": 7,
                 "fitY": -72,
                 "type": "image"
             },
             "hair845": {
                 "path": "assets/closet/hairs/female/singleframe/2015_03_girl_hair_stella_rare.png",
                 "properties": {},
-                "fitX": 10,
+                "fitX": 9,
                 "fitY": -97,
                 "type": "image"
             }
@@ -12598,37 +12598,37 @@ export const heads = {
             "head0": {
                 "path": "avatars/female/face-0.png",
                 "type": "image",
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -100
             },
             "head1": {
                 "path": "avatars/female/face-1.png",
                 "type": "image",
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -100
             },
             "head2": {
                 "path": "avatars/female/face-2.png",
                 "type": "image",
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -100
             },
             "head3": {
                 "path": "avatars/female/face-3.png",
                 "type": "image",
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -100
             },
             "head4": {
                 "path": "avatars/female/face-4.png",
                 "type": "image",
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -100
             },
             "head5": {
                 "path": "avatars/female/face-5.png",
                 "type": "image",
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -100
             },
         },
@@ -12678,7 +12678,7 @@ export const avatar_parts = {
     "female": {
         "lips": {
             "path": "avatars/female/lips-0.png",
-            "fitX": 3,
+            "fitX": 2,
             "fitY": -100,
             "type": "sprite",
             "splitX": 45,
@@ -12686,7 +12686,7 @@ export const avatar_parts = {
         },
         "brows": {
             "path": "avatars/female/brow-0.png",
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -100,
             "type": "sprite",
             "splitX": 45,
@@ -12695,7 +12695,7 @@ export const avatar_parts = {
         "eyes": {
             "eyes0": {
                 "path": "avatars/female/new-eyes-0.png",
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -101,
                 "type": "sprite",
                 "splitX": 45,
@@ -12703,7 +12703,7 @@ export const avatar_parts = {
             },
             "eyes1": {
                 "path": "avatars/female/new-eyes-1.png",
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -101,
                 "type": "sprite",
                 "splitX": 45,
@@ -12711,7 +12711,7 @@ export const avatar_parts = {
             },
             "eyes2": {
                 "path": "avatars/female/new-eyes-2.png",
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -101,
                 "type": "sprite",
                 "splitX": 45,
@@ -12719,7 +12719,7 @@ export const avatar_parts = {
             },
             "eyes3": {
                 "path": "avatars/female/new-eyes-3.png",
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -101,
                 "type": "sprite",
                 "splitX": 45,
@@ -12727,7 +12727,7 @@ export const avatar_parts = {
             },
             "eyes4": {
                 "path": "avatars/female/new-eyes-4.png",
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -101,
                 "type": "sprite",
                 "splitX": 45,
@@ -12735,7 +12735,7 @@ export const avatar_parts = {
             },
             "eyes5": {
                 "path": "avatars/female/new-eyes-5.png",
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -101,
                 "type": "sprite",
                 "splitX": 45,
@@ -12743,7 +12743,7 @@ export const avatar_parts = {
             },
             "eyes6": {
                 "path": "avatars/female/new-eyes-6.png",
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -101,
                 "type": "sprite",
                 "splitX": 45,
@@ -12751,7 +12751,7 @@ export const avatar_parts = {
             },
             "eyes7": {
                 "path": "avatars/female/new-eyes-8.png",
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -101,
                 "type": "sprite",
                 "splitX": 45,
@@ -12759,7 +12759,7 @@ export const avatar_parts = {
             },
             "eyes8": {
                 "path": "avatars/female/new-eyes-9.png",
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -101,
                 "type": "sprite",
                 "splitX": 45,
@@ -12767,7 +12767,7 @@ export const avatar_parts = {
             },
             "eyes9": {
                 "path": "avatars/female/new-eyes-10.png",
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -101,
                 "type": "sprite",
                 "splitX": 45,
@@ -12775,7 +12775,7 @@ export const avatar_parts = {
             },
             "eyes10": {
                 "path": "avatars/female/new-eyes-11.png",
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -101,
                 "type": "sprite",
                 "splitX": 45,
@@ -12783,7 +12783,7 @@ export const avatar_parts = {
             },
             "eyes11": {
                 "path": "avatars/female/new-eyes-12.png",
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -101,
                 "type": "sprite",
                 "splitX": 45,
@@ -12791,7 +12791,7 @@ export const avatar_parts = {
             },
             "eyes12": {
                 "path": "avatars/female/new-eyes-13.png",
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -101,
                 "type": "sprite",
                 "splitX": 45,
@@ -12799,7 +12799,7 @@ export const avatar_parts = {
             },
             "eyes13": {
                 "path": "avatars/female/new-eyes-14.png",
-                "fitX": 2,
+                "fitX": 1,
                 "fitY": -101,
                 "type": "sprite",
                 "splitX": 45,
@@ -27103,896 +27103,896 @@ export const face_acc = {
             "path": "2016_09_girl_accf_unicorn_lm2_rainbow.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc1': {
             "path": "2016_10_girl_accf_hw_lm2.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc2': {
             "path": "2016_10_girl_accf_northernlights_lm.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc3': {
             "path": "2017_05_girl_accf_md_gift2.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc4': {
             "path": "2017_06_girl_accf_anime.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc5': {
             "path": "2017_07_girl_accf_lemonade_reward.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc6': {
             "path": "2017_08_girl_accf_bff.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc7': {
             "path": "2017_09_girl_accf_hamster_reward.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc8': {
             "path": "2017_11_girl_accf_stellar1.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc9': {
             "path": "2017_12_girl_accf_crsm_rg.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc10': {
             "path": "girl-acc-2008glassesb.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc11': {
             "path": "girl-acc-2009bunny.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc12': {
             "path": "girl-acc-2009glasses.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc13': {
             "path": "girl-acc-2010glasses-1-2010.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc14': {
             "path": "girl-acc-2011easter_teeth-04-2011.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc15': {
             "path": "girl-acc-2011glasses-12-2010.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc16': {
             "path": "girl-acc-alien-face-mask-8-3-11.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc17': {
             "path": "girl-acc-alien-mask-rec-8-2011.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc18': {
             "path": "girl-acc-america-07-2013.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc19': {
             "path": "girl-acc-aviatorglassesblue.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc20': {
             "path": "girl-acc-aviatorglassespink.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc21': {
             "path": "girl-acc-aviatorglassesviolet.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc22': {
             "path": "girl-acc-bella-06-2011.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc23': {
             "path": "girl-acc-bigeyes-03-2011.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc24': {
             "path": "girl-acc-blacksunglasses-01-2013.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc25': {
             "path": "girl-acc-blueglasses-03-2013.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc26': {
             "path": "girl-acc-brownaviatorsunglasses-10-2012.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc27': {
             "path": "girl-acc-bunnynose-04-2011.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc28': {
             "path": "girl-acc-bunnynose-04-2012.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc29': {
             "path": "girl-acc-candyglasses-12-2012.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc30': {
             "path": "girl-acc-catblinder-01-2012.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc31': {
             "path": "girl-acc-cateyeglassesblue.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc32': {
             "path": "girl-acc-cateyeglassesred.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc33': {
             "path": "girl-acc-cateyeglassesyellow.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc34': {
             "path": "girl-acc-ceelo-07-2011.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc35': {
             "path": "girl-acc-charityglass-12-2013.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc36': {
             "path": "girl-acc-clownnose-06-2011.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc37': {
             "path": "girl-acc-daytwoprz-04-2013.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc38': {
             "path": "girl-acc-dizzyglasses.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc39': {
             "path": "girl-acc-earrings.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc40': {
             "path": "girl-acc-eastera-03-2013.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc41': {
             "path": "girl-acc-elf-12-2011.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc42': {
             "path": "girl-acc-eyepatch-05-2012.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc43': {
             "path": "girl-acc-finkelstein-08-2011.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc44': {
             "path": "girl-acc-goggles-12-2010.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc45': {
             "path": "girl-acc-goldsunglasses-10-2012.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc46': {
             "path": "girl-acc-greenmask-02-2012.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc47': {
             "path": "girl-acc-greenprize-11-2012.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc48': {
             "path": "girl-acc-greensunglsses-06-2012.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc49': {
             "path": "girl-acc-halloween1-10-2011.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc50': {
             "path": "girl-acc-heartglasses-02-2011.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc51': {
             "path": "girl-acc-heartglasses.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc52': {
             "path": "girl-acc-heartglasses2-02-2011.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc53': {
             "path": "girl-acc-hipsterglasses-09-2012.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc54': {
             "path": "girl-acc-hostyellow-08-2011.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc55': {
             "path": "girl-acc-islea-06-2013.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc56': {
             "path": "girl-acc-jestermask-02-2012.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc57': {
             "path": "girl-acc-karu-glasses-08-2011.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc58': {
             "path": "girl-acc-kidsb-03-2013.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc59': {
             "path": "girl-acc-limited-08-2011.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc60': {
             "path": "girl-acc-mardigras-03-2011.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc61': {
             "path": "girl-acc-merong-03-2011.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc62': {
             "path": "girl-acc-merong-blue-03-2011.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc63': {
             "path": "girl-acc-momglasses-05-2013.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc64': {
             "path": "girl-acc-monarchmask-11-2010.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc65': {
             "path": "girl-acc-moonmask-02-2012.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc66': {
             "path": "girl-acc-numberface-08-2011.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc67': {
             "path": "girl-acc-numberface-2-08-2011.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc68': {
             "path": "girl-acc-pandablinder-01-2012.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc69': {
             "path": "girl-acc-pat2009.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc70': {
             "path": "girl-acc-picnica-05-2013.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc71': {
             "path": "girl-acc-pinkglasses-08-2013.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc72': {
             "path": "girl-acc-pointyblue.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc73': {
             "path": "girl-acc-pointygreen.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc74': {
             "path": "girl-acc-pointyred.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc75': {
             "path": "girl-acc-poolsunglass-06-2011.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc76': {
             "path": "girl-acc-purprize-07-2013.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc77': {
             "path": "girl-acc-redglasses-02-2013.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc78': {
             "path": "girl-acc-redglasses-09-2009.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc79': {
             "path": "girl-acc-redgogs-07-2012.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc80': {
             "path": "girl-acc-redteach-10-2010.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc81': {
             "path": "girl-acc-retro.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc82': {
             "path": "girl-acc-rosesmile-02-2012.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc83': {
             "path": "girl-acc-schoolb-09-2012.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc84': {
             "path": "girl-acc-scientistglasses-09-2011.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc85': {
             "path": "girl-acc-seaglassesblue.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc86': {
             "path": "girl-acc-seaglassesgreen.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc87': {
             "path": "girl-acc-seaglassespink.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc88': {
             "path": "girl-acc-shivers-07-2012.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc89': {
             "path": "girl-acc-shpink-08-2013.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc90': {
             "path": "girl-acc-skiglasses-12-2009.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc91': {
             "path": "girl-acc-skull-10-2012.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc92': {
             "path": "girl-acc-smile.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc93': {
             "path": "girl-acc-snorkel-06-2011.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc94': {
             "path": "girl-acc-snowball-01-2012.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc95': {
             "path": "girl-acc-springaviators-03-2012.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc96': {
             "path": "girl-acc-squareglasshotpink-05-2010.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc97': {
             "path": "girl-acc-stick-07-2013.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc98': {
             "path": "girl-acc-straightglassesblue.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc99': {
             "path": "girl-acc-straightglassespink.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc100': {
             "path": "girl-acc-straightglassesyellow.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc101': {
             "path": "girl-acc-summerprize-08-2012.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc102': {
             "path": "girl-acc-sunsetglassescool.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc103': {
             "path": "girl-acc-sunsetglasseshot.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc104': {
             "path": "girl-acc-sunsetglasseswarm.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc105': {
             "path": "girl-acc-swimminggoggles-06-2011.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc106': {
             "path": "girl-acc-swimminggogglesrec-06-2011.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc107': {
             "path": "girl-acc-tanninggogs-07-2012.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc108': {
             "path": "girl-acc-tanninggogsb-07-2012.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc109': {
             "path": "girl-acc-teethec-04-2011.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc110': {
             "path": "girl-acc-thermal-07-2011.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc111': {
             "path": "girl-acc-twotoneglasses-10-2009.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc112': {
             "path": "girl-accb-jigglie-08-2011.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc113': {
             "path": "girl-accf-eggglasses-04-2012.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc114': {
             "path": "girl-accf-goldshades-06-2012.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc115': {
             "path": "girl-accf-moonstone-07-2011.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc116': {
             "path": "girl-accf-moonstonerec-07-2011.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc117': {
             "path": "girl-accf-redneck-2-2012.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc118': {
             "path": "girl-accf-stitches-10-2013.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc119': {
             "path": "girl-accf-vampire-10-2013.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc120': {
             "path": "girl-accf-wally-07-2011.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc121': {
             "path": "girl-accf-whatanerd-06-2011.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc122': {
             "path": "girl-accf-whatanerdrec-06-2011.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc123': {
             "path": "girl-accf-yoyo-07-2011.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc124': {
             "path": "girl_acc_tegan_08_2014.png",
             "type": "image",
             "properties": {},
-            "fitX": 2,
+            "fitX": 1,
             "fitY": -93
         },
     'facc125': {
             "path": "girl-acc-coolsunglass-07-2011.png",
             "type": "image",
             "properties": {},
-            "fitX": -1,
+            "fitX": -2,
             "fitY": -92
         },
     'facc126': {
             "path": "girl-facepaint-heart.png",
             "type": "image",
             "properties": {},
-            "fitX": 0,
+            "fitX": -1,
             "fitY": -101
         },
     'facc127': {
             "path": "girl-acc-3D-glass.png",
             "type": "image",
             "properties": {},
-            "fitX": 1,
+            "fitX": 0,
             "fitY": -94
         },
     },
@@ -33095,7 +33095,7 @@ export const costumes = {
         "cost0": {
             "path": "release/girl-cos-acorngirl-11-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33103,7 +33103,7 @@ export const costumes = {
         "cost1": {
             "path": "release/girl-cos-alice-07-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33111,7 +33111,7 @@ export const costumes = {
         "cost2": {
             "path": "release/girl-cos-alien.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33119,7 +33119,7 @@ export const costumes = {
         "cost3": {
             "path": "release/girl-cos-angel-10-2009.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33127,7 +33127,7 @@ export const costumes = {
         "cost4": {
             "path": "release/girl-cos-angel-12-2009.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33135,7 +33135,7 @@ export const costumes = {
         "cost5": {
             "path": "release/girl-cos-arabian-10-2009.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33143,7 +33143,7 @@ export const costumes = {
         "cost6": {
             "path": "release/girl-cos-artistgirl-11-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33151,7 +33151,7 @@ export const costumes = {
         "cost7": {
             "path": "release/girl-cos-asiangirl-11-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33159,7 +33159,7 @@ export const costumes = {
         "cost8": {
             "path": "release/girl-cos-austrian-01-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33167,7 +33167,7 @@ export const costumes = {
         "cost9": {
             "path": "release/girl-cos-babygirl-11-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33175,7 +33175,7 @@ export const costumes = {
         "cost10": {
             "path": "release/girl-cos-bakedturkey-10-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33183,7 +33183,7 @@ export const costumes = {
         "cost11": {
             "path": "release/girl-cos-bakedturkeyaf-10-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33191,7 +33191,7 @@ export const costumes = {
         "cost12": {
             "path": "release/girl-cos-ballerina.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33199,7 +33199,7 @@ export const costumes = {
         "cost13": {
             "path": "release/girl-cos-banana-02-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33207,7 +33207,7 @@ export const costumes = {
         "cost14": {
             "path": "release/girl-cos-baseball.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33215,7 +33215,7 @@ export const costumes = {
         "cost15": {
             "path": "release/girl-cos-bat-10-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33223,7 +33223,7 @@ export const costumes = {
         "cost16": {
             "path": "release/girl-cos-bathrobe-06-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33231,7 +33231,7 @@ export const costumes = {
         "cost17": {
             "path": "release/girl-cos-battlesoccer-032010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33239,7 +33239,7 @@ export const costumes = {
         "cost18": {
             "path": "release/girl-cos-bear.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33247,7 +33247,7 @@ export const costumes = {
         "cost19": {
             "path": "release/girl-cos-bee-11-2009.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33255,7 +33255,7 @@ export const costumes = {
         "cost20": {
             "path": "release/girl-cos-blackbishop.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33263,7 +33263,7 @@ export const costumes = {
         "cost21": {
             "path": "release/girl-cos-blackknight.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33271,7 +33271,7 @@ export const costumes = {
         "cost22": {
             "path": "release/girl-cos-blackpawn.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33279,7 +33279,7 @@ export const costumes = {
         "cost23": {
             "path": "release/girl-cos-blackrook.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33287,7 +33287,7 @@ export const costumes = {
         "cost24": {
             "path": "release/girl-cos-blueband.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33295,7 +33295,7 @@ export const costumes = {
         "cost25": {
             "path": "release/girl-cos-bluemonster-02-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33303,7 +33303,7 @@ export const costumes = {
         "cost26": {
             "path": "release/girl-cos-bollywood-11-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33311,7 +33311,7 @@ export const costumes = {
         "cost27": {
             "path": "release/girl-cos-bopeep-09-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33319,7 +33319,7 @@ export const costumes = {
         "cost28": {
             "path": "release/girl-cos-boxing-05-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33327,7 +33327,7 @@ export const costumes = {
         "cost29": {
             "path": "release/girl-cos-boxingglove-03-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33335,7 +33335,7 @@ export const costumes = {
         "cost30": {
             "path": "release/girl-cos-brideof.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33343,7 +33343,7 @@ export const costumes = {
         "cost31": {
             "path": "release/girl-cos-broccoliaf-05-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33351,7 +33351,7 @@ export const costumes = {
         "cost32": {
             "path": "release/girl-cos-burger-08-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33359,7 +33359,7 @@ export const costumes = {
         "cost33": {
             "path": "release/girl-cos-bush.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33367,7 +33367,7 @@ export const costumes = {
         "cost34": {
             "path": "release/girl-cos-can-01-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33375,7 +33375,7 @@ export const costumes = {
         "cost35": {
             "path": "release/girl-cos-candle-10-2009.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33383,7 +33383,7 @@ export const costumes = {
         "cost36": {
             "path": "release/girl-cos-candy-12-2009.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33391,7 +33391,7 @@ export const costumes = {
         "cost37": {
             "path": "release/girl-cos-candycorn-10-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33399,7 +33399,7 @@ export const costumes = {
         "cost38": {
             "path": "release/girl-cos-card-07-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33407,7 +33407,7 @@ export const costumes = {
         "cost39": {
             "path": "release/girl-cos-carmen-05-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33415,7 +33415,7 @@ export const costumes = {
         "cost40": {
             "path": "release/girl-cos-catapiller-07-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33423,7 +33423,7 @@ export const costumes = {
         "cost41": {
             "path": "release/girl-cos-cavegirlpink.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33431,7 +33431,7 @@ export const costumes = {
         "cost42": {
             "path": "release/girl-cos-cavegirlred.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33439,7 +33439,7 @@ export const costumes = {
         "cost43": {
             "path": "release/girl-cos-cavegirlwhite.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33447,7 +33447,7 @@ export const costumes = {
         "cost44": {
             "path": "release/girl-cos-cavewoman-10-2009.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33455,7 +33455,7 @@ export const costumes = {
         "cost45": {
             "path": "release/girl-cos-cheerleaderblue.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33463,7 +33463,7 @@ export const costumes = {
         "cost46": {
             "path": "release/girl-cos-cheerleadergreen.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33471,7 +33471,7 @@ export const costumes = {
         "cost47": {
             "path": "release/girl-cos-cheerleaderred.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33479,7 +33479,7 @@ export const costumes = {
         "cost48": {
             "path": "release/girl-cos-chef-02-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33487,7 +33487,7 @@ export const costumes = {
         "cost49": {
             "path": "release/girl-cos-chesire-07-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33495,7 +33495,7 @@ export const costumes = {
         "cost50": {
             "path": "release/girl-cos-chess-07-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33503,7 +33503,7 @@ export const costumes = {
         "cost51": {
             "path": "release/girl-cos-chick-02-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33511,7 +33511,7 @@ export const costumes = {
         "cost52": {
             "path": "release/girl-cos-chick.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33519,7 +33519,7 @@ export const costumes = {
         "cost53": {
             "path": "release/girl-cos-chickaf-02-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33527,7 +33527,7 @@ export const costumes = {
         "cost54": {
             "path": "release/girl-cos-christin-10-2009.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33535,7 +33535,7 @@ export const costumes = {
         "cost55": {
             "path": "release/girl-cos-coppelia-10-2009.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33543,7 +33543,7 @@ export const costumes = {
         "cost56": {
             "path": "release/girl-cos-cowaf-02-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33551,7 +33551,7 @@ export const costumes = {
         "cost57": {
             "path": "release/girl-cos-cowgirl-01-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33559,7 +33559,7 @@ export const costumes = {
         "cost58": {
             "path": "release/girl-cos-cowgirlpink.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33567,7 +33567,7 @@ export const costumes = {
         "cost59": {
             "path": "release/girl-cos-cowgirlpurple.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33575,7 +33575,7 @@ export const costumes = {
         "cost60": {
             "path": "release/girl-cos-cowgirlred.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33583,7 +33583,7 @@ export const costumes = {
         "cost61": {
             "path": "release/girl-cos-cupcake-05-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33591,7 +33591,7 @@ export const costumes = {
         "cost62": {
             "path": "release/girl-cos-damsel-06-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33599,7 +33599,7 @@ export const costumes = {
         "cost63": {
             "path": "release/girl-cos-darkwitch-10-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33607,7 +33607,7 @@ export const costumes = {
         "cost64": {
             "path": "release/girl-cos-deergirl-12-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33615,7 +33615,7 @@ export const costumes = {
         "cost65": {
             "path": "release/girl-cos-devil.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33623,7 +33623,7 @@ export const costumes = {
         "cost66": {
             "path": "release/girl-cos-dog-02-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33631,7 +33631,7 @@ export const costumes = {
         "cost67": {
             "path": "release/girl-cos-dragon-05-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33639,7 +33639,7 @@ export const costumes = {
         "cost68": {
             "path": "release/girl-cos-drink-08-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33647,7 +33647,7 @@ export const costumes = {
         "cost69": {
             "path": "release/girl-cos-drummergirl-12-2009.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33655,7 +33655,7 @@ export const costumes = {
         "cost70": {
             "path": "release/girl-cos-drumstick-08-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33663,7 +33663,7 @@ export const costumes = {
         "cost71": {
             "path": "release/girl-cos-easterbunny.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33671,7 +33671,7 @@ export const costumes = {
         "cost72": {
             "path": "release/girl-cos-ecoinsowboard.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33679,7 +33679,7 @@ export const costumes = {
         "cost73": {
             "path": "release/girl-cos-elfgirl-12-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33687,7 +33687,7 @@ export const costumes = {
         "cost74": {
             "path": "release/girl-cos-eskimo-12-2009.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33695,7 +33695,7 @@ export const costumes = {
         "cost75": {
             "path": "release/girl-cos-eskimogirl-12-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33703,7 +33703,7 @@ export const costumes = {
         "cost76": {
             "path": "release/girl-cos-eureeka-10-2009.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33711,7 +33711,7 @@ export const costumes = {
         "cost77": {
             "path": "release/girl-cos-firelady-08-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33719,7 +33719,7 @@ export const costumes = {
         "cost78": {
             "path": "release/girl-cos-flamenco-10-2009.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33727,7 +33727,7 @@ export const costumes = {
         "cost79": {
             "path": "release/girl-cos-flower.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33735,7 +33735,7 @@ export const costumes = {
         "cost80": {
             "path": "release/girl-cos-flowerhanbok-012010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33743,7 +33743,7 @@ export const costumes = {
         "cost81": {
             "path": "release/girl-cos-fly-09-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33751,7 +33751,7 @@ export const costumes = {
         "cost82": {
             "path": "release/girl-cos-flyswatter-03-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33759,7 +33759,7 @@ export const costumes = {
         "cost83": {
             "path": "release/girl-cos-flyswatteraf-03-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33767,7 +33767,7 @@ export const costumes = {
         "cost84": {
             "path": "release/girl-cos-footballgiants.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33775,7 +33775,7 @@ export const costumes = {
         "cost85": {
             "path": "release/girl-cos-footballpats.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33783,7 +33783,7 @@ export const costumes = {
         "cost86": {
             "path": "release/girl-cos-footballplayer-03-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33791,7 +33791,7 @@ export const costumes = {
         "cost87": {
             "path": "release/girl-cos-forestfairy.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33799,7 +33799,7 @@ export const costumes = {
         "cost88": {
             "path": "release/girl-cos-fries-08-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33807,7 +33807,7 @@ export const costumes = {
         "cost89": {
             "path": "release/girl-cos-frog.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33815,7 +33815,7 @@ export const costumes = {
         "cost90": {
             "path": "release/girl-cos-frypan.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33823,7 +33823,7 @@ export const costumes = {
         "cost91": {
             "path": "release/girl-cos-genieblack.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33831,7 +33831,7 @@ export const costumes = {
         "cost92": {
             "path": "release/girl-cos-genieblue.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33839,7 +33839,7 @@ export const costumes = {
         "cost93": {
             "path": "release/girl-cos-geniepink.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33847,7 +33847,7 @@ export const costumes = {
         "cost94": {
             "path": "release/girl-cos-genieviolet.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33855,7 +33855,7 @@ export const costumes = {
         "cost95": {
             "path": "release/girl-cos-ghost-10-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33863,7 +33863,7 @@ export const costumes = {
         "cost96": {
             "path": "release/girl-cos-ghost.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33871,7 +33871,7 @@ export const costumes = {
         "cost97": {
             "path": "release/girl-cos-gingerbread-12-2009.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33879,7 +33879,7 @@ export const costumes = {
         "cost98": {
             "path": "release/girl-cos-grad-09-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33887,7 +33887,7 @@ export const costumes = {
         "cost99": {
             "path": "release/girl-cos-grapegirl-11-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33895,7 +33895,7 @@ export const costumes = {
         "cost100": {
             "path": "release/girl-cos-greenmonster-02-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33903,7 +33903,7 @@ export const costumes = {
         "cost101": {
             "path": "release/girl-cos-gym-09-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33911,7 +33911,7 @@ export const costumes = {
         "cost102": {
             "path": "release/girl-cos-gym-ecoins-09-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33919,7 +33919,7 @@ export const costumes = {
         "cost103": {
             "path": "release/girl-cos-harlequin-10-2009.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33927,7 +33927,7 @@ export const costumes = {
         "cost104": {
             "path": "release/girl-cos-hotdog.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33935,7 +33935,7 @@ export const costumes = {
         "cost105": {
             "path": "release/girl-cos-icecream-05-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33943,7 +33943,7 @@ export const costumes = {
         "cost106": {
             "path": "release/girl-cos-iceprincess-07-2009.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33951,7 +33951,7 @@ export const costumes = {
         "cost107": {
             "path": "release/girl-cos-iceprincess-12-2009.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33959,7 +33959,7 @@ export const costumes = {
         "cost108": {
             "path": "release/girl-cos-icequeen-12-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33967,7 +33967,7 @@ export const costumes = {
         "cost109": {
             "path": "release/girl-cos-indiangirl2-11-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33975,7 +33975,7 @@ export const costumes = {
         "cost110": {
             "path": "release/girl-cos-jam-08-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33983,7 +33983,7 @@ export const costumes = {
         "cost111": {
             "path": "release/girl-cos-jester-10-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33991,7 +33991,7 @@ export const costumes = {
         "cost112": {
             "path": "release/girl-cos-kanga.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -33999,7 +33999,7 @@ export const costumes = {
         "cost113": {
             "path": "release/girl-cos-kitty.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34007,7 +34007,7 @@ export const costumes = {
         "cost114": {
             "path": "release/girl-cos-kunoichigreen.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34015,7 +34015,7 @@ export const costumes = {
         "cost115": {
             "path": "release/girl-cos-kunoichipurple.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34023,7 +34023,7 @@ export const costumes = {
         "cost116": {
             "path": "release/girl-cos-kunoichired.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34031,7 +34031,7 @@ export const costumes = {
         "cost117": {
             "path": "release/girl-cos-leprechaun.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34039,7 +34039,7 @@ export const costumes = {
         "cost118": {
             "path": "release/girl-cos-lettuce-03-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34047,7 +34047,7 @@ export const costumes = {
         "cost119": {
             "path": "release/girl-cos-limitedcowgirl-08-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34055,7 +34055,7 @@ export const costumes = {
         "cost120": {
             "path": "release/girl-cos-lion-01-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34063,7 +34063,7 @@ export const costumes = {
         "cost121": {
             "path": "release/girl-cos-lunchlady-09-2010-ecoin.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34071,7 +34071,7 @@ export const costumes = {
         "cost122": {
             "path": "release/girl-cos-lunchlady-09-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34079,7 +34079,7 @@ export const costumes = {
         "cost123": {
             "path": "release/girl-cos-lutine-12-2009.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34087,7 +34087,7 @@ export const costumes = {
         "cost124": {
             "path": "release/girl-cos-magician-01-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34095,7 +34095,7 @@ export const costumes = {
         "cost125": {
             "path": "release/girl-cos-marieantoinette-10-2009.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34103,7 +34103,7 @@ export const costumes = {
         "cost126": {
             "path": "release/girl-cos-marine.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34111,7 +34111,7 @@ export const costumes = {
         "cost127": {
             "path": "release/girl-cos-mechsuitblue.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34119,7 +34119,7 @@ export const costumes = {
         "cost128": {
             "path": "release/girl-cos-mechsuitgold.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34127,7 +34127,7 @@ export const costumes = {
         "cost129": {
             "path": "release/girl-cos-mechsuitpink.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34135,7 +34135,7 @@ export const costumes = {
         "cost130": {
             "path": "release/girl-cos-mermaid.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34143,7 +34143,7 @@ export const costumes = {
         "cost131": {
             "path": "release/girl-cos-minstrel-06-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34151,7 +34151,7 @@ export const costumes = {
         "cost132": {
             "path": "release/girl-cos-mint-10-2009.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34159,7 +34159,7 @@ export const costumes = {
         "cost133": {
             "path": "release/girl-cos-monorange-02-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34167,7 +34167,7 @@ export const costumes = {
         "cost134": {
             "path": "release/girl-cos-monred-02-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34175,7 +34175,7 @@ export const costumes = {
         "cost135": {
             "path": "release/girl-cos-mothergoose-09-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34183,7 +34183,7 @@ export const costumes = {
         "cost136": {
             "path": "release/girl-cos-mummy.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34191,7 +34191,7 @@ export const costumes = {
         "cost137": {
             "path": "release/girl-cos-musketeer-10-2009.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34199,7 +34199,7 @@ export const costumes = {
         "cost138": {
             "path": "release/girl-cos-mvpgown-07-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34207,7 +34207,7 @@ export const costumes = {
         "cost139": {
             "path": "release/girl-cos-nativeamerican-10-2009.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34215,7 +34215,7 @@ export const costumes = {
         "cost140": {
             "path": "release/girl-cos-newyearprize-12-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34223,7 +34223,7 @@ export const costumes = {
         "cost141": {
             "path": "release/girl-cos-ninjablue.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34231,7 +34231,7 @@ export const costumes = {
         "cost142": {
             "path": "release/girl-cos-ninjagreen.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34239,7 +34239,7 @@ export const costumes = {
         "cost143": {
             "path": "release/girl-cos-ninjared.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34247,7 +34247,7 @@ export const costumes = {
         "cost144": {
             "path": "release/girl-cos-novcornaf-11-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34255,7 +34255,7 @@ export const costumes = {
         "cost145": {
             "path": "release/girl-cos-novcornmulti-11-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34263,7 +34263,7 @@ export const costumes = {
         "cost146": {
             "path": "release/girl-cos-pajamas-06-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34271,7 +34271,7 @@ export const costumes = {
         "cost147": {
             "path": "release/girl-cos-partygirl-09-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34279,7 +34279,7 @@ export const costumes = {
         "cost148": {
             "path": "release/girl-cos-peacock-03-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34287,7 +34287,7 @@ export const costumes = {
         "cost149": {
             "path": "release/girl-cos-peasant-10-2009.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34295,7 +34295,7 @@ export const costumes = {
         "cost150": {
             "path": "release/girl-cos-picnisgirl-11-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34303,7 +34303,7 @@ export const costumes = {
         "cost151": {
             "path": "release/girl-cos-pilgrim-10-2009.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34311,7 +34311,7 @@ export const costumes = {
         "cost152": {
             "path": "release/girl-cos-pilgrim.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34319,7 +34319,7 @@ export const costumes = {
         "cost153": {
             "path": "release/girl-cos-pilgrimgirl-11-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34327,7 +34327,7 @@ export const costumes = {
         "cost154": {
             "path": "release/girl-cos-pinataqueen-03-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34335,7 +34335,7 @@ export const costumes = {
         "cost155": {
             "path": "release/girl-cos-pinkcat-10-2009.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34343,7 +34343,7 @@ export const costumes = {
         "cost156": {
             "path": "release/girl-cos-pinkcow-02-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34351,7 +34351,7 @@ export const costumes = {
         "cost157": {
             "path": "release/girl-cos-pinkmonster-10-2009.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34359,7 +34359,7 @@ export const costumes = {
         "cost158": {
             "path": "release/girl-cos-pinkpancho-11-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34367,7 +34367,7 @@ export const costumes = {
         "cost159": {
             "path": "release/girl-cos-pirateblue.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34375,7 +34375,7 @@ export const costumes = {
         "cost160": {
             "path": "release/girl-cos-piratepurple.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34383,7 +34383,7 @@ export const costumes = {
         "cost161": {
             "path": "release/girl-cos-piratered.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34391,7 +34391,7 @@ export const costumes = {
         "cost162": {
             "path": "release/girl-cos-present-12-2009.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34399,7 +34399,7 @@ export const costumes = {
         "cost163": {
             "path": "release/girl-cos-prisonergirl-10-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34407,7 +34407,7 @@ export const costumes = {
         "cost164": {
             "path": "release/girl-cos-pumpkin-10-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34415,7 +34415,7 @@ export const costumes = {
         "cost165": {
             "path": "release/girl-cos-puple-monster-02-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34423,7 +34423,7 @@ export const costumes = {
         "cost166": {
             "path": "release/girl-cos-queen.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34431,7 +34431,7 @@ export const costumes = {
         "cost167": {
             "path": "release/girl-cos-ragdoll-10-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34439,7 +34439,7 @@ export const costumes = {
         "cost168": {
             "path": "release/girl-cos-raincoat-03-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34447,7 +34447,7 @@ export const costumes = {
         "cost169": {
             "path": "release/girl-cos-realbanana-02-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34455,7 +34455,7 @@ export const costumes = {
         "cost170": {
             "path": "release/girl-cos-realstrawberry-02-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34463,7 +34463,7 @@ export const costumes = {
         "cost171": {
             "path": "release/girl-cos-reindeer-12-2009.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34471,7 +34471,7 @@ export const costumes = {
         "cost172": {
             "path": "release/girl-cos-robber-10-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34479,7 +34479,7 @@ export const costumes = {
         "cost173": {
             "path": "release/girl-cos-robot-06-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34487,7 +34487,7 @@ export const costumes = {
         "cost174": {
             "path": "release/girl-cos-rose.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34495,7 +34495,7 @@ export const costumes = {
         "cost175": {
             "path": "release/girl-cos-salsa_girl_0609.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34503,7 +34503,7 @@ export const costumes = {
         "cost176": {
             "path": "release/girl-cos-samurai_04-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34511,7 +34511,7 @@ export const costumes = {
         "cost177": {
             "path": "release/girl-cos-santa-12-2009.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34519,7 +34519,7 @@ export const costumes = {
         "cost178": {
             "path": "release/girl-cos-santasack-12-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34527,7 +34527,7 @@ export const costumes = {
         "cost179": {
             "path": "release/girl-cos-sapine-12-2009.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34535,7 +34535,7 @@ export const costumes = {
         "cost180": {
             "path": "release/girl-cos-schoolcleaner-09-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34543,7 +34543,7 @@ export const costumes = {
         "cost181": {
             "path": "release/girl-cos-schoolnurse-09-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34551,7 +34551,7 @@ export const costumes = {
         "cost182": {
             "path": "release/girl-cos-shroomblue.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34559,7 +34559,7 @@ export const costumes = {
         "cost183": {
             "path": "release/girl-cos-shroomorange.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34567,7 +34567,7 @@ export const costumes = {
         "cost184": {
             "path": "release/girl-cos-shroompurple.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34575,7 +34575,7 @@ export const costumes = {
         "cost185": {
             "path": "release/girl-cos-skeleton.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34583,7 +34583,7 @@ export const costumes = {
         "cost186": {
             "path": "release/girl-cos-skoolmaid-ecoins-09-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34591,7 +34591,7 @@ export const costumes = {
         "cost187": {
             "path": "release/girl-cos-skunk-02-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34599,7 +34599,7 @@ export const costumes = {
         "cost188": {
             "path": "release/girl-cos-snowman-12-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34607,7 +34607,7 @@ export const costumes = {
         "cost189": {
             "path": "release/girl-cos-snowmen-12-2009.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34615,7 +34615,7 @@ export const costumes = {
         "cost190": {
             "path": "release/girl-cos-snowpink.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34623,7 +34623,7 @@ export const costumes = {
         "cost191": {
             "path": "release/girl-cos-snowwheat.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34631,7 +34631,7 @@ export const costumes = {
         "cost192": {
             "path": "release/girl-cos-strawberry-02-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34639,7 +34639,7 @@ export const costumes = {
         "cost193": {
             "path": "release/girl-cos-strawberry-08-2009.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34647,7 +34647,7 @@ export const costumes = {
         "cost194": {
             "path": "release/girl-cos-strawberry-10-2009.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34655,7 +34655,7 @@ export const costumes = {
         "cost195": {
             "path": "release/girl-cos-sugarplum-10-2009.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34663,7 +34663,7 @@ export const costumes = {
         "cost196": {
             "path": "release/girl-cos-tambourine-band-06-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34671,7 +34671,7 @@ export const costumes = {
         "cost197": {
             "path": "release/girl-cos-teddy-09-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34679,7 +34679,7 @@ export const costumes = {
         "cost198": {
             "path": "release/girl-cos-tennis-03-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34687,7 +34687,7 @@ export const costumes = {
         "cost199": {
             "path": "release/girl-cos-tiger-01-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34695,7 +34695,7 @@ export const costumes = {
         "cost200": {
             "path": "release/girl-cos-tolietroll-08-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34703,7 +34703,7 @@ export const costumes = {
         "cost201": {
             "path": "release/girl-cos-tulip-08-2009.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34711,7 +34711,7 @@ export const costumes = {
         "cost202": {
             "path": "release/girl-cos-turkey-11-2009.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34719,7 +34719,7 @@ export const costumes = {
         "cost203": {
             "path": "release/girl-cos-turkey.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34727,7 +34727,7 @@ export const costumes = {
         "cost204": {
             "path": "release/girl-cos-tvhead-10-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34735,7 +34735,7 @@ export const costumes = {
         "cost205": {
             "path": "release/girl-cos-tweedledee-07-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34743,7 +34743,7 @@ export const costumes = {
         "cost206": {
             "path": "release/girl-cos-ukraniandancer-10-2009.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34751,7 +34751,7 @@ export const costumes = {
         "cost207": {
             "path": "release/girl-cos-vampireblue.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34759,7 +34759,7 @@ export const costumes = {
         "cost208": {
             "path": "release/girl-cos-vampirepurple.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34767,7 +34767,7 @@ export const costumes = {
         "cost209": {
             "path": "release/girl-cos-vampirered.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34775,7 +34775,7 @@ export const costumes = {
         "cost210": {
             "path": "release/girl-cos-warrior.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34783,7 +34783,7 @@ export const costumes = {
         "cost211": {
             "path": "release/girl-cos-whitebear-12-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34791,7 +34791,7 @@ export const costumes = {
         "cost212": {
             "path": "release/girl-cos-whitebishop.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34799,7 +34799,7 @@ export const costumes = {
         "cost213": {
             "path": "release/girl-cos-whiteknight.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34807,7 +34807,7 @@ export const costumes = {
         "cost214": {
             "path": "release/girl-cos-whitepawn.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34815,7 +34815,7 @@ export const costumes = {
         "cost215": {
             "path": "release/girl-cos-whiterook.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34823,7 +34823,7 @@ export const costumes = {
         "cost216": {
             "path": "release/girl-cos-witch-10-2009.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34831,7 +34831,7 @@ export const costumes = {
         "cost217": {
             "path": "release/girl-cos-witch-10-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34839,7 +34839,7 @@ export const costumes = {
         "cost218": {
             "path": "release/girl-cos-witchgreen.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34847,7 +34847,7 @@ export const costumes = {
         "cost219": {
             "path": "release/girl-cos-witchpink.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34855,7 +34855,7 @@ export const costumes = {
         "cost220": {
             "path": "release/girl-cos-witchpurple.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34863,7 +34863,7 @@ export const costumes = {
         "cost221": {
             "path": "release/girl-cos-xmasball-12-2009.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34871,7 +34871,7 @@ export const costumes = {
         "cost222": {
             "path": "release/girl-cost-leopardgirl-12-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34879,7 +34879,7 @@ export const costumes = {
         "cost223": {
             "path": "release/girl-cost-lightgirl-12-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34887,7 +34887,7 @@ export const costumes = {
         "cost224": {
             "path": "release/girl-cost-moneypack-12-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34895,7 +34895,7 @@ export const costumes = {
         "cost225": {
             "path": "release/girl-cost-qutealien-12-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
@@ -34903,7 +34903,7 @@ export const costumes = {
         "cost226": {
             "path": "release/girl-costume-basketball-03-2010.png",
             "properties": {},
-            "fitX": -3,
+            "fitX": -4,
             "fitY": -72,
             "splitX": 107,
             "splitY": 162
