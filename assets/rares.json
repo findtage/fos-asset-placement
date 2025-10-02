@@ -1,0 +1,662 @@
+{
+  "female": {
+    "outfit128": {
+      "name": "Pink Jumpsuit",
+      "rarity": 10
+    },
+    "bacc374": {
+      "name": "Girl Accb Bearhat 12 2010",
+      "rarity": 10
+    },
+    "bacc227": {
+      "name": "Girl Accb Mp3 07 2010",
+      "rarity": 10
+    },
+    "bacc391": {
+      "name": "Girl Party Carnival 11 2010",
+      "rarity": 10
+    },
+    "bacc392": {
+      "name": "Girl Party Castle 11 2010",
+      "rarity": 10
+    },
+    "bacc377": {
+      "name": "Girl Party Mtfantage 11 2010",
+      "rarity": 10
+    },
+    "bacc393": {
+      "name": "Girl Party Paradebeach 11 2010",
+      "rarity": 10
+    },
+    "bacc404": {
+      "name": "Girl Party Toytrain 01 2010",
+      "rarity": 10
+    },
+    "bacc378": {
+      "name": "Girl Party Trainboat 01 2010",
+      "rarity": 10
+    },
+    "bacc379": {
+      "name": "Girl Party Trainbox 01 2010",
+      "rarity": 10
+    },
+    "bacc380": {
+      "name": "Girl Party Traincaboose 01 2010",
+      "rarity": 10
+    },
+    "bacc405": {
+      "name": "Girl Party Trainengin 01 2010",
+      "rarity": 10
+    },
+    "bacc381": {
+      "name": "Girl Party Trainplain 01 2010",
+      "rarity": 10
+    },
+    "bacc394": {
+      "name": "Girl Party Wizardparade 11 2010",
+      "rarity": 10
+    },
+    "bottom59": {
+      "name": "Girl Bot Greenskirt 03 2010",
+      "rarity": 10
+    },
+    "bottom110": {
+      "name": "Girl Bot Pinkskirt 10 2009",
+      "rarity": 10
+    },
+    "bottom120": {
+      "name": "Girl Bot Rareyingyangskirt",
+      "rarity": 10
+    },
+    "bottom154": {
+      "name": "Girl Bottom Denimskirt2",
+      "rarity": 10
+    },
+    "bottom163": {
+      "name": "Girl Bottom Redjeans3",
+      "rarity": 10
+    },
+    "cost0": {
+      "name": "Girl Cos Acorngirl 11 2010",
+      "rarity": 10
+    },
+    "cost1": {
+      "name": "Girl Cos Alice 07 2010",
+      "rarity": 10
+    },
+    "cost5": {
+      "name": "Girl Cos Arabian 10 2009",
+      "rarity": 10
+    },
+    "cost10": {
+      "name": "Girl Cos Bakedturkey 10 2010",
+      "rarity": 10
+    },
+    "cost28": {
+      "name": "Girl Cos Boxing 05 2010",
+      "rarity": 10
+    },
+    "cost33": {
+      "name": "Girl Cos Bush",
+      "rarity": 10
+    },
+    "cost34": {
+      "name": "Girl Cos Can 01 2010",
+      "rarity": 10
+    },
+    "cost42": {
+      "name": "Girl Cos Cavegirlred",
+      "rarity": 10
+    },
+    "cost45": {
+      "name": "Girl Cos Cheerleaderblue",
+      "rarity": 10
+    },
+    "cost53": {
+      "name": "Girl Cos Chickaf 02 2010",
+      "rarity": 10
+    },
+    "cost65": {
+      "name": "Girl Cos Devil",
+      "rarity": 10
+    },
+    "cost77": {
+      "name": "Girl Cos Firelady 08 2010",
+      "rarity": 10
+    },
+    "cost80": {
+      "name": "Girl Cos Flowerhanbok 012010",
+      "rarity": 10
+    },
+    "cost81": {
+      "name": "Girl Cos Fly 09 2010",
+      "rarity": 10
+    },
+    "cost92": {
+      "name": "Girl Cos Genieblue",
+      "rarity": 10
+    },
+    "cost93": {
+      "name": "Girl Cos Geniepink",
+      "rarity": 10
+    },
+    "cost99": {
+      "name": "Girl Cos Grapegirl 11 2010",
+      "rarity": 10
+    },
+    "cost102": {
+      "name": "Girl Cos Gym Ecoins 09 2010",
+      "rarity": 10
+    },
+    "cost103": {
+      "name": "Girl Cos Harlequin 10 2009",
+      "rarity": 10
+    },
+    "cost110": {
+      "name": "Girl Cos Jam 08 2010",
+      "rarity": 10
+    },
+    "cost114": {
+      "name": "Girl Cos Kunoichigreen",
+      "rarity": 10
+    },
+    "cost116": {
+      "name": "Girl Cos Kunoichired",
+      "rarity": 10
+    },
+    "cost122": {
+      "name": "Girl Cos Lunchlady 09 2010",
+      "rarity": 10
+    },
+    "cost126": {
+      "name": "Girl Cos Marine",
+      "rarity": 10
+    },
+    "cost127": {
+      "name": "Girl Cos Mechsuitblue",
+      "rarity": 10
+    },
+    "cost129": {
+      "name": "Girl Cos Mechsuitpink",
+      "rarity": 10
+    },
+    "cost132": {
+      "name": "Girl Cos Mint 10 2009",
+      "rarity": 10
+    },
+    "cost142": {
+      "name": "Girl Cos Ninjagreen",
+      "rarity": 10
+    },
+    "cost143": {
+      "name": "Girl Cos Ninjared",
+      "rarity": 10
+    },
+    "cost144": {
+      "name": "Girl Cos Novcornaf 11 2010",
+      "rarity": 10
+    },
+    "cost149": {
+      "name": "Girl Cos Peasant 10 2009",
+      "rarity": 10
+    },
+    "cost155": {
+      "name": "Girl Cos Pinkcat 10 2009",
+      "rarity": 10
+    },
+    "cost157": {
+      "name": "Girl Cos Pinkmonster 10 2009",
+      "rarity": 10
+    },
+    "cost159": {
+      "name": "Girl Cos Pirateblue",
+      "rarity": 10
+    },
+    "cost161": {
+      "name": "Girl Cos Piratered",
+      "rarity": 10
+    },
+    "cost168": {
+      "name": "Girl Cos Raincoat 03 2010",
+      "rarity": 10
+    },
+    "cost170": {
+      "name": "Girl Cos Realstrawberry 02 2010",
+      "rarity": 10
+    },
+    "cost176": {
+      "name": "Girl Cos Samurai 04 2010",
+      "rarity": 10
+    },
+    "cost184": {
+      "name": "Girl Cos Shroompurple",
+      "rarity": 10
+    },
+    "cost200": {
+      "name": "Girl Cos Tolietroll 08 2010",
+      "rarity": 10
+    },
+    "cost207": {
+      "name": "Girl Cos Vampireblue",
+      "rarity": 10
+    },
+    "cost208": {
+      "name": "Girl Cos Vampirepurple",
+      "rarity": 10
+    },
+    "cost218": {
+      "name": "Girl Cos Witchgreen",
+      "rarity": 10
+    },
+    "cost219": {
+      "name": "Girl Cos Witchpink",
+      "rarity": 10
+    },
+    "cost222": {
+      "name": "Girl Cost Leopardgirl 12 2010",
+      "rarity": 10
+    },
+    "hair22": {
+      "name": "Girl Hair 02blu",
+      "rarity": 10
+    },
+    "hair27": {
+      "name": "Girl Hair 04p",
+      "rarity": 10
+    },
+    "hair588": {
+      "name": "Girl Hair 09p",
+      "rarity": 10
+    },
+    "hair33": {
+      "name": "Girl Hair 50sponytail",
+      "rarity": 10
+    },
+    "hair35": {
+      "name": "Girl Hair Acornhead 11 2010",
+      "rarity": 10
+    },
+    "hair608": {
+      "name": "Girl Hair Blacklong 10 2009",
+      "rarity": 10
+    },
+    "hair610": {
+      "name": "Girl Hair Blacklongrec 10 2009",
+      "rarity": 10
+    },
+    "hair296": {
+      "name": "Girl Hair Blond 08 2010",
+      "rarity": 10
+    },
+    "hair627": {
+      "name": "Girl Hair Blue Long Curly Rare Hair0515",
+      "rarity": 10
+    },
+    "hair641": {
+      "name": "Girl Hair Brownshort 03 2010",
+      "rarity": 10
+    },
+    "hair82": {
+      "name": "Girl Hair Chlobocop",
+      "rarity": 10
+    },
+    "hair683": {
+      "name": "Girl Hair Greencap 03 2010",
+      "rarity": 10
+    },
+    "hair694": {
+      "name": "Girl Hair Intriguingbraidred",
+      "rarity": 10
+    },
+    "hair133": {
+      "name": "Girl Hair Libpunk",
+      "rarity": 10
+    },
+    "hair180": {
+      "name": "Girl Hair Owl 11 2010",
+      "rarity": 10
+    },
+    "hair761": {
+      "name": "Girl Hair Pinkheartpin 03 2010",
+      "rarity": 10
+    },
+    "hair770": {
+      "name": "Girl Hair Prduo 10 2010",
+      "rarity": 10
+    },
+    "hair194": {
+      "name": "Girl Hair Pumpkinhead 10 2009",
+      "rarity": 10
+    },
+    "hair771": {
+      "name": "Girl Hair Purple 03 2010",
+      "rarity": 10
+    },
+    "hair775": {
+      "name": "Girl Hair Purplekitty 05 2010",
+      "rarity": 10
+    },
+    "hair200": {
+      "name": "Girl Hair Rarecleopatra",
+      "rarity": 10
+    },
+    "hair201": {
+      "name": "Girl Hair Rarekawaii",
+      "rarity": 10
+    },
+    "hair202": {
+      "name": "Girl Hair Rarepagegirlcap",
+      "rarity": 10
+    },
+    "hair204": {
+      "name": "Girl Hair Raresenorita",
+      "rarity": 10
+    },
+    "hair245": {
+      "name": "Girl Hair Triceratops",
+      "rarity": 10
+    },
+    "hair255": {
+      "name": "Girl Hair Walrushead 12 2010",
+      "rarity": 10
+    },
+    "hair262": {
+      "name": "Girl Hair Yellowpipi 12 2010",
+      "rarity": 10
+    },
+    "hair263": {
+      "name": "Girl Hair Yetihead 12 2010",
+      "rarity": 10
+    },
+    "hair266": {
+      "name": "Girl Har Pinkheadband 10 2009",
+      "rarity": 10
+    },
+    "hair267": {
+      "name": "Girl Har Redscarf 10 2009",
+      "rarity": 10
+    },
+    "outfit279": {
+      "name": "Girl Dress Bluedress 10 2010",
+      "rarity": 10
+    },
+    "outfit331": {
+      "name": "Girl Dress Hanbok2",
+      "rarity": 10
+    },
+    "outfit339": {
+      "name": "Girl Dress Kimono3",
+      "rarity": 10
+    },
+    "outfit361": {
+      "name": "Girl Dress Orgshrug 06 2010",
+      "rarity": 10
+    },
+    "outfit363": {
+      "name": "Girl Dress Partydress 12 2009",
+      "rarity": 10
+    },
+    "outfit387": {
+      "name": "Girl Dress Poodleskirt",
+      "rarity": 10
+    },
+    "outfit398": {
+      "name": "Girl Dress Rare50s",
+      "rarity": 10
+    },
+    "outfit399": {
+      "name": "Girl Dress Rarecleopatra",
+      "rarity": 10
+    },
+    "outfit400": {
+      "name": "Girl Dress Raregypsy",
+      "rarity": 10
+    },
+    "outfit401": {
+      "name": "Girl Dress Rarepartydress 10 2009",
+      "rarity": 10
+    },
+    "outfit402": {
+      "name": "Girl Dress Rarepeacock",
+      "rarity": 10
+    },
+    "outfit403": {
+      "name": "Girl Dress Rarepinksakura 11 2010",
+      "rarity": 10
+    },
+    "outfit404": {
+      "name": "Girl Dress Rareprom",
+      "rarity": 10
+    },
+    "outfit405": {
+      "name": "Girl Dress Rarepromrec",
+      "rarity": 10
+    },
+    "outfit407": {
+      "name": "Girl Dress Rarevictorian",
+      "rarity": 10
+    },
+    "outfit424": {
+      "name": "Girl Dress Summer Vacation 0609",
+      "rarity": 10
+    },
+    "outfit440": {
+      "name": "Girl Dress Tropical 08 2010",
+      "rarity": 10
+    },
+    "outfit443": {
+      "name": "Girl Dress Valentine08",
+      "rarity": 10
+    },
+    "outfit444": {
+      "name": "Girl Dress Valentine08rec",
+      "rarity": 10
+    },
+    "outfit447": {
+      "name": "Girl Dress Waitress 06 2010",
+      "rarity": 10
+    },
+    "outfit454": {
+      "name": "Girl Dress Yellony 09 2010",
+      "rarity": 10
+    },
+    "shoe380": {
+      "name": "Female Sho2 Iceskate 12 2010",
+      "rarity": 10
+    },
+    "shoe142": {
+      "name": "Girl Shoes Flower Sandle 0609",
+      "rarity": 10
+    },
+    "shoe271": {
+      "name": "Girl Shoes Rarecleopatrasandals",
+      "rarity": 10
+    },
+    "shoe278": {
+      "name": "Girl Shoes Redibon 09 2010",
+      "rarity": 10
+    },
+    "shoe354": {
+      "name": "Girl Shoes Whiteflat 03 2010",
+      "rarity": 10
+    },
+    "shoe374": {
+      "name": "Girl Footwear Red Highheels 0515",
+      "rarity": 10
+    },
+    "top279": {
+      "name": "Girl Top Longmongre 10 2010",
+      "rarity": 10
+    },
+    "top313": {
+      "name": "Girl Top Peacet 03 2010",
+      "rarity": 10
+    },
+    "top318": {
+      "name": "Girl Top Pinkballon 07 2009",
+      "rarity": 10
+    },
+    "top330": {
+      "name": "Girl Top Pinkyellowtank 07 2010",
+      "rarity": 10
+    },
+    "top333": {
+      "name": "Girl Top Polkadot",
+      "rarity": 10
+    },
+    "top335": {
+      "name": "Girl Top Puffydott 08 2009",
+      "rarity": 10
+    },
+    "top355": {
+      "name": "Girl Top Thrill 10 2010",
+      "rarity": 10
+    },
+    "top367": {
+      "name": "Girl Top Whitecat3",
+      "rarity": 10
+    },
+    "top374": {
+      "name": "Girl Top Wpartcape 07 2009 Vintage",
+      "rarity": 10
+    },
+    "top375": {
+      "name": "Girl Top Wpartcape 07 2009",
+      "rarity": 10
+    },
+    "outfit271": {
+      "name": "Girl Dress Hula",
+      "rarity": 10
+    },
+    "outfit535": {
+      "name": "Girl Dress Kalade 03 2010",
+      "rarity": 10
+    },
+    "outfit368": {
+      "name": "Girl Dress Pinkjump 04 2010",
+      "rarity": 10
+    },
+    "outfit615": {
+      "name": "Girl Dress Sophia 10 2009",
+      "rarity": 10
+    },
+    "outfit636": {
+      "name": "Girl Dress Winterpuppy 12 2010",
+      "rarity": 10
+    }
+  },
+  "boards": {
+    "board-bee-11-2009": {
+      "name": "Board Bee 11 2009",
+      "rarity": 10
+    },
+    "board-bluewatertube-08-2009": {
+      "name": "Board Bluewatertube 08 2009",
+      "rarity": 10
+    },
+    "board-flyingpig-08-2010_rev0111": {
+      "name": "Board Flyingpig 08 2010 Rev0111",
+      "rarity": 10
+    },
+    "board-flyingpumpkin-10-2009": {
+      "name": "Board Flyingpumpkin 10 2009",
+      "rarity": 10
+    },
+    "board-greentoothbrush-08-2010": {
+      "name": "Board Greentoothbrush 08 2010",
+      "rarity": 10
+    },
+    "board-holiday-12-2010": {
+      "name": "Board Holiday 12 2010",
+      "rarity": 10
+    },
+    "board-hotsparksurfboard": {
+      "name": "Board Hotsparksurfboard",
+      "rarity": 10
+    },
+    "board-magicpencil-09-2009_rev0111": {
+      "name": "Board Magicpencil 09 2009 Rev0111",
+      "rarity": 10
+    },
+    "board-musicnoteblue-12-2010": {
+      "name": "Board Musicnoteblue 12 2010",
+      "rarity": 10
+    },
+    "board-oceanicsurfboard": {
+      "name": "Board Oceanicsurfboard",
+      "rarity": 10
+    },
+    "board-panda-12-2010_rev0111": {
+      "name": "Board Panda 12 2010 Rev0111",
+      "rarity": 10
+    },
+    "board-pocketwatch-07-2010_rev0111": {
+      "name": "Board Pocketwatch 07 2010 Rev0111",
+      "rarity": 10
+    },
+    "board-roboboard-12-2010_rev0111": {
+      "name": "Board Roboboard 12 2010 Rev0111",
+      "rarity": 10
+    },
+    "board-seashell-05-2010": {
+      "name": "Board Seashell 05 2010",
+      "rarity": 10
+    },
+    "board-sleepcat-07-2010": {
+      "name": "Board Sleepcat 07 2010",
+      "rarity": 10
+    },
+    "board-stage-08-2009": {
+      "name": "Board Stage 08 2009",
+      "rarity": 10
+    },
+    "board-submarine-08-2010": {
+      "name": "Board Submarine 08 2010",
+      "rarity": 10
+    },
+    "board-toothbrush-08-2010": {
+      "name": "Board Toothbrush 08 2010",
+      "rarity": 10
+    },
+    "board-trainwheels-01-2010": {
+      "name": "Board Trainwheels 01 2010",
+      "rarity": 10
+    },
+    "board-turkey-ecoins-11-2010": {
+      "name": "Board Turkey Ecoins 11 2010",
+      "rarity": 10
+    },
+    "board-wheel-barrel-10-2009": {
+      "name": "Board Wheel Barrel 10 2009",
+      "rarity": 10
+    },
+    "board-wizardboy-07-2009": {
+      "name": "Board Wizardboy 07 2009",
+      "rarity": 10
+    },
+    "board_nimbus_pink": {
+      "name": "Board Nimbus Pink",
+      "rarity": 10
+    },
+    "board_rareblackguitar": {
+      "name": "Board Rareblackguitar",
+      "rarity": 10
+    },
+    "board_raremotorcycle": {
+      "name": "Board Raremotorcycle",
+      "rarity": 10
+    },
+    "board_rarepinata": {
+      "name": "Board Rarepinata",
+      "rarity": 10
+    },
+    "board_schooloutrare_0623": {
+      "name": "Board Schooloutrare 0623",
+      "rarity": 10
+    },
+    "board_snowflakesale-12-2010": {
+      "name": "Board Snowflakesale 12 2010",
+      "rarity": 10
+    }
+  }
+}
