@@ -3046,6 +3046,48 @@ function applySavedPlacementsOnLoad() {
   });
 }
 
+function resetFemaleHeadPlacementsToMetadata() {
+  if (!state.savedPlacements || !Array.isArray(state.assetIndex)) {
+    return;
+  }
+
+  const FEMALE_HEAD_PREFIX = ["heads", "head", "female"];
+
+  state.assetIndex.forEach((entry) => {
+    if (!entry?.pathSegments) {
+      return;
+    }
+
+    const matchesFemaleHead = FEMALE_HEAD_PREFIX.every(
+      (segment, index) => entry.pathSegments[index] === segment,
+    );
+
+    if (!matchesFemaleHead) {
+      return;
+    }
+
+    const savedPlacement = state.savedPlacements[entry.key];
+    if (!savedPlacement) {
+      return;
+    }
+
+    const targetX = Math.round(coerceNumber(entry.initialX));
+    const targetY = Math.round(coerceNumber(entry.initialY));
+    const savedX = Math.round(coerceNumber(savedPlacement.x, targetX));
+    const savedY = Math.round(coerceNumber(savedPlacement.y, targetY));
+
+    if (savedX === targetX && savedY === targetY) {
+      return;
+    }
+
+    state.savedPlacements[entry.key] = {
+      ...savedPlacement,
+      x: targetX,
+      y: targetY,
+    };
+  });
+}
+
 function applySavedShopChanges() {
   if (!state.savedShopChanges || !state.shopCatalogs) {
     return;
@@ -3090,6 +3132,7 @@ async function init() {
   setupPivotHandle();
   applyStageTransform();
   applyStageScale();
+  resetFemaleHeadPlacementsToMetadata();
   setAvatarGender("female");
   applySavedPlacementsOnLoad();
 }
