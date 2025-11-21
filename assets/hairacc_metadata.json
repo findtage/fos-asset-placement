@@ -1,0 +1,2396 @@
+{
+  "girl-acc-butterfly-03-2013": {
+    "pathname": "girl-acc-butterfly-03-2013.png",
+    "frames": 2,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-proma-05-2013": {
+    "pathname": "girl-acc-proma-05-2013.png",
+    "frames": 2,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-promtiara-05-2012": {
+    "pathname": "girl-acc-promtiara-05-2012.png",
+    "frames": 2,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-rba-05-2013": {
+    "pathname": "girl-acc-rba-05-2013.png",
+    "frames": 2,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-shelld-06-2013": {
+    "pathname": "girl-acc-shelld-06-2013.png",
+    "frames": 2,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-tiara-04-2013": {
+    "pathname": "girl-acc-tiara-04-2013.png",
+    "frames": 2,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-wbtiara-01-2013": {
+    "pathname": "girl-acc-wbtiara-01-2013.png",
+    "frames": 2,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-shark-09-2012": {
+    "pathname": "girl-acc-shark-09-2012.png",
+    "frames": 2,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 80,
+    "splitY": 88
+  },
+  "2017_10_girl_ach1_limited_gamethrone": {
+    "pathname": "2017_10_girl_ach1_limited_gamethrone.png",
+    "frames": 2,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 88,
+    "splitY": 81
+  },
+  "2018_02_girl_ach1_le_olympic": {
+    "pathname": "2018_02_girl_ach1_le_olympic.png",
+    "frames": 2,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 88,
+    "splitY": 81
+  },
+  "girl-acc-bigbow-09-2013": {
+    "pathname": "girl-acc-bigbow-09-2013.png",
+    "frames": 2,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 88,
+    "splitY": 81
+  },
+  "girl-acc-bigcrown-05-2013": {
+    "pathname": "girl-acc-bigcrown-05-2013.png",
+    "frames": 2,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 88,
+    "splitY": 81
+  },
+  "girl-acc-blueflowerpins-02-2013": {
+    "pathname": "girl-acc-blueflowerpins-02-2013.png",
+    "frames": 2,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 88,
+    "splitY": 81
+  },
+  "girl-acc-bunears-03-2013": {
+    "pathname": "girl-acc-bunears-03-2013.png",
+    "frames": 2,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 88,
+    "splitY": 81
+  },
+  "girl-acc-bunnyears-04-2012": {
+    "pathname": "girl-acc-bunnyears-04-2012.png",
+    "frames": 2,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 88,
+    "splitY": 81
+  },
+  "girl-acc-clovers-03-2013": {
+    "pathname": "girl-acc-clovers-03-2013.png",
+    "frames": 2,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 88,
+    "splitY": 81
+  },
+  "girl-acc-fashioncrown-06-2012": {
+    "pathname": "girl-acc-fashioncrown-06-2012.png",
+    "frames": 2,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 88,
+    "splitY": 81
+  },
+  "girl-acc-forestcrown-11-2013": {
+    "pathname": "girl-acc-forestcrown-11-2013.png",
+    "frames": 2,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 88,
+    "splitY": 81
+  },
+  "girl-acc-glowbow-08-2013": {
+    "pathname": "girl-acc-glowbow-08-2013.png",
+    "frames": 2,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 88,
+    "splitY": 81
+  },
+  "girl-acc-halo-02-2013": {
+    "pathname": "girl-acc-halo-02-2013.png",
+    "frames": 2,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 88,
+    "splitY": 81
+  },
+  "girl-acc-icecream-09-2013": {
+    "pathname": "girl-acc-icecream-09-2013.png",
+    "frames": 2,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 88,
+    "splitY": 81
+  },
+  "girl-acc-icecrown-11-2013": {
+    "pathname": "girl-acc-icecrown-11-2013.png",
+    "frames": 2,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 88,
+    "splitY": 81
+  },
+  "girl-acc-marchhare-08-2013": {
+    "pathname": "girl-acc-marchhare-08-2013.png",
+    "frames": 2,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 88,
+    "splitY": 81
+  },
+  "girl-acc-mgboost-02-2013": {
+    "pathname": "girl-acc-mgboost-02-2013.png",
+    "frames": 2,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 88,
+    "splitY": 81
+  },
+  "girl-acc-newcrown-04-2013": {
+    "pathname": "girl-acc-newcrown-04-2013.png",
+    "frames": 2,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 88,
+    "splitY": 81
+  },
+  "girl-acc-nmbunears-03-2013": {
+    "pathname": "girl-acc-nmbunears-03-2013.png",
+    "frames": 2,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 88,
+    "splitY": 81
+  },
+  "girl-acc-orangeflower-08-2013": {
+    "pathname": "girl-acc-orangeflower-08-2013.png",
+    "frames": 2,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 88,
+    "splitY": 81
+  },
+  "girl-acc-orangejelly-08-2013": {
+    "pathname": "girl-acc-orangejelly-08-2013.png",
+    "frames": 2,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 88,
+    "splitY": 81
+  },
+  "girl-acc-princess-04-2013": {
+    "pathname": "girl-acc-princess-04-2013.png",
+    "frames": 2,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 88,
+    "splitY": 81
+  },
+  "girl-acc-princess-05-2013": {
+    "pathname": "girl-acc-princess-05-2013.png",
+    "frames": 2,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 88,
+    "splitY": 81
+  },
+  "girl-acc-rocket-07-2013": {
+    "pathname": "girl-acc-rocket-07-2013.png",
+    "frames": 2,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 88,
+    "splitY": 81
+  },
+  "girl-acc-shellcrowna-07-2013": {
+    "pathname": "girl-acc-shellcrowna-07-2013.png",
+    "frames": 2,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 88,
+    "splitY": 81
+  },
+  "girl-acc-shellcrownb-07-2013": {
+    "pathname": "girl-acc-shellcrownb-07-2013.png",
+    "frames": 2,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 88,
+    "splitY": 81
+  },
+  "girl-acc-shellcrownc-07-2013": {
+    "pathname": "girl-acc-shellcrownc-07-2013.png",
+    "frames": 2,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 88,
+    "splitY": 81
+  },
+  "girl-acc-sparkles-07-2013": {
+    "pathname": "girl-acc-sparkles-07-2013.png",
+    "frames": 2,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 88,
+    "splitY": 81
+  },
+  "girl-acc-sparklyhat-07-2013": {
+    "pathname": "girl-acc-sparklyhat-07-2013.png",
+    "frames": 2,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 88,
+    "splitY": 81
+  },
+  "girl-acc-squidhat-07-2013": {
+    "pathname": "girl-acc-squidhat-07-2013.png",
+    "frames": 2,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 88,
+    "splitY": 81
+  },
+  "girl-acc-stpathat-03-2013": {
+    "pathname": "girl-acc-stpathat-03-2013.png",
+    "frames": 2,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 88,
+    "splitY": 81
+  },
+  "girl-acc-theatera-05-2013": {
+    "pathname": "girl-acc-theatera-05-2013.png",
+    "frames": 2,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 88,
+    "splitY": 81
+  },
+  "girl-acc-vda-02-2013": {
+    "pathname": "girl-acc-vda-02-2013.png",
+    "frames": 2,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 88,
+    "splitY": 81
+  },
+  "girl-head-fireworks-06-2011-rec": {
+    "pathname": "girl-head-fireworks-06-2011-rec.png",
+    "frames": 2,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 88,
+    "splitY": 81
+  },
+  "girl-head-fireworks-06-2011": {
+    "pathname": "girl-head-fireworks-06-2011.png",
+    "frames": 2,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 88,
+    "splitY": 81
+  },
+  "girl-head-hearts-02-2012": {
+    "pathname": "girl-head-hearts-02-2012.png",
+    "frames": 2,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 88,
+    "splitY": 81
+  },
+  "girl-pzcotton-07-2012": {
+    "pathname": "girl-pzcotton-07-2012.png",
+    "frames": 2,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 88,
+    "splitY": 81
+  },
+  "girl-pzspringy-07-2012": {
+    "pathname": "girl-pzspringy-07-2012.png",
+    "frames": 2,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 88,
+    "splitY": 81
+  },
+  "girl-acc-headwings-10-2012": {
+    "pathname": "girl-acc-headwings-10-2012.png",
+    "frames": 2,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 150,
+    "splitY": 84
+  },
+  "girl-acch-ladybug-3-2012": {
+    "pathname": "girl-acch-ladybug-3-2012.png",
+    "frames": 2,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 20,
+    "splitY": 30
+  },
+  "girl-acch-orangebutterfly-3--2012": {
+    "pathname": "girl-acch-orangebutterfly-3--2012.png",
+    "frames": 2,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 20,
+    "splitY": 30
+  },
+  "girl-acch-bluebutterfly-3-2012": {
+    "pathname": "girl-acch-bluebutterfly-3-2012.png",
+    "frames": 2,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 25,
+    "splitY": 30
+  },
+  "girl-rareasteroid-08-2011": {
+    "pathname": "girl-rareasteroid-08-2011.png",
+    "frames": 3,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 73.33333333333333,
+    "splitY": 100
+  },
+  "girl-acc-strblzhorns-02-2013": {
+    "pathname": "girl-acc-strblzhorns-02-2013.png",
+    "frames": 3,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-thanksb-11-2012": {
+    "pathname": "girl-acc-thanksb-11-2012.png",
+    "frames": 3,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-cloud-hat-09-2011": {
+    "pathname": "girl-acc-cloud-hat-09-2011.png",
+    "frames": 3,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 186.66666666666666,
+    "splitY": 200
+  },
+  "girl-acc-easterlimited-04-2012": {
+    "pathname": "girl-acc-easterlimited-04-2012.png",
+    "frames": 4,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-ghoul-10-2011": {
+    "pathname": "girl-acc-ghoul-10-2011.png",
+    "frames": 4,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-ghoulrc-10-2011": {
+    "pathname": "girl-acc-ghoulrc-10-2011.png",
+    "frames": 4,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-michael-05-2013": {
+    "pathname": "girl-acc-michael-05-2013.png",
+    "frames": 4,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-tiara-01-2012": {
+    "pathname": "girl-acc-tiara-01-2012.png",
+    "frames": 4,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acch-blob-1-2012": {
+    "pathname": "girl-acch-blob-1-2012.png",
+    "frames": 4,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acch-LIflowers-03-2012": {
+    "pathname": "girl-acch-LIflowers-03-2012.png",
+    "frames": 4,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-popcorn-04-2013": {
+    "pathname": "girl-acc-popcorn-04-2013.png",
+    "frames": 4,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 88,
+    "splitY": 81
+  },
+  "girl-head-pm-visor-08-2012": {
+    "pathname": "girl-head-pm-visor-08-2012.png",
+    "frames": 4,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 88,
+    "splitY": 81
+  },
+  "girl-acch-dizzy-2-2012": {
+    "pathname": "girl-acch-dizzy-2-2012.png",
+    "frames": 4,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 100,
+    "splitY": 60
+  },
+  "girl-acc-fishfisheventjp-06-2010": {
+    "pathname": "girl-acc-fishfisheventjp-06-2010.png",
+    "frames": 4,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 136,
+    "splitY": 105
+  },
+  "girl-acc-promrare-05-2011": {
+    "pathname": "girl-acc-promrare-05-2011.png",
+    "frames": 4,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 136,
+    "splitY": 105
+  },
+  "girl-acc-pie-10-2011": {
+    "pathname": "girl-acc-pie-10-2011.png",
+    "frames": 5,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-strblzb-02-2013": {
+    "pathname": "girl-acc-strblzb-02-2013.png",
+    "frames": 5,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-stars-02-2013": {
+    "pathname": "girl-acc-stars-02-2013.png",
+    "frames": 6,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 88,
+    "splitY": 81
+  },
+  "girl-acc-jombu-hat-08-2011": {
+    "pathname": "girl-acc-jombu-hat-08-2011.png",
+    "frames": 6,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 107,
+    "splitY": 162
+  },
+  "girl-acch-robo-07-2011": {
+    "pathname": "girl-acch-robo-07-2011.png",
+    "frames": 6,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 124.83333333333333,
+    "splitY": 162
+  },
+  "girl-acc-antennas-12-2011": {
+    "pathname": "girl-acc-antennas-12-2011.png",
+    "frames": 6,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 126,
+    "splitY": 216
+  },
+  "2015_05_girl_ACCH_nm_02": {
+    "pathname": "2015_05_girl_ACCH_nm_02.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 120,
+    "splitY": 120
+  },
+  "2016_04_girl_acch_boutique2_floralcrown": {
+    "pathname": "2016_04_girl_acch_boutique2_floralcrown.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 120,
+    "splitY": 120
+  },
+  "2016_04_girl_acch_boutique2_weddingveil": {
+    "pathname": "2016_04_girl_acch_boutique2_weddingveil.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 120,
+    "splitY": 120
+  },
+  "2016_04_girl_acch_prom_lm2": {
+    "pathname": "2016_04_girl_acch_prom_lm2.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 120,
+    "splitY": 120
+  },
+  "2016_07_girl_acch_bbq": {
+    "pathname": "2016_07_girl_acch_bbq.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 120,
+    "splitY": 120
+  },
+  "2017_05_girl_acch_mothersday1": {
+    "pathname": "2017_05_girl_acch_mothersday1.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 120,
+    "splitY": 120
+  },
+  "2017_05_girl_acch_mothersday2": {
+    "pathname": "2017_05_girl_acch_mothersday2.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 120,
+    "splitY": 120
+  },
+  "2017_05_girl_acch_mothersday3": {
+    "pathname": "2017_05_girl_acch_mothersday3.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 120,
+    "splitY": 120
+  },
+  "2017_07_girl_acch_icecream": {
+    "pathname": "2017_07_girl_acch_icecream.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 120,
+    "splitY": 120
+  },
+  "2017_09_girl_acch_hamster2": {
+    "pathname": "2017_09_girl_acch_hamster2.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 120,
+    "splitY": 120
+  },
+  "2017_09_girl_acch_royalchance": {
+    "pathname": "2017_09_girl_acch_royalchance.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 120,
+    "splitY": 120
+  },
+  "2017_10_girl_acch_halloween_lm4": {
+    "pathname": "2017_10_girl_acch_halloween_lm4.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 120,
+    "splitY": 120
+  },
+  "2018_01_girl_acch_limited_edition": {
+    "pathname": "2018_01_girl_acch_limited_edition.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 120,
+    "splitY": 120
+  },
+  "2018_01_girl_acch_pmgift1": {
+    "pathname": "2018_01_girl_acch_pmgift1.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 120,
+    "splitY": 120
+  },
+  "2018_03_girl_acch_aurora_lm": {
+    "pathname": "2018_03_girl_acch_aurora_lm.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 120,
+    "splitY": 120
+  },
+  "2018_03_girl_acch_aurora_reward2_2": {
+    "pathname": "2018_03_girl_acch_aurora_reward2_2.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 120,
+    "splitY": 120
+  },
+  "2018_04_girl_acch_le_moana": {
+    "pathname": "2018_04_girl_acch_le_moana.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 120,
+    "splitY": 120
+  },
+  "2018_04_girl_acch_prom_lm2": {
+    "pathname": "2018_04_girl_acch_prom_lm2.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 120,
+    "splitY": 120
+  },
+  "girl-bot-shellg-06-2013": {
+    "pathname": "girl-bot-shellg-06-2013.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 152,
+    "splitY": 88
+  },
+  "girl-acc-mouseband": {
+    "pathname": "girl-acc-mouseband.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 45,
+    "splitY": 28
+  },
+  "girl-acc-veterancrown2-0410": {
+    "pathname": "girl-acc-veterancrown2-0410.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 56,
+    "splitY": 36
+  },
+  "girl-acc-veterancrown1-0410": {
+    "pathname": "girl-acc-veterancrown1-0410.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 56,
+    "splitY": 37
+  },
+  "girl-acc-veterancrown3-0410": {
+    "pathname": "girl-acc-veterancrown3-0410.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 62,
+    "splitY": 37
+  },
+  "girl-acc-partyhata-12-2011": {
+    "pathname": "girl-acc-partyhata-12-2011.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 100
+  },
+  "girl-acc-partyhatb-12-2011": {
+    "pathname": "girl-acc-partyhatb-12-2011.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 100
+  },
+  "girl-acc-partyhatc-12-2011": {
+    "pathname": "girl-acc-partyhatc-12-2011.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 100
+  },
+  "girl-acc-partyhatd-12-2011": {
+    "pathname": "girl-acc-partyhatd-12-2011.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 100
+  },
+  "girl-acc-duncecap-08-2011": {
+    "pathname": "girl-acc-duncecap-08-2011.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 120
+  },
+  "girl-acc-duncecaprc-08-11": {
+    "pathname": "girl-acc-duncecaprc-08-11.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 120
+  },
+  "girl-acc-beehairband": {
+    "pathname": "girl-acc-beehairband.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 87
+  },
+  "girl-acc-ribon-09-2009": {
+    "pathname": "girl-acc-ribon-09-2009.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 87
+  },
+  "girl-acc-2008hat": {
+    "pathname": "girl-acc-2008hat.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-2008headband": {
+    "pathname": "girl-acc-2008headband.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-2011crown-12-2010": {
+    "pathname": "girl-acc-2011crown-12-2010.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-afropick-11-2012": {
+    "pathname": "girl-acc-afropick-11-2012.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-alice-08-2013": {
+    "pathname": "girl-acc-alice-08-2013.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-asteroid-headband-08-2011": {
+    "pathname": "girl-acc-asteroid-headband-08-2011.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-babyblue-01-2012": {
+    "pathname": "girl-acc-babyblue-01-2012.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-bdaya-09-2012": {
+    "pathname": "girl-acc-bdaya-09-2012.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-blackbow-08-2013": {
+    "pathname": "girl-acc-blackbow-08-2013.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-blackpins-09-2012": {
+    "pathname": "girl-acc-blackpins-09-2012.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-blue-03-2012": {
+    "pathname": "girl-acc-blue-03-2012.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-blueribbon-02-2012": {
+    "pathname": "girl-acc-blueribbon-02-2012.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-bluestarfish-06-2012": {
+    "pathname": "girl-acc-bluestarfish-06-2012.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-bow-10-2011": {
+    "pathname": "girl-acc-bow-10-2011.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-butterflypin_0615": {
+    "pathname": "girl-acc-butterflypin_0615.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-candybow-12-2012": {
+    "pathname": "girl-acc-candybow-12-2012.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-carnb-04-2013": {
+    "pathname": "girl-acc-carnb-04-2013.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-catears-08-2010": {
+    "pathname": "girl-acc-catears-08-2010.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-catearspink-11-2011": {
+    "pathname": "girl-acc-catearspink-11-2011.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-catearsyellow-11-2011": {
+    "pathname": "girl-acc-catearsyellow-11-2011.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-charity-12-2013": {
+    "pathname": "girl-acc-charity-12-2013.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-checkedclip-10-2011": {
+    "pathname": "girl-acc-checkedclip-10-2011.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-chloe-06-2011": {
+    "pathname": "girl-acc-chloe-06-2011.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-clownbowler-06-2011": {
+    "pathname": "girl-acc-clownbowler-06-2011.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-cruisegogs-08-2012": {
+    "pathname": "girl-acc-cruisegogs-08-2012.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-dance-crown-0809": {
+    "pathname": "girl-acc-dance-crown-0809.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-daysixprz-04-2013": {
+    "pathname": "girl-acc-daysixprz-04-2013.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-dda-04-2013": {
+    "pathname": "girl-acc-dda-04-2013.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-ddb-04-2013": {
+    "pathname": "girl-acc-ddb-04-2013.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-devilhorns-02-2013": {
+    "pathname": "girl-acc-devilhorns-02-2013.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-donutpropeller": {
+    "pathname": "girl-acc-donutpropeller.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-earmuff-01-2013": {
+    "pathname": "girl-acc-earmuff-01-2013.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-earthvisor-04-2012": {
+    "pathname": "girl-acc-earthvisor-04-2012.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-extraitem-03-2012": {
+    "pathname": "girl-acc-extraitem-03-2012.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-featherband-11-2012": {
+    "pathname": "girl-acc-featherband-11-2012.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-fishfishpinjp-06-2010": {
+    "pathname": "girl-acc-fishfishpinjp-06-2010.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-floral-03-2013": {
+    "pathname": "girl-acc-floral-03-2013.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-flowercrown-09-2009": {
+    "pathname": "girl-acc-flowercrown-09-2009.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-flowers-06-2013": {
+    "pathname": "girl-acc-flowers-06-2013.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-freehat-12-2011": {
+    "pathname": "girl-acc-freehat-12-2011.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-freetiara-05-2012": {
+    "pathname": "girl-acc-freetiara-05-2012.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-gold-03-2012": {
+    "pathname": "girl-acc-gold-03-2012.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-goldgogs-08-2013": {
+    "pathname": "girl-acc-goldgogs-08-2013.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-goldleaf-11-2012": {
+    "pathname": "girl-acc-goldleaf-11-2012.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-greenbutterflypin-03-2013": {
+    "pathname": "girl-acc-greenbutterflypin-03-2013.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-hairpin-06-2013": {
+    "pathname": "girl-acc-hairpin-06-2013.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-halloween3-10-2011": {
+    "pathname": "girl-acc-halloween3-10-2011.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-hallowprizeb-10-2012": {
+    "pathname": "girl-acc-hallowprizeb-10-2012.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-headband-02-2011": {
+    "pathname": "girl-acc-headband-02-2011.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-headband-rec-08-2011": {
+    "pathname": "girl-acc-headband-rec-08-2011.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-heart-03-2012": {
+    "pathname": "girl-acc-heart-03-2012.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-heartphones-02-2013": {
+    "pathname": "girl-acc-heartphones-02-2013.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-hollybow-12-2012": {
+    "pathname": "girl-acc-hollybow-12-2012.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-hotairballoon-08-2013": {
+    "pathname": "girl-acc-hotairballoon-08-2013.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-islandb-06-2013": {
+    "pathname": "girl-acc-islandb-06-2013.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-lmblue-06-2012": {
+    "pathname": "girl-acc-lmblue-06-2012.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-mdb-05-2013": {
+    "pathname": "girl-acc-mdb-05-2013.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-memdayribbon-05-2011": {
+    "pathname": "girl-acc-memdayribbon-05-2011.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-memdayribbonre-05-2011": {
+    "pathname": "girl-acc-memdayribbonre-05-2011.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-moonstone-07-2011": {
+    "pathname": "girl-acc-moonstone-07-2011.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-moonstonerec-07-2011": {
+    "pathname": "girl-acc-moonstonerec-07-2011.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-nmtiara-04-2013": {
+    "pathname": "girl-acc-nmtiara-04-2013.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-notablehat-06-2011": {
+    "pathname": "girl-acc-notablehat-06-2011.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-orangeclip-04-2011": {
+    "pathname": "girl-acc-orangeclip-04-2011.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-patty2009": {
+    "pathname": "girl-acc-patty2009.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-peasant-04-2011": {
+    "pathname": "girl-acc-peasant-04-2011.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-petegg-05-2013": {
+    "pathname": "girl-acc-petegg-05-2013.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-pienon-09-2011": {
+    "pathname": "girl-acc-pienon-09-2011.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-pinkflower-06-2013": {
+    "pathname": "girl-acc-pinkflower-06-2013.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-pinkheadband-09-2009": {
+    "pathname": "girl-acc-pinkheadband-09-2009.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-polkadothairbowblue": {
+    "pathname": "girl-acc-polkadothairbowblue.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-polkadothairboworange": {
+    "pathname": "girl-acc-polkadothairboworange.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-polkadothairbowpink": {
+    "pathname": "girl-acc-polkadothairbowpink.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-promb-05-2013": {
+    "pathname": "girl-acc-promb-05-2013.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-promc-05-2013": {
+    "pathname": "girl-acc-promc-05-2013.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-promcrown-05-2011": {
+    "pathname": "girl-acc-promcrown-05-2011.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-promd-05-2013": {
+    "pathname": "girl-acc-promd-05-2013.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-pumpblue-10-2012": {
+    "pathname": "girl-acc-pumpblue-10-2012.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-pumpred-10-2012": {
+    "pathname": "girl-acc-pumpred-10-2012.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-pumpurp-10-2012": {
+    "pathname": "girl-acc-pumpurp-10-2012.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-purple-01-2012": {
+    "pathname": "girl-acc-purple-01-2012.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-purpprize-08-2012": {
+    "pathname": "girl-acc-purpprize-08-2012.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-rakoon-08-2011": {
+    "pathname": "girl-acc-rakoon-08-2011.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-redribbon-06-2010": {
+    "pathname": "girl-acc-redribbon-06-2010.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-robothead-08-2012": {
+    "pathname": "girl-acc-robothead-08-2012.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-shvisor-08-2013": {
+    "pathname": "girl-acc-shvisor-08-2013.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-silverribbonpin-03-2013": {
+    "pathname": "girl-acc-silverribbonpin-03-2013.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-simple-pin_0515": {
+    "pathname": "girl-acc-simple-pin_0515.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-spacehelmet-08-2012": {
+    "pathname": "girl-acc-spacehelmet-08-2012.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-springb-03-2013": {
+    "pathname": "girl-acc-springb-03-2013.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-starpin-05-2013": {
+    "pathname": "girl-acc-starpin-05-2013.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-summerhat-06-2011": {
+    "pathname": "girl-acc-summerhat-06-2011.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-theaterb-05-2013": {
+    "pathname": "girl-acc-theaterb-05-2013.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-tiara": {
+    "pathname": "girl-acc-tiara.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-tomtomhat-11-2013": {
+    "pathname": "girl-acc-tomtomhat-11-2013.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-val": {
+    "pathname": "girl-acc-val.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acc-winterflower-12-2012": {
+    "pathname": "girl-acc-winterflower-12-2012.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acch-alien-hat-8-11": {
+    "pathname": "girl-acch-alien-hat-8-11.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acch-alien-rec-8-11": {
+    "pathname": "girl-acch-alien-rec-8-11.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acch-bluehairband-08-2012": {
+    "pathname": "girl-acch-bluehairband-08-2012.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acch-chick-04-2012": {
+    "pathname": "girl-acch-chick-04-2012.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acch-egg-04-2012": {
+    "pathname": "girl-acch-egg-04-2012.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acch-fashionprize4-06-2012": {
+    "pathname": "girl-acch-fashionprize4-06-2012.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acch-flower-03-2012": {
+    "pathname": "girl-acch-flower-03-2012.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acch-flowerlei-07-2012": {
+    "pathname": "girl-acch-flowerlei-07-2012.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acch-gilbert-07-2012": {
+    "pathname": "girl-acch-gilbert-07-2012.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acch-jojo-07-2012": {
+    "pathname": "girl-acch-jojo-07-2012.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acch-judgeprize1-06-2012": {
+    "pathname": "girl-acch-judgeprize1-06-2012.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acch-lily-03-2012": {
+    "pathname": "girl-acch-lily-03-2012.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acch-LSa-03-2012": {
+    "pathname": "girl-acch-LSa-03-2012.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acch-LSb-03-2012": {
+    "pathname": "girl-acch-LSb-03-2012.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acch-LSc-03-2012": {
+    "pathname": "girl-acch-LSc-03-2012.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acch-polarbearacc-12-2010": {
+    "pathname": "girl-acch-polarbearacc-12-2010.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acch-purpleflowers-05-2012": {
+    "pathname": "girl-acch-purpleflowers-05-2012.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acch-pztomtom-07-2012": {
+    "pathname": "girl-acch-pztomtom-07-2012.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acch-redflower-07-2012": {
+    "pathname": "girl-acch-redflower-07-2012.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acch-rose-03-2012": {
+    "pathname": "girl-acch-rose-03-2012.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acch-silverrings-07-2012": {
+    "pathname": "girl-acch-silverrings-07-2012.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acch-twinkle-07-2012": {
+    "pathname": "girl-acch-twinkle-07-2012.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acch-visor-03-2012": {
+    "pathname": "girl-acch-visor-03-2012.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acch-wiredflower-05-2012": {
+    "pathname": "girl-acch-wiredflower-05-2012.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-acch-yoyo-07-2012": {
+    "pathname": "girl-acch-yoyo-07-2012.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-doubleheart-hairpin-09-2013": {
+    "pathname": "girl-doubleheart-hairpin-09-2013.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-head-vdayband-2-2011": {
+    "pathname": "girl-head-vdayband-2-2011.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl-tatanplaidbow-11-2013": {
+    "pathname": "girl-tatanplaidbow-11-2013.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl_acc_comborcd_05_2014": {
+    "pathname": "girl_acc_comborcd_05_2014.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "girl_acc_redbow_08_2014": {
+    "pathname": "girl_acc_redbow_08_2014.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 76,
+    "splitY": 88
+  },
+  "2016_09_girl_ach1_unicorn_lm2_magichorn": {
+    "pathname": "2016_09_girl_ach1_unicorn_lm2_magichorn.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 88,
+    "splitY": 81
+  },
+  "girl-acc-americanbow-07-2013": {
+    "pathname": "girl-acc-americanbow-07-2013.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 88,
+    "splitY": 81
+  },
+  "girl-acc-bigpinkbow-09-2013": {
+    "pathname": "girl-acc-bigpinkbow-09-2013.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 88,
+    "splitY": 81
+  },
+  "girl-acc-bull-04-2011": {
+    "pathname": "girl-acc-bull-04-2011.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 88,
+    "splitY": 81
+  },
+  "girl-acc-burger-05-2013": {
+    "pathname": "girl-acc-burger-05-2013.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 88,
+    "splitY": 81
+  },
+  "girl-acc-chocohat-09-2013": {
+    "pathname": "girl-acc-chocohat-09-2013.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 88,
+    "splitY": 81
+  },
+  "girl-acc-doublebow-09-2013": {
+    "pathname": "girl-acc-doublebow-09-2013.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 88,
+    "splitY": 81
+  },
+  "girl-acc-fruithead-06-2013": {
+    "pathname": "girl-acc-fruithead-06-2013.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 88,
+    "splitY": 81
+  },
+  "girl-acc-icecream-05-2013": {
+    "pathname": "girl-acc-icecream-05-2013.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 88,
+    "splitY": 81
+  },
+  "girl-acc-ny-12-2012": {
+    "pathname": "girl-acc-ny-12-2012.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 88,
+    "splitY": 81
+  },
+  "girl-acc-roseheadband-07-2009": {
+    "pathname": "girl-acc-roseheadband-07-2009.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 88,
+    "splitY": 81
+  },
+  "girl-acc-scarecrow-10-2013": {
+    "pathname": "girl-acc-scarecrow-10-2013.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 88,
+    "splitY": 81
+  },
+  "girl-acc-weinerhat-05-2013": {
+    "pathname": "girl-acc-weinerhat-05-2013.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 88,
+    "splitY": 81
+  },
+  "girl-acch-piratehat-05-2012": {
+    "pathname": "girl-acch-piratehat-05-2012.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 88,
+    "splitY": 81
+  },
+  "girl-ACH1-crown-1-2010": {
+    "pathname": "girl-ACH1-crown-1-2010.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 88,
+    "splitY": 81
+  },
+  "girl-ACH1-elfhat-12-2009": {
+    "pathname": "girl-ACH1-elfhat-12-2009.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 88,
+    "splitY": 81
+  },
+  "girl-ACH1-headband-1-2010": {
+    "pathname": "girl-ACH1-headband-1-2010.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 88,
+    "splitY": 81
+  },
+  "girl-catpin-02-2011": {
+    "pathname": "girl-catpin-02-2011.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 88,
+    "splitY": 81
+  },
+  "girl-head-2008": {
+    "pathname": "girl-head-2008.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 88,
+    "splitY": 81
+  },
+  "girl-head-2008blue": {
+    "pathname": "girl-head-2008blue.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 88,
+    "splitY": 81
+  },
+  "girl-head-2008red": {
+    "pathname": "girl-head-2008red.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 88,
+    "splitY": 81
+  },
+  "girl-head-2008visor": {
+    "pathname": "girl-head-2008visor.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 88,
+    "splitY": 81
+  },
+  "girl-head-apple-04-2011": {
+    "pathname": "girl-head-apple-04-2011.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 88,
+    "splitY": 81
+  },
+  "girl-head-applepink-04-2011": {
+    "pathname": "girl-head-applepink-04-2011.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 88,
+    "splitY": 81
+  },
+  "girl-head-green-03-2011": {
+    "pathname": "girl-head-green-03-2011.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 88,
+    "splitY": 81
+  },
+  "girl-head-heartband-02-2012": {
+    "pathname": "girl-head-heartband-02-2012.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 88,
+    "splitY": 81
+  },
+  "girl-head-independentday-07-2009": {
+    "pathname": "girl-head-independentday-07-2009.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 88,
+    "splitY": 81
+  },
+  "girl-head-party3": {
+    "pathname": "girl-head-party3.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 88,
+    "splitY": 81
+  },
+  "girl-head-purple-03-2011": {
+    "pathname": "girl-head-purple-03-2011.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 88,
+    "splitY": 81
+  },
+  "girl-head-school-out": {
+    "pathname": "girl-head-school-out.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 88,
+    "splitY": 81
+  },
+  "girl-head-wally-07-2012": {
+    "pathname": "girl-head-wally-07-2012.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 88,
+    "splitY": 81
+  },
+  "girl-head-widzard-07-2009": {
+    "pathname": "girl-head-widzard-07-2009.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 88,
+    "splitY": 81
+  },
+  "girl-nmnewyears-12-2010": {
+    "pathname": "girl-nmnewyears-12-2010.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 88,
+    "splitY": 81
+  },
+  "girl-pandapin-02-2011": {
+    "pathname": "girl-pandapin-02-2011.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 88,
+    "splitY": 81
+  },
+  "girl-reindeer-12-2009": {
+    "pathname": "girl-reindeer-12-2009.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 88,
+    "splitY": 81
+  },
+  "girl-reindeer-12-2010": {
+    "pathname": "girl-reindeer-12-2010.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 88,
+    "splitY": 81
+  },
+  "girl-reindeersale-12-2010": {
+    "pathname": "girl-reindeersale-12-2010.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": 0,
+    "splitX": 88,
+    "splitY": 81
+  }
+}
