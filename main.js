@@ -27,6 +27,9 @@ const STAGE_SCALE_MIN = 0.5;
 const STAGE_SCALE_MAX = 3;
 const STAGE_SCALE_STEP = 0.25;
 const SHOP_OPTION_RARE = "__rare__";
+const LAYER_PANEL_MIN_WIDTH = 240;
+const LAYER_PANEL_MAX_WIDTH = 560;
+const LAYER_PANEL_DEFAULT_WIDTH = 300;
 
 const ASSET_TRANSFORM_ORIGIN = "50% 50%";
 
@@ -65,7 +68,7 @@ const dom = {
   search: document.getElementById("asset-search"),
   categoryFilter: document.getElementById("category-filter"),
   shopFilter: document.getElementById("shop-filter"),
-  rareFilter: document.getElementById("rare-filter"),
+  sizeMetadataFilter: document.getElementById("size-metadata-filter"),
   assetList: document.getElementById("asset-list"),
   showGirl: document.getElementById("show-girl"),
   showBoy: document.getElementById("show-boy"),
@@ -75,6 +78,7 @@ const dom = {
   stage: document.getElementById("avatar-stage"),
   stageHint: document.getElementById("stage-hint"),
   layerContainer: document.getElementById("layer-container"),
+  layerControls: document.getElementById("layer-controls"),
   layersPanel: document.getElementById("layers-panel"),
   pivotHandle: document.getElementById("pivot-handle"),
   selectionPanel: document.getElementById("selection-details"),
@@ -98,6 +102,7 @@ const dom = {
   zoomReset: document.getElementById("zoom-reset"),
   bodyCoords: document.getElementById("body-coords"),
   headCoords: document.getElementById("head-coords"),
+  layerResizer: document.getElementById("layer-resizer"),
 };
 
 dom.layerBehindContainer = document.createElement("div");
@@ -179,6 +184,53 @@ function adjustStageScale(delta) {
 
 function resetStageScale() {
   setStageScale(1);
+}
+
+function setLayerPanelWidth(width) {
+  const clamped = Math.min(LAYER_PANEL_MAX_WIDTH, Math.max(LAYER_PANEL_MIN_WIDTH, width));
+  document.documentElement?.style?.setProperty("--layer-panel-width", `${clamped}px`);
+}
+
+function setupLayerResizer() {
+  const resizer = dom.layerResizer;
+  const panel = dom.layerControls;
+  if (!resizer || !panel) {
+    return;
+  }
+
+  const handleDrag = (startX, startWidth) => (event) => {
+    const delta = event.clientX - startX;
+    setLayerPanelWidth(startWidth - delta);
+  };
+
+  let currentMoveHandler = null;
+
+  function stopDrag() {
+    if (currentMoveHandler) {
+      document.removeEventListener("mousemove", currentMoveHandler);
+      currentMoveHandler = null;
+    }
+    document.removeEventListener("mouseup", stopWrapper);
+    resizer.classList.remove("is-dragging");
+  }
+
+  function stopWrapper(event) {
+    stopDrag();
+    event?.preventDefault();
+  }
+
+  resizer.addEventListener("mousedown", (event) => {
+    const rect = panel.getBoundingClientRect();
+    const startX = event.clientX;
+    const startWidth = rect.width;
+    currentMoveHandler = handleDrag(startX, startWidth);
+    document.addEventListener("mousemove", currentMoveHandler);
+    document.addEventListener("mouseup", stopWrapper);
+    resizer.classList.add("is-dragging");
+    event.preventDefault();
+  });
+
+  resizer.addEventListener("dblclick", () => setLayerPanelWidth(LAYER_PANEL_DEFAULT_WIDTH));
 }
 
 function normalizeMetadataPath(path, pathSegments = []) {
@@ -1752,23 +1804,62 @@ function populateShopFilter(shopCatalogs) {
     option.textContent = count ? `${label} (${count})` : label;
     filter.appendChild(option);
   });
+
+  const rareCount = Array.from(state.rareEntriesById?.values?.() ?? []).length;
+  if (rareCount) {
+    const rareOption = document.createElement("option");
+    rareOption.value = SHOP_OPTION_RARE;
+    rareOption.textContent = `Rares (${rareCount})`;
+    filter.appendChild(rareOption);
+  }
+}
+
+function getAssetSizeKey(entry) {
+  const hasFrameWidth = typeof entry.frameWidth === "number" && Number.isFinite(entry.frameWidth);
+  const hasFrameHeight = typeof entry.frameHeight === "number" && Number.isFinite(entry.frameHeight);
+  if (hasFrameWidth && hasFrameHeight) {
+    return `frame:${entry.frameWidth}x${entry.frameHeight}`;
+  }
+
+  const hasFitX = typeof entry.initialX === "number" && Number.isFinite(entry.initialX);
+  const hasFitY = typeof entry.initialY === "number" && Number.isFinite(entry.initialY);
+  if (hasFitX && hasFitY) {
+    return `fit:${entry.initialX}x${entry.initialY}`;
+  }
+
+  return null;
 }
 
 function filterAssets() {
   const query = dom.search.value.trim().toLowerCase();
   const categoryFilter = dom.categoryFilter.value;
   const shopFilter = dom.shopFilter?.value ?? "";
-  const rareOnly = dom.rareFilter?.checked ?? false;
+  const uniqueSizesOnly = dom.sizeMetadataFilter?.checked ?? false;
+
+  const sizeTracker = new Set();
 
   return state.assetIndex.filter((entry) => {
+    const sizeKey = getAssetSizeKey(entry);
     const matchesQuery = !query ||
       entry.id.toLowerCase().includes(query) ||
       entry.filename.toLowerCase().includes(query) ||
       (entry.rare?.name && entry.rare.name.toLowerCase().includes(query));
     const matchesCategory = !categoryFilter || entry.category === categoryFilter;
-    const matchesShop = !shopFilter || (Array.isArray(entry.shopIds) && entry.shopIds.includes(shopFilter));
-    const matchesRare = !rareOnly || entry.isRare;
-    return matchesQuery && matchesCategory && matchesShop && matchesRare;
+    const matchesShop = !shopFilter
+      || (shopFilter === SHOP_OPTION_RARE ? entry.isRare : (Array.isArray(entry.shopIds) && entry.shopIds.includes(shopFilter)));
+
+    if (!(matchesQuery && matchesCategory && matchesShop)) {
+      return false;
+    }
+
+    if (uniqueSizesOnly) {
+      if (!sizeKey || sizeTracker.has(sizeKey)) {
+        return false;
+      }
+      sizeTracker.add(sizeKey);
+    }
+
+    return true;
   });
 }
 
@@ -3302,6 +3393,7 @@ async function init() {
   populateCategoryFilter(categories);
   populateShopFilter(state.shopCatalogs);
   renderAssetList();
+  setupLayerResizer();
   setupStageDragging();
   setupPivotHandle();
   applyStageTransform();
@@ -3316,7 +3408,7 @@ async function init() {
   { element: dom.search, event: "input" },
   { element: dom.categoryFilter, event: "input" },
   { element: dom.shopFilter, event: "change" },
-  { element: dom.rareFilter, event: "change" },
+  { element: dom.sizeMetadataFilter, event: "change" },
 ].forEach(({ element, event }) => {
   if (!element) {
     return;
