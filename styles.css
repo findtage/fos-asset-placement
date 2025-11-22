@@ -10,6 +10,8 @@
   --gizmo-origin: #f6c343;
   --gizmo-x: #ef5350;
   --gizmo-y: #66bb6a;
+  --layer-panel-width: 300px;
+  --layer-resizer-width: 10px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -23,7 +25,7 @@ body {
 
 #app {
   display: grid;
-  grid-template-columns: 320px 1fr 300px;
+  grid-template-columns: 320px 1fr var(--layer-resizer-width) var(--layer-panel-width);
   grid-template-rows: 100vh;
   width: 100%;
 }
@@ -173,6 +175,18 @@ aside {
   display: flex;
   flex-direction: column;
   overflow: hidden;
+}
+
+#layer-resizer {
+  cursor: col-resize;
+  background: linear-gradient(90deg, transparent 0, rgba(31, 35, 51, 0.08) 50%, transparent 100%);
+  border-left: 1px solid var(--border);
+  border-right: 1px solid var(--border);
+}
+
+#layer-resizer.is-dragging {
+  background: rgba(63, 81, 181, 0.2);
+  border-color: var(--accent);
 }
 
 #avatar-toolbar {
@@ -493,6 +507,8 @@ aside {
 
 #layer-controls {
   border-left: 1px solid var(--border);
+  min-width: 240px;
+  max-width: 560px;
 }
 
 #layers-panel {
