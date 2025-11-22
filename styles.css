@@ -585,61 +585,31 @@ aside {
   color: var(--accent-dark);
 }
 
-#rare-editor {
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  padding: 12px;
-  margin-bottom: 16px;
-  display: grid;
-  gap: 12px;
-}
-
-#rare-editor legend {
-  padding: 0 6px;
-  font-weight: 600;
-  color: #b45309;
-}
-
-.rare-editor-fields {
-  display: grid;
-  gap: 8px;
-}
-
-.rare-editor-fields label {
+.shop-select {
   display: grid;
   gap: 4px;
   font-size: 0.85rem;
 }
 
-.rare-editor-fields input {
+.shop-select select {
   width: 100%;
   padding: 6px 8px;
   border: 1px solid var(--border);
   border-radius: 6px;
-  font-size: 0.85rem;
+  font-size: 0.9rem;
 }
 
-.shop-editor-rows {
-  display: grid;
-  gap: 12px;
-}
-
-.shop-editor-row {
-  display: grid;
-  gap: 8px;
-}
-
-.shop-editor-toggle {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  font-weight: 600;
-}
 
 .shop-editor-inputs {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 8px;
+}
+
+.shop-editor-inputs label {
+  display: grid;
+  gap: 4px;
+  font-size: 0.85rem;
 }
 
 .shop-editor-inputs input {

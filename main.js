@@ -26,6 +26,7 @@ const LOCAL_STORAGE_KEY = "fos-asset-editor-placements-v2";
 const STAGE_SCALE_MIN = 0.5;
 const STAGE_SCALE_MAX = 3;
 const STAGE_SCALE_STEP = 0.25;
+const SHOP_OPTION_RARE = "__rare__";
 
 const ASSET_TRANSFORM_ORIGIN = "50% 50%";
 
@@ -79,10 +80,11 @@ const dom = {
   selectionPanel: document.getElementById("selection-details"),
   selectionTitle: document.getElementById("selection-title"),
   shopEditor: document.getElementById("shop-editor"),
-  shopEditorRows: document.getElementById("shop-editor-rows"),
-  rareEditor: document.getElementById("rare-editor"),
-  rareNameInput: document.getElementById("rare-name"),
-  rareRarityInput: document.getElementById("rare-rarity"),
+  shopSelect: document.getElementById("shop-select"),
+  shopNameLabel: document.getElementById("shop-item-name-label"),
+  shopPriceLabel: document.getElementById("shop-item-price-label"),
+  shopNameInput: document.getElementById("shop-item-name"),
+  shopPriceInput: document.getElementById("shop-item-price"),
   inputX: document.getElementById("input-x"),
   inputY: document.getElementById("input-y"),
   resetPosition: document.getElementById("reset-position"),
@@ -1379,17 +1381,19 @@ function refreshShopFilterOptions() {
   }
 }
 
-function setShopMembership(assetId, shopId, enabled) {
+function setShopMembership(assetId, shopId, enabled, options = {}) {
+  const { skipRefresh } = options;
   const catalog = state.shopCatalogs?.[shopId];
   if (!catalog) {
-    return;
+    return false;
   }
 
   const assignment = ensureShopAssignment(assetId, shopId);
   if (!assignment) {
-    return;
+    return false;
   }
 
+  let changed = false;
   assignment.enabled = enabled;
 
   if (!Array.isArray(catalog.items)) {
@@ -1405,18 +1409,24 @@ function setShopMembership(assetId, shopId, enabled) {
     if (!alreadyListed) {
       catalog.items.push(assetId);
       catalog.items.sort((a, b) => a.localeCompare(b));
+      changed = true;
     }
     applyAssignmentToCatalog(assetId, shopId);
   } else {
     if (alreadyListed) {
       catalog.items = catalog.items.filter((item) => item !== assetId);
+      changed = true;
     }
     delete catalog.itemDetails[assetId];
   }
 
-  refreshAssetShopMetadata(assetId);
-  refreshShopFilterOptions();
-  renderAssetList();
+  if (!skipRefresh) {
+    refreshAssetShopMetadata(assetId);
+    refreshShopFilterOptions();
+    renderAssetList();
+  }
+
+  return changed;
 }
 
 function updateShopDetail(assetId, shopId, field, value) {
@@ -1437,89 +1447,210 @@ function updateShopDetail(assetId, shopId, field, value) {
   }
 }
 
+function getAssignedShopId(assetId) {
+  const match = Object.entries(state.shopCatalogs ?? {})
+    .find(([, catalog]) => Array.isArray(catalog?.items) && catalog.items.includes(assetId));
+  return match ? match[0] : null;
+}
+
+function setExclusiveShopMembership(assetId, shopId, options = {}) {
+  const { skipRareReset = false } = options;
+  const targetShopId = shopId || null;
+
+  if (targetShopId && !skipRareReset) {
+    setRareStatus(assetId, false, { skipShopReset: true });
+  }
+
+  const shops = Object.keys(state.shopCatalogs ?? {});
+  let hasChange = false;
+
+  shops.forEach((currentShopId) => {
+    const shouldEnable = currentShopId === targetShopId;
+    const changed = setShopMembership(assetId, currentShopId, shouldEnable, { skipRefresh: true });
+    hasChange = hasChange || Boolean(changed);
+  });
+
+  if (hasChange) {
+    refreshAssetShopMetadata(assetId);
+    refreshShopFilterOptions();
+    renderAssetList();
+  }
+}
+
 function renderShopEditor(layer) {
   const editor = dom.shopEditor;
-  const rowsContainer = dom.shopEditorRows;
-  if (!editor || !rowsContainer) {
+  const select = dom.shopSelect;
+  const nameLabel = dom.shopNameLabel;
+  const priceLabel = dom.shopPriceLabel;
+  const nameInput = dom.shopNameInput;
+  const priceInput = dom.shopPriceInput;
+  if (!editor || !select || !nameInput || !priceInput) {
     return;
   }
 
-  rowsContainer.innerHTML = "";
-
   const shops = Object.entries(state.shopCatalogs ?? {});
-  if (!layer || !shops.length) {
+  if (!layer) {
     editor.hidden = true;
+    select.innerHTML = "";
+    nameInput.value = "";
+    priceInput.value = "";
+    nameInput.disabled = true;
+    priceInput.disabled = true;
     return;
   }
 
   editor.hidden = false;
 
   const assetId = layer.id;
-  shops
+  const rareEntry = state.rareEntriesById?.get(assetId) ?? null;
+
+  const options = shops
     .slice()
     .sort(([, a], [, b]) => {
       const labelA = a?.label ?? "";
       const labelB = b?.label ?? "";
       return labelA.localeCompare(labelB);
-    })
-    .forEach(([shopId, catalog]) => {
-      const assignment = ensureShopAssignment(assetId, shopId);
-      const row = document.createElement("div");
-      row.className = "shop-editor-row";
-
-      const toggle = document.createElement("label");
-      toggle.className = "shop-editor-toggle";
-
-      const checkbox = document.createElement("input");
-      checkbox.type = "checkbox";
-      checkbox.checked = Boolean(assignment?.enabled);
-      checkbox.addEventListener("change", (event) => {
-        const isChecked = event.currentTarget.checked;
-        setShopMembership(assetId, shopId, isChecked);
-        renderShopEditor(layer);
-      });
-
-      const label = document.createElement("span");
-      label.textContent = catalog?.label ?? shopId;
-
-      toggle.appendChild(checkbox);
-      toggle.appendChild(label);
-      row.appendChild(toggle);
-
-      const inputs = document.createElement("div");
-      inputs.className = "shop-editor-inputs";
-
-      const nameInput = document.createElement("input");
-      nameInput.type = "text";
-      nameInput.placeholder = "Item name";
-      nameInput.value = assignment?.name ?? "";
-      nameInput.disabled = !assignment?.enabled;
-      nameInput.addEventListener("input", (event) => {
-        updateShopDetail(assetId, shopId, "name", event.currentTarget.value);
-      });
-
-      const priceInput = document.createElement("input");
-      priceInput.type = "number";
-      priceInput.min = "0";
-      priceInput.step = "1";
-      priceInput.inputMode = "decimal";
-      priceInput.placeholder = "Price";
-      priceInput.value = assignment?.cost ?? "";
-      priceInput.disabled = !assignment?.enabled;
-      priceInput.addEventListener("input", (event) => {
-        updateShopDetail(assetId, shopId, "cost", event.currentTarget.value);
-      });
-
-      inputs.appendChild(nameInput);
-      inputs.appendChild(priceInput);
-      row.appendChild(inputs);
-
-      rowsContainer.appendChild(row);
     });
+
+  select.innerHTML = "";
+  const noneOption = document.createElement("option");
+  noneOption.value = "";
+  noneOption.textContent = "Not listed in a shop";
+  select.appendChild(noneOption);
+
+  options.forEach(([shopId, catalog]) => {
+    const option = document.createElement("option");
+    option.value = shopId;
+    option.textContent = catalog?.label ?? shopId;
+    select.appendChild(option);
+  });
+
+  const rareOption = document.createElement("option");
+  rareOption.value = SHOP_OPTION_RARE;
+  rareOption.textContent = "Rare";
+  select.appendChild(rareOption);
+
+  const assignedShopId = getAssignedShopId(assetId);
+  const selectionValue = rareEntry ? SHOP_OPTION_RARE : (assignedShopId ?? "");
+  select.value = selectionValue;
+
+  const isRareSelection = selectionValue === SHOP_OPTION_RARE;
+  const nameLabelNode = nameLabel || { textContent: null };
+  const priceLabelNode = priceLabel || { textContent: null };
+  nameLabelNode.textContent = isRareSelection ? "Rare name" : "Item name";
+  priceLabelNode.textContent = isRareSelection ? "Rarity" : "Price";
+
+  let nameValue = "";
+  let priceValue = "";
+  let inputsDisabled = false;
+
+  if (isRareSelection) {
+    nameValue = rareEntry?.name ?? "";
+    priceValue = typeof rareEntry?.rarity === "number" && Number.isFinite(rareEntry.rarity)
+      ? rareEntry.rarity
+      : "";
+  } else if (assignedShopId) {
+    const assignment = ensureShopAssignment(assetId, assignedShopId);
+    nameValue = assignment?.name ?? "";
+    priceValue = assignment?.cost ?? "";
+  } else {
+    inputsDisabled = true;
+  }
+
+  nameInput.value = nameValue;
+  priceInput.value = priceValue;
+  nameInput.disabled = inputsDisabled;
+  priceInput.disabled = inputsDisabled;
+  nameInput.placeholder = isRareSelection ? "Rare item name" : "Item name";
+  priceInput.placeholder = isRareSelection ? "Rarity value" : "Price";
+}
+
+function getRareGroupForAsset(assetId) {
+  const entry = typeof assetId === "string" ? state.assetIndexById?.get(assetId) : assetId;
+  if (!entry) {
+    return null;
+  }
+
+  const genderSegment = entry.pathSegments?.find((segment) => segment === "female" || segment === "male");
+  if (genderSegment) {
+    return genderSegment;
+  }
+
+  if (state.gender === "female" || state.gender === "male") {
+    return state.gender;
+  }
+
+  return null;
+}
+
+function setRareStatus(assetId, isRare, options = {}) {
+  const { skipShopReset = false } = options;
+  const existing = state.rareEntriesById?.get(assetId);
+  const entry = state.assetIndexById?.get(assetId);
+
+  if (isRare) {
+    if (existing) {
+      return;
+    }
+
+    const group = getRareGroupForAsset(assetId);
+    if (!group) {
+      console.warn(`Unable to determine rare group for asset ${assetId}`);
+      return;
+    }
+
+    if (!skipShopReset) {
+      setExclusiveShopMembership(assetId, null, { skipRareReset: true });
+    }
+
+    if (!state.rareCatalog[group] || typeof state.rareCatalog[group] !== "object") {
+      state.rareCatalog[group] = {};
+    }
+
+    const normalized = normalizeRareDetail({});
+    state.rareCatalog[group][assetId] = normalized;
+    state.rareEntriesById.set(assetId, { group, ...normalized });
+
+    if (entry) {
+      entry.isRare = true;
+      entry.rare = { group, ...normalized };
+    }
+  } else {
+    if (!existing) {
+      return;
+    }
+
+    const { group } = existing;
+    if (group && state.rareCatalog?.[group]) {
+      delete state.rareCatalog[group][assetId];
+      if (!Object.keys(state.rareCatalog[group]).length) {
+        delete state.rareCatalog[group];
+      }
+    }
+
+    state.rareEntriesById.delete(assetId);
+
+    if (entry) {
+      entry.isRare = false;
+      entry.rare = null;
+    }
+  }
+
+  updateAssetButtonShopMetadata(assetId);
+  renderAssetList();
+
+  if (state.selectedLayer?.id === assetId) {
+    renderShopEditor(state.selectedLayer);
+  }
 }
 
 function updateRareDetail(assetId, field, value) {
-  const rareEntry = state.rareEntriesById?.get(assetId);
+  let rareEntry = state.rareEntriesById?.get(assetId);
+  if (!rareEntry) {
+    setRareStatus(assetId, true);
+    rareEntry = state.rareEntriesById?.get(assetId);
+  }
+
   if (!rareEntry) {
     return;
   }
@@ -1561,49 +1692,19 @@ function updateRareDetail(assetId, field, value) {
   state.rareCatalog[group][assetId] = normalized;
   state.rareEntriesById.set(assetId, { group, ...normalized });
 
-  const entry = state.assetIndexById?.get(assetId);
-  if (entry) {
-    entry.isRare = true;
-    entry.rare = { group, ...normalized };
+  const entryRecord = state.assetIndexById?.get(assetId);
+  if (entryRecord) {
+    entryRecord.isRare = true;
+    entryRecord.rare = { group, ...normalized };
   }
 
   updateAssetButtonShopMetadata(assetId);
 
   if (state.selectedLayer?.id === assetId) {
-    renderRareEditor(state.selectedLayer);
+    renderShopEditor(state.selectedLayer);
   }
 
   renderAssetList();
-}
-
-function renderRareEditor(layer) {
-  const editor = dom.rareEditor;
-  const nameInput = dom.rareNameInput;
-  const rarityInput = dom.rareRarityInput;
-  if (!editor || !nameInput || !rarityInput) {
-    return;
-  }
-
-  if (!layer) {
-    editor.hidden = true;
-    nameInput.value = "";
-    rarityInput.value = "";
-    return;
-  }
-
-  const rareEntry = state.rareEntriesById?.get(layer.id);
-  if (!rareEntry) {
-    editor.hidden = true;
-    nameInput.value = "";
-    rarityInput.value = "";
-    return;
-  }
-
-  editor.hidden = false;
-  nameInput.value = rareEntry.name ?? "";
-  rarityInput.value = typeof rareEntry.rarity === "number" && Number.isFinite(rareEntry.rarity)
-    ? rareEntry.rarity
-    : "";
 }
 
 function populateCategoryFilter(categories) {
@@ -2832,7 +2933,6 @@ function updateSelectionPanel() {
   if (!state.selectedLayer) {
     dom.selectionPanel.hidden = true;
     renderShopEditor(null);
-    renderRareEditor(null);
     updatePivotHandle();
     return;
   }
@@ -2842,7 +2942,6 @@ function updateSelectionPanel() {
   dom.inputX.value = Math.round(state.selectedLayer.position.x);
   dom.inputY.value = Math.round(state.selectedLayer.position.y);
   renderShopEditor(state.selectedLayer);
-  renderRareEditor(state.selectedLayer);
 }
 
 function updateLayerPosition(layer, x, y) {
@@ -3240,18 +3339,67 @@ dom.inputY.addEventListener("change", () => {
   updateLayerPosition(state.selectedLayer, state.selectedLayer.position.x, value);
 });
 
-dom.rareNameInput?.addEventListener("input", (event) => {
+dom.shopSelect?.addEventListener("change", (event) => {
   if (!state.selectedLayer) {
     return;
   }
-  updateRareDetail(state.selectedLayer.id, "name", event.currentTarget.value);
+
+  const assetId = state.selectedLayer.id;
+  const value = event.currentTarget.value;
+
+  if (value === SHOP_OPTION_RARE) {
+    setExclusiveShopMembership(assetId, null, { skipRareReset: true });
+    setRareStatus(assetId, true, { skipShopReset: true });
+  } else {
+    setRareStatus(assetId, false);
+    setExclusiveShopMembership(assetId, value || null);
+  }
+
+  renderShopEditor(state.selectedLayer);
 });
 
-dom.rareRarityInput?.addEventListener("input", (event) => {
+dom.shopNameInput?.addEventListener("input", (event) => {
   if (!state.selectedLayer) {
     return;
   }
-  updateRareDetail(state.selectedLayer.id, "rarity", event.currentTarget.value);
+
+  const selection = dom.shopSelect?.value;
+  const assetId = state.selectedLayer.id;
+  const isRareSelection = selection === SHOP_OPTION_RARE || state.rareEntriesById?.has(assetId);
+
+  if (isRareSelection) {
+    updateRareDetail(assetId, "name", event.currentTarget.value);
+    return;
+  }
+
+  const activeShop = getAssignedShopId(assetId);
+  if (!activeShop) {
+    return;
+  }
+
+  updateShopDetail(assetId, activeShop, "name", event.currentTarget.value);
+});
+
+dom.shopPriceInput?.addEventListener("input", (event) => {
+  if (!state.selectedLayer) {
+    return;
+  }
+
+  const selection = dom.shopSelect?.value;
+  const assetId = state.selectedLayer.id;
+  const isRareSelection = selection === SHOP_OPTION_RARE || state.rareEntriesById?.has(assetId);
+
+  if (isRareSelection) {
+    updateRareDetail(assetId, "rarity", event.currentTarget.value);
+    return;
+  }
+
+  const activeShop = getAssignedShopId(assetId);
+  if (!activeShop) {
+    return;
+  }
+
+  updateShopDetail(assetId, activeShop, "cost", event.currentTarget.value);
 });
 
 dom.resetPosition.addEventListener("click", resetSelectedLayer);
