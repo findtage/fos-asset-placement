@@ -26,6 +26,7 @@ const LOCAL_STORAGE_KEY = "fos-asset-editor-placements-v2";
 const STAGE_SCALE_MIN = 0.5;
 const STAGE_SCALE_MAX = 3;
 const STAGE_SCALE_STEP = 0.25;
+const SHOP_OPTION_RARE = "__rare__";
 
 const ASSET_TRANSFORM_ORIGIN = "50% 50%";
 
@@ -80,13 +81,10 @@ const dom = {
   selectionTitle: document.getElementById("selection-title"),
   shopEditor: document.getElementById("shop-editor"),
   shopSelect: document.getElementById("shop-select"),
+  shopNameLabel: document.getElementById("shop-item-name-label"),
+  shopPriceLabel: document.getElementById("shop-item-price-label"),
   shopNameInput: document.getElementById("shop-item-name"),
   shopPriceInput: document.getElementById("shop-item-price"),
-  rareEditor: document.getElementById("rare-editor"),
-  rareToggle: document.getElementById("rare-enabled"),
-  rareFields: document.getElementById("rare-fields"),
-  rareNameInput: document.getElementById("rare-name"),
-  rareRarityInput: document.getElementById("rare-rarity"),
   inputX: document.getElementById("input-x"),
   inputY: document.getElementById("input-y"),
   resetPosition: document.getElementById("reset-position"),
@@ -1482,6 +1480,8 @@ function setExclusiveShopMembership(assetId, shopId, options = {}) {
 function renderShopEditor(layer) {
   const editor = dom.shopEditor;
   const select = dom.shopSelect;
+  const nameLabel = dom.shopNameLabel;
+  const priceLabel = dom.shopPriceLabel;
   const nameInput = dom.shopNameInput;
   const priceInput = dom.shopPriceInput;
   if (!editor || !select || !nameInput || !priceInput) {
@@ -1489,20 +1489,20 @@ function renderShopEditor(layer) {
   }
 
   const shops = Object.entries(state.shopCatalogs ?? {});
-  if (!layer || !shops.length) {
+  if (!layer) {
     editor.hidden = true;
-    return;
-  }
-
-  const isRare = Boolean(state.rareEntriesById?.get(layer.id));
-  editor.hidden = isRare;
-  if (isRare) {
+    select.innerHTML = "";
+    nameInput.value = "";
+    priceInput.value = "";
+    nameInput.disabled = true;
+    priceInput.disabled = true;
     return;
   }
 
   editor.hidden = false;
 
   const assetId = layer.id;
+  const rareEntry = state.rareEntriesById?.get(assetId) ?? null;
 
   const options = shops
     .slice()
@@ -1525,15 +1525,44 @@ function renderShopEditor(layer) {
     select.appendChild(option);
   });
 
-  const assignedShopId = getAssignedShopId(assetId) ?? "";
-  select.value = assignedShopId;
+  const rareOption = document.createElement("option");
+  rareOption.value = SHOP_OPTION_RARE;
+  rareOption.textContent = "Rare";
+  select.appendChild(rareOption);
 
-  const assignment = assignedShopId ? ensureShopAssignment(assetId, assignedShopId) : null;
-  nameInput.value = assignment?.name ?? "";
-  priceInput.value = assignment?.cost ?? "";
-  const inputsDisabled = !assignedShopId;
+  const assignedShopId = getAssignedShopId(assetId);
+  const selectionValue = rareEntry ? SHOP_OPTION_RARE : (assignedShopId ?? "");
+  select.value = selectionValue;
+
+  const isRareSelection = selectionValue === SHOP_OPTION_RARE;
+  const nameLabelNode = nameLabel || { textContent: null };
+  const priceLabelNode = priceLabel || { textContent: null };
+  nameLabelNode.textContent = isRareSelection ? "Rare name" : "Item name";
+  priceLabelNode.textContent = isRareSelection ? "Rarity" : "Price";
+
+  let nameValue = "";
+  let priceValue = "";
+  let inputsDisabled = false;
+
+  if (isRareSelection) {
+    nameValue = rareEntry?.name ?? "";
+    priceValue = typeof rareEntry?.rarity === "number" && Number.isFinite(rareEntry.rarity)
+      ? rareEntry.rarity
+      : "";
+  } else if (assignedShopId) {
+    const assignment = ensureShopAssignment(assetId, assignedShopId);
+    nameValue = assignment?.name ?? "";
+    priceValue = assignment?.cost ?? "";
+  } else {
+    inputsDisabled = true;
+  }
+
+  nameInput.value = nameValue;
+  priceInput.value = priceValue;
   nameInput.disabled = inputsDisabled;
   priceInput.disabled = inputsDisabled;
+  nameInput.placeholder = isRareSelection ? "Rare item name" : "Item name";
+  priceInput.placeholder = isRareSelection ? "Rarity value" : "Price";
 }
 
 function getRareGroupForAsset(assetId) {
@@ -1567,9 +1596,6 @@ function setRareStatus(assetId, isRare, options = {}) {
     const group = getRareGroupForAsset(assetId);
     if (!group) {
       console.warn(`Unable to determine rare group for asset ${assetId}`);
-      if (state.selectedLayer?.id === assetId && dom.rareToggle) {
-        dom.rareToggle.checked = false;
-      }
       return;
     }
 
@@ -1614,7 +1640,6 @@ function setRareStatus(assetId, isRare, options = {}) {
   renderAssetList();
 
   if (state.selectedLayer?.id === assetId) {
-    renderRareEditor(state.selectedLayer);
     renderShopEditor(state.selectedLayer);
   }
 }
@@ -1676,50 +1701,10 @@ function updateRareDetail(assetId, field, value) {
   updateAssetButtonShopMetadata(assetId);
 
   if (state.selectedLayer?.id === assetId) {
-    renderRareEditor(state.selectedLayer);
+    renderShopEditor(state.selectedLayer);
   }
 
   renderAssetList();
-}
-
-function renderRareEditor(layer) {
-  const editor = dom.rareEditor;
-  const rareToggle = dom.rareToggle;
-  const rareFields = dom.rareFields;
-  const nameInput = dom.rareNameInput;
-  const rarityInput = dom.rareRarityInput;
-  if (!editor || !rareToggle || !rareFields || !nameInput || !rarityInput) {
-    return;
-  }
-
-  if (!layer) {
-    editor.hidden = true;
-    rareToggle.checked = false;
-    rareFields.hidden = true;
-    nameInput.value = "";
-    rarityInput.value = "";
-    return;
-  }
-
-  const rareEntry = state.rareEntriesById?.get(layer.id);
-  const isRare = Boolean(rareEntry);
-
-  editor.hidden = false;
-  rareToggle.checked = isRare;
-  rareFields.hidden = !isRare;
-  nameInput.disabled = !isRare;
-  rarityInput.disabled = !isRare;
-
-  if (!isRare) {
-    nameInput.value = "";
-    rarityInput.value = "";
-    return;
-  }
-
-  nameInput.value = rareEntry.name ?? "";
-  rarityInput.value = typeof rareEntry.rarity === "number" && Number.isFinite(rareEntry.rarity)
-    ? rareEntry.rarity
-    : "";
 }
 
 function populateCategoryFilter(categories) {
@@ -2948,7 +2933,6 @@ function updateSelectionPanel() {
   if (!state.selectedLayer) {
     dom.selectionPanel.hidden = true;
     renderShopEditor(null);
-    renderRareEditor(null);
     updatePivotHandle();
     return;
   }
@@ -2958,7 +2942,6 @@ function updateSelectionPanel() {
   dom.inputX.value = Math.round(state.selectedLayer.position.x);
   dom.inputY.value = Math.round(state.selectedLayer.position.y);
   renderShopEditor(state.selectedLayer);
-  renderRareEditor(state.selectedLayer);
 }
 
 function updateLayerPosition(layer, x, y) {
@@ -3361,10 +3344,18 @@ dom.shopSelect?.addEventListener("change", (event) => {
     return;
   }
 
+  const assetId = state.selectedLayer.id;
   const value = event.currentTarget.value;
-  setExclusiveShopMembership(state.selectedLayer.id, value || null);
+
+  if (value === SHOP_OPTION_RARE) {
+    setExclusiveShopMembership(assetId, null, { skipRareReset: true });
+    setRareStatus(assetId, true, { skipShopReset: true });
+  } else {
+    setRareStatus(assetId, false);
+    setExclusiveShopMembership(assetId, value || null);
+  }
+
   renderShopEditor(state.selectedLayer);
-  renderRareEditor(state.selectedLayer);
 });
 
 dom.shopNameInput?.addEventListener("input", (event) => {
@@ -3372,12 +3363,21 @@ dom.shopNameInput?.addEventListener("input", (event) => {
     return;
   }
 
-  const activeShop = getAssignedShopId(state.selectedLayer.id);
+  const selection = dom.shopSelect?.value;
+  const assetId = state.selectedLayer.id;
+  const isRareSelection = selection === SHOP_OPTION_RARE || state.rareEntriesById?.has(assetId);
+
+  if (isRareSelection) {
+    updateRareDetail(assetId, "name", event.currentTarget.value);
+    return;
+  }
+
+  const activeShop = getAssignedShopId(assetId);
   if (!activeShop) {
     return;
   }
 
-  updateShopDetail(state.selectedLayer.id, activeShop, "name", event.currentTarget.value);
+  updateShopDetail(assetId, activeShop, "name", event.currentTarget.value);
 });
 
 dom.shopPriceInput?.addEventListener("input", (event) => {
@@ -3385,35 +3385,21 @@ dom.shopPriceInput?.addEventListener("input", (event) => {
     return;
   }
 
-  const activeShop = getAssignedShopId(state.selectedLayer.id);
+  const selection = dom.shopSelect?.value;
+  const assetId = state.selectedLayer.id;
+  const isRareSelection = selection === SHOP_OPTION_RARE || state.rareEntriesById?.has(assetId);
+
+  if (isRareSelection) {
+    updateRareDetail(assetId, "rarity", event.currentTarget.value);
+    return;
+  }
+
+  const activeShop = getAssignedShopId(assetId);
   if (!activeShop) {
     return;
   }
 
-  updateShopDetail(state.selectedLayer.id, activeShop, "cost", event.currentTarget.value);
-});
-
-dom.rareToggle?.addEventListener("change", (event) => {
-  if (!state.selectedLayer) {
-    return;
-  }
-
-  const enabled = event.currentTarget.checked;
-  setRareStatus(state.selectedLayer.id, enabled);
-});
-
-dom.rareNameInput?.addEventListener("input", (event) => {
-  if (!state.selectedLayer) {
-    return;
-  }
-  updateRareDetail(state.selectedLayer.id, "name", event.currentTarget.value);
-});
-
-dom.rareRarityInput?.addEventListener("input", (event) => {
-  if (!state.selectedLayer) {
-    return;
-  }
-  updateRareDetail(state.selectedLayer.id, "rarity", event.currentTarget.value);
+  updateShopDetail(assetId, activeShop, "cost", event.currentTarget.value);
 });
 
 dom.resetPosition.addEventListener("click", resetSelectedLayer);

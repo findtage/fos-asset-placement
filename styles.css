@@ -599,52 +599,6 @@ aside {
   font-size: 0.9rem;
 }
 
-#rare-editor {
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  padding: 12px;
-  margin-bottom: 16px;
-  display: grid;
-  gap: 12px;
-}
-
-#rare-editor legend {
-  padding: 0 6px;
-  font-weight: 600;
-  color: #b45309;
-}
-
-.rare-editor-fields {
-  display: grid;
-  gap: 8px;
-}
-
-.rare-toggle {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  font-weight: 600;
-}
-
-.rare-toggle input {
-  width: 16px;
-  height: 16px;
-}
-
-.rare-editor-fields label {
-  display: grid;
-  gap: 4px;
-  font-size: 0.85rem;
-}
-
-.rare-editor-fields input {
-  width: 100%;
-  padding: 6px 8px;
-  border: 1px solid var(--border);
-  border-radius: 6px;
-  font-size: 0.85rem;
-}
-
 
 .shop-editor-inputs {
   display: grid;
