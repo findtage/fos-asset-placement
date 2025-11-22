@@ -13,6 +13,7 @@ import {
 } from "./assets/data.js";
 
 const BOARD_METADATA_PATH = "./assets/boards_metadata.json";
+const HAIR_ACC_METADATA_PATH = "./assets/hairacc_metadata.json";
 const RARE_DATA_PATH = "./assets/rares.json";
 const SHOP_DATA_SOURCES = {
   le_shop: { label: "Le Shop", path: "./assets/le_shop.json" },
@@ -50,6 +51,7 @@ const state = {
   savedPlacements: savedData.placements,
   savedShopChanges: savedData.shops,
   savedRareChanges: savedData.rares,
+  hairAccessories: {},
   isGizmoDraggingEnabled: false,
 };
 
@@ -206,6 +208,11 @@ function normalizeMetadataPath(path, pathSegments = []) {
       }
       return `assets/closet/${category}/${path}`;
     }
+    case "hair_acc":
+      if (isGendered) {
+        return `assets/closet/acc/${gender}/head/${path}`;
+      }
+      return `assets/closet/${category}/${path}`;
     case "body":
     case "heads":
     case "avatar_parts":
@@ -497,6 +504,65 @@ async function loadBoardMetadata() {
   }
   const data = await response.json();
   return data;
+}
+
+async function loadHairAccessoryMetadata() {
+  try {
+    const response = await fetch(HAIR_ACC_METADATA_PATH);
+    if (!response.ok) {
+      throw new Error("Unable to load hair accessory metadata");
+    }
+    const data = await response.json();
+    return data && typeof data === "object" ? data : {};
+  } catch (error) {
+    console.warn("Unable to load hair accessory metadata", error);
+    return {};
+  }
+}
+
+function buildHairAccessoryCollection(metadata = {}) {
+  const collection = { female: {} };
+
+  Object.entries(metadata).forEach(([id, detail]) => {
+    if (!detail || typeof detail !== "object") {
+      return;
+    }
+
+    const { pathname } = detail;
+    if (!pathname) {
+      return;
+    }
+
+    const frames = Number(detail.frames);
+    const isMultiFrame = Number.isFinite(frames) && frames > 1;
+
+    const entry = {
+      path: pathname,
+      type: isMultiFrame ? "sprite" : "image",
+      properties: detail.properties && typeof detail.properties === "object" ? detail.properties : {},
+    };
+
+    ["fitX", "fitY", "splitX", "splitY", "frameWidth", "frameHeight", "offsetX", "offsetY"].forEach((field) => {
+      if (Object.prototype.hasOwnProperty.call(detail, field)) {
+        entry[field] = detail[field];
+      }
+    });
+
+    if (!entry.frameWidth && Object.prototype.hasOwnProperty.call(entry, "splitX")) {
+      entry.frameWidth = entry.splitX;
+    }
+    if (!entry.frameHeight && Object.prototype.hasOwnProperty.call(entry, "splitY")) {
+      entry.frameHeight = entry.splitY;
+    }
+
+    collection.female[id] = entry;
+  });
+
+  if (!Object.keys(collection.female).length) {
+    return null;
+  }
+
+  return collection;
 }
 
 function collectShopItems(node, accumulator = new Map()) {
@@ -1033,7 +1099,7 @@ function updateBaseCoordinateDisplay() {
   dom.headCoords.textContent = format(head);
 }
 
-function buildAssetIndex(boardsMetadata) {
+function buildAssetIndex(boardsMetadata, additionalClosetCollections = {}) {
   const index = [];
 
   const traverse = (node, pathSegments = []) => {
@@ -1084,7 +1150,10 @@ function buildAssetIndex(boardsMetadata) {
     }
   };
 
-  const catalogSources = [CLOSET_COLLECTIONS, AVATAR_COLLECTIONS];
+  const catalogSources = [
+    { ...CLOSET_COLLECTIONS, ...additionalClosetCollections },
+    AVATAR_COLLECTIONS,
+  ];
 
   catalogSources.forEach((collections) => {
     Object.entries(collections).forEach(([category, payload]) => {
@@ -3105,12 +3174,15 @@ function applySavedRareChanges() {
 }
 
 async function init() {
-  const [boards, shopCatalogs, rareCatalog] = await Promise.all([
+  const [boards, hairAccessoryMetadata, shopCatalogs, rareCatalog] = await Promise.all([
     loadBoardMetadata(),
+    loadHairAccessoryMetadata(),
     loadShopCatalogs(),
     loadRareCatalog(),
   ]);
+  const hairAccessoryCollection = buildHairAccessoryCollection(hairAccessoryMetadata);
   state.boards = boards;
+  state.hairAccessories = hairAccessoryCollection ?? {};
   state.shopCatalogs = shopCatalogs;
   state.shopCatalogBaselines = cloneShopCatalogs(shopCatalogs);
   state.rareCatalog = cloneRareCatalog(rareCatalog);
@@ -3119,7 +3191,10 @@ async function init() {
   applySavedRareChanges();
   state.shopAssignments = new Map();
   state.rareEntriesById = buildRareIndex(state.rareCatalog);
-  state.assetIndex = buildAssetIndex(state.boards);
+  state.assetIndex = buildAssetIndex(
+    state.boards,
+    hairAccessoryCollection ? { hair_acc: hairAccessoryCollection } : {},
+  );
   state.assetIndexById = new Map(state.assetIndex.map((entry) => [entry.id, entry]));
   state.assetIndexByKey = new Map(state.assetIndex.map((entry) => [entry.key, entry]));
   annotateAssetIndexWithShops(state.assetIndex, state.shopCatalogs);
