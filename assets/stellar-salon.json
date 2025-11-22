@@ -812,5 +812,182 @@
         "name": "Winter Hair"
       }
     }
+  },
+  "hairacc": {
+    "female": {
+      "girl-acc-veterancrown1-0410": {
+        "cost": 500,
+        "name": "Acc Veterancrown1 0410"
+      },
+      "girl-acc-veterancrown2-0410": {
+        "cost": 500,
+        "name": "Acc Veterancrown2 0410"
+      },
+      "girl-acc-veterancrown3-0410": {
+        "cost": 500,
+        "name": "Acc Veterancrown3 0410"
+      },
+      "girl-ACH1-crown-1-2010": {
+        "cost": 500,
+        "name": "Ach1 Crown 1 2010"
+      },
+      "girl-ACH1-elfhat-12-2009": {
+        "cost": 500,
+        "name": "Ach1 Elfhat 12 2009"
+      },
+      "girl-ACH1-headband-1-2010": {
+        "cost": 500,
+        "name": "Ach1 Headband 1 2010"
+      },
+      "girl-head-2008": {
+        "cost": 500,
+        "name": "Head 2008"
+      },
+      "girl-head-2008blue": {
+        "cost": 500,
+        "name": "Head 2008Blue"
+      },
+      "girl-head-2008red": {
+        "cost": 500,
+        "name": "Head 2008Red"
+      },
+      "girl-head-2008visor": {
+        "cost": 500,
+        "name": "Head 2008Visor"
+      },
+      "girl-head-independentday-07-2009": {
+        "cost": 500,
+        "name": "Head Independentday 07 2009"
+      },
+      "girl-head-party3": {
+        "cost": 500,
+        "name": "Head Party3"
+      },
+      "girl-head-school-out": {
+        "cost": 500,
+        "name": "Head School Out"
+      },
+      "girl-head-widzard-07-2009": {
+        "cost": 500,
+        "name": "Head Widzard 07 2009"
+      },
+      "girl-nmnewyears-12-2010": {
+        "cost": 500,
+        "name": "Nmnewyears 12 2010"
+      },
+      "girl-acc-2011stpatricksdayclover": {
+        "cost": 500,
+        "name": "Acc 2011Stpatricksdayclover"
+      },
+      "girl-acc-angelheadpiece2010": {
+        "cost": 500,
+        "name": "Acc Angelheadpiece2010"
+      },
+      "girl-acc-aprilsfooljester": {
+        "cost": 500,
+        "name": "Acc Aprilsfooljester"
+      },
+      "girl-acc-blue-antlers": {
+        "cost": 500,
+        "name": "Acc Blue Antlers"
+      },
+      "girl-acc-blueCatEars": {
+        "cost": 500,
+        "name": "Acc Bluecatears"
+      },
+      "girl-acc-bunnyears-serialprize": {
+        "cost": 500,
+        "name": "Acc Bunnyears Serialprize"
+      },
+      "girl-acc-chocolateheadband": {
+        "cost": 500,
+        "name": "Acc Chocolateheadband"
+      },
+      "girl-acc-cny-hairpin-0120": {
+        "cost": 500,
+        "name": "Acc Cny Hairpin 0120"
+      },
+      "girl-acc-crown": {
+        "cost": 500,
+        "name": "Acc Crown"
+      },
+      "girl-acc-dino-hat": {
+        "cost": 500,
+        "name": "Acc Dino Hat"
+      },
+      "girl-acc-elf-hatA": {
+        "cost": 500,
+        "name": "Acc Elf Hata"
+      },
+      "girl-acc-elf-hatB": {
+        "cost": 500,
+        "name": "Acc Elf Hatb"
+      },
+      "girl-acc-flowercrown-09-2009": {
+        "cost": 500,
+        "name": "Acc Flowercrown 09 2009"
+      },
+      "girl-acch-alien-hat-8-11": {
+        "cost": 500,
+        "name": "Acch Alien Hat 8 11"
+      },
+      "girl-acch-alien-rec-8-11": {
+        "cost": 500,
+        "name": "Acch Alien Rec 8 11"
+      },
+      "girl-acch-polarbearacc-12-2010": {
+        "cost": 500,
+        "name": "Acch Polarbearacc 12 2010"
+      },
+      "girl-acc-mouseband": {
+        "cost": 500,
+        "name": "Acc Mouseband"
+      },
+      "girl-acc-patty2009": {
+        "cost": 500,
+        "name": "Acc Patty2009"
+      },
+      "girl-acc-pinkheadband-09-2009": {
+        "cost": 500,
+        "name": "Acc Pinkheadband 09 2009"
+      },
+      "girl-acc-polkadothairbowblue": {
+        "cost": 500,
+        "name": "Acc Polkadothairbowblue"
+      },
+      "girl-acc-polkadothairboworange": {
+        "cost": 500,
+        "name": "Acc Polkadothairboworange"
+      },
+      "girl-acc-polkadothairbowpink": {
+        "cost": 500,
+        "name": "Acc Polkadothairbowpink"
+      },
+      "girl-acc-redribbon-06-2010": {
+        "cost": 500,
+        "name": "Acc Redribbon 06 2010"
+      },
+      "girl-acc-ribon-09-2009": {
+        "cost": 500,
+        "name": "Acc Ribon 09 2009"
+      },
+      "girl-acc-roseheadband-07-2009": {
+        "cost": 500,
+        "name": "Acc Roseheadband 07 2009"
+      },
+      "girl-acc-simple-pin_0515": {
+        "cost": 500,
+        "name": "Acc Simple Pin 0515"
+      },
+      "girl-acc-tiara": {
+        "cost": 500,
+        "name": "Acc Tiara"
+      },
+      "girl-acc-val": {
+        "cost": 500,
+        "name": "Acc Val"
+      }
+    },
+    "male": {}
   }
 }
