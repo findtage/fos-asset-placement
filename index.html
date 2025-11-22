@@ -94,11 +94,28 @@
           </div>
           <fieldset id="shop-editor" class="shop-editor" hidden>
             <legend>Shop Listing</legend>
-            <div id="shop-editor-rows" class="shop-editor-rows"></div>
+            <label class="shop-select">
+              Shop
+              <select id="shop-select"></select>
+            </label>
+            <div class="shop-editor-inputs">
+              <label>
+                Item name
+                <input id="shop-item-name" type="text" placeholder="Item name" />
+              </label>
+              <label>
+                Price
+                <input id="shop-item-price" type="number" min="0" step="1" placeholder="Price" />
+              </label>
+            </div>
           </fieldset>
           <fieldset id="rare-editor" class="rare-editor" hidden>
             <legend>Rare Metadata</legend>
-            <div class="rare-editor-fields">
+            <label class="rare-toggle">
+              <input id="rare-enabled" type="checkbox" />
+              <span>Mark as rare</span>
+            </label>
+            <div class="rare-editor-fields" id="rare-fields">
               <label>
                 Name
                 <input id="rare-name" type="text" placeholder="Rare item name" />

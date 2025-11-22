@@ -585,6 +585,20 @@ aside {
   color: var(--accent-dark);
 }
 
+.shop-select {
+  display: grid;
+  gap: 4px;
+  font-size: 0.85rem;
+}
+
+.shop-select select {
+  width: 100%;
+  padding: 6px 8px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  font-size: 0.9rem;
+}
+
 #rare-editor {
   border: 1px solid var(--border);
   border-radius: 8px;
@@ -605,6 +619,18 @@ aside {
   gap: 8px;
 }
 
+.rare-toggle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 600;
+}
+
+.rare-toggle input {
+  width: 16px;
+  height: 16px;
+}
+
 .rare-editor-fields label {
   display: grid;
   gap: 4px;
@@ -619,27 +645,17 @@ aside {
   font-size: 0.85rem;
 }
 
-.shop-editor-rows {
-  display: grid;
-  gap: 12px;
-}
-
-.shop-editor-row {
-  display: grid;
-  gap: 8px;
-}
-
-.shop-editor-toggle {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  font-weight: 600;
-}
 
 .shop-editor-inputs {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 8px;
+}
+
+.shop-editor-inputs label {
+  display: grid;
+  gap: 4px;
+  font-size: 0.85rem;
 }
 
 .shop-editor-inputs input {
