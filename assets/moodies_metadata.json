@@ -154,12 +154,11 @@
   },
   "moodie-skull-animation_orig_31": {
     "pathname": "moodie-skull-animation_orig_31.png",
-    "frames": 3,
+    "frames": 1,
     "properties": {},
     "fitX": 0,
     "fitY": 0,
-    "splitX": 65.0,
-    "splitY": 79,
-    "scale": 0.5
+    "splitX": 55,
+    "splitY": 39
   }
 }
