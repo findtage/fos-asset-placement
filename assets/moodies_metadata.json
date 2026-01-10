@@ -4,7 +4,7 @@
     "frames": 1,
     "properties": {},
     "fitX": 0,
-    "fitY": 0,
+    "fitY": -138,
     "splitX": 32.0,
     "splitY": 34
   },
@@ -13,7 +13,7 @@
     "frames": 1,
     "properties": {},
     "fitX": 0,
-    "fitY": 0,
+    "fitY": -142,
     "splitX": 28.0,
     "splitY": 30
   },
@@ -22,7 +22,7 @@
     "frames": 1,
     "properties": {},
     "fitX": 0,
-    "fitY": 0,
+    "fitY": -144,
     "splitX": 37.0,
     "splitY": 35
   },
@@ -31,7 +31,7 @@
     "frames": 1,
     "properties": {},
     "fitX": 0,
-    "fitY": 0,
+    "fitY": -140,
     "splitX": 26.0,
     "splitY": 36
   },
@@ -39,8 +39,8 @@
     "pathname": "moodie-flame_orig_13.png",
     "frames": 1,
     "properties": {},
-    "fitX": 0,
-    "fitY": 0,
+    "fitX": 5,
+    "fitY": -143,
     "splitX": 29.0,
     "splitY": 40
   },
@@ -48,8 +48,8 @@
     "pathname": "moodie-lightning-bolt_orig_21.png",
     "frames": 1,
     "properties": {},
-    "fitX": 0,
-    "fitY": 0,
+    "fitX": 3,
+    "fitY": -136,
     "splitX": 37.0,
     "splitY": 43
   },
@@ -57,8 +57,8 @@
     "pathname": "moodie-love_orig_01.png",
     "frames": 1,
     "properties": {},
-    "fitX": 0,
-    "fitY": 0,
+    "fitX": 2,
+    "fitY": -141,
     "splitX": 38.0,
     "splitY": 37
   },
@@ -67,7 +67,7 @@
     "frames": 1,
     "properties": {},
     "fitX": 0,
-    "fitY": 0,
+    "fitY": -137,
     "splitX": 58.0,
     "splitY": 41
   },
@@ -75,8 +75,8 @@
     "pathname": "moodie-tear_orig_12.png",
     "frames": 1,
     "properties": {},
-    "fitX": 0,
-    "fitY": 0,
+    "fitX": 1,
+    "fitY": -138,
     "splitX": 36.0,
     "splitY": 33
   },
@@ -84,8 +84,8 @@
     "pathname": "moodie-tulip_orig_32.png",
     "frames": 1,
     "properties": {},
-    "fitX": 0,
-    "fitY": 0,
+    "fitX": 1,
+    "fitY": -145,
     "splitX": 37.0,
     "splitY": 41
   },
@@ -93,8 +93,8 @@
     "pathname": "moodie-umbrella_orig_11.png",
     "frames": 1,
     "properties": {},
-    "fitX": 0,
-    "fitY": 0,
+    "fitX": 1,
+    "fitY": -137,
     "splitX": 41.0,
     "splitY": 33
   },
@@ -102,8 +102,8 @@
     "pathname": "thunderstorm_orig_33.png",
     "frames": 1,
     "properties": {},
-    "fitX": 0,
-    "fitY": 0,
+    "fitX": -1,
+    "fitY": -141,
     "splitX": 38.0,
     "splitY": 30
   },
@@ -111,8 +111,8 @@
     "pathname": "fantage-moodie-arrowheart-02-2010_orig_tmp_02.png",
     "frames": 2,
     "properties": {},
-    "fitX": 0,
-    "fitY": 0,
+    "fitX": -1,
+    "fitY": -111,
     "splitX": 78.0,
     "splitY": 113
   },
@@ -120,8 +120,8 @@
     "pathname": "fantage-moodie-orig-heart-10-2009_orig_41.png",
     "frames": 2,
     "properties": {},
-    "fitX": 0,
-    "fitY": 0,
+    "fitX": -2,
+    "fitY": -105,
     "splitX": 78.0,
     "splitY": 113
   },
@@ -129,8 +129,8 @@
     "pathname": "fantage-moodie-orig-musicnote-10-2009_orig_22.png",
     "frames": 2,
     "properties": {},
-    "fitX": 0,
-    "fitY": 0,
+    "fitX": -2,
+    "fitY": -102,
     "splitX": 78.0,
     "splitY": 113
   },
@@ -138,8 +138,8 @@
     "pathname": "fantage-moodie-orig-smileface-10-2009_orig_51.png",
     "frames": 2,
     "properties": {},
-    "fitX": 0,
-    "fitY": 0,
+    "fitX": -1,
+    "fitY": -106,
     "splitX": 78.0,
     "splitY": 113
   },
@@ -147,18 +147,18 @@
     "pathname": "fantage-moodie-orig-vdaycupcake-02-2013_orig_03.png",
     "frames": 2,
     "properties": {},
-    "fitX": 0,
-    "fitY": 0,
+    "fitX": -2,
+    "fitY": -108,
     "splitX": 78.0,
     "splitY": 113
   },
   "moodie-skull-animation_orig_31": {
     "pathname": "moodie-skull-animation_orig_31.png",
-    "frames": 1,
+    "frames": 3,
     "properties": {},
-    "fitX": 0,
-    "fitY": 0,
-    "splitX": 55,
-    "splitY": 39
+    "fitX": 3,
+    "fitY": -138,
+    "splitX": 65.0,
+    "splitY": 79
   }
 }
