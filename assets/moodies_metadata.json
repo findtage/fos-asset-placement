@@ -159,6 +159,7 @@
     "fitX": 0,
     "fitY": 0,
     "splitX": 65.0,
-    "splitY": 79
+    "splitY": 79,
+    "scale": 0.5
   }
 }
