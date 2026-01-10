@@ -14,12 +14,14 @@ import {
 
 const BOARD_METADATA_PATH = "./assets/boards_metadata.json";
 const HAIR_ACC_METADATA_PATH = "./assets/hairacc_metadata.json";
+const MOODIES_METADATA_PATH = "./assets/moodies_metadata.json";
 const RARE_DATA_PATH = "./assets/rares.json";
 const SHOP_DATA_SOURCES = {
   le_shop: { label: "Le Shop", path: "./assets/le_shop.json" },
   jesters: { label: "Jesters", path: "./assets/jesters.json" },
   stellar_salon: { label: "Stellar Salon", path: "./assets/stellar-salon.json" },
   locoboards: { label: "Loco Boardz", path: "./assets/locoboards.json" },
+  moodies_kiosk: { label: "Moodies Kiosk", path: "./assets/moodie-kiosk.json" },
 };
 const ASSET_BASE_PATH = "";
 const LOCAL_STORAGE_KEY = "fos-asset-editor-placements-v2";
@@ -574,6 +576,20 @@ async function loadHairAccessoryMetadata() {
   }
 }
 
+async function loadMoodiesMetadata() {
+  try {
+    const response = await fetch(MOODIES_METADATA_PATH);
+    if (!response.ok) {
+      throw new Error("Unable to load moodies metadata");
+    }
+    const data = await response.json();
+    return data && typeof data === "object" ? data : {};
+  } catch (error) {
+    console.warn("Unable to load moodies metadata", error);
+    return {};
+  }
+}
+
 function buildHairAccessoryCollection(metadata = {}) {
   const collection = { female: {} };
 
@@ -613,6 +629,51 @@ function buildHairAccessoryCollection(metadata = {}) {
   });
 
   if (!Object.keys(collection.female).length) {
+    return null;
+  }
+
+  return collection;
+}
+
+function buildMoodiesCollection(metadata = {}) {
+  const collection = {};
+
+  Object.entries(metadata).forEach(([id, detail]) => {
+    if (!detail || typeof detail !== "object") {
+      return;
+    }
+
+    const { pathname } = detail;
+    if (!pathname) {
+      return;
+    }
+
+    const frames = Number(detail.frames);
+    const isMultiFrame = Number.isFinite(frames) && frames > 1;
+
+    const entry = {
+      path: `assets/closet/moodies/${pathname}`,
+      type: isMultiFrame ? "sprite" : "image",
+      properties: detail.properties && typeof detail.properties === "object" ? detail.properties : {},
+    };
+
+    ["fitX", "fitY", "splitX", "splitY", "frameWidth", "frameHeight", "offsetX", "offsetY"].forEach((field) => {
+      if (Object.prototype.hasOwnProperty.call(detail, field)) {
+        entry[field] = detail[field];
+      }
+    });
+
+    if (!entry.frameWidth && Object.prototype.hasOwnProperty.call(entry, "splitX")) {
+      entry.frameWidth = entry.splitX;
+    }
+    if (!entry.frameHeight && Object.prototype.hasOwnProperty.call(entry, "splitY")) {
+      entry.frameHeight = entry.splitY;
+    }
+
+    collection[id] = entry;
+  });
+
+  if (!Object.keys(collection).length) {
     return null;
   }
 
@@ -3364,13 +3425,15 @@ function applySavedRareChanges() {
 }
 
 async function init() {
-  const [boards, hairAccessoryMetadata, shopCatalogs, rareCatalog] = await Promise.all([
+  const [boards, hairAccessoryMetadata, moodiesMetadata, shopCatalogs, rareCatalog] = await Promise.all([
     loadBoardMetadata(),
     loadHairAccessoryMetadata(),
+    loadMoodiesMetadata(),
     loadShopCatalogs(),
     loadRareCatalog(),
   ]);
   const hairAccessoryCollection = buildHairAccessoryCollection(hairAccessoryMetadata);
+  const moodiesCollection = buildMoodiesCollection(moodiesMetadata);
   state.boards = boards;
   state.hairAccessories = hairAccessoryCollection ?? {};
   state.shopCatalogs = shopCatalogs;
@@ -3383,7 +3446,10 @@ async function init() {
   state.rareEntriesById = buildRareIndex(state.rareCatalog);
   state.assetIndex = buildAssetIndex(
     state.boards,
-    hairAccessoryCollection ? { hair_acc: hairAccessoryCollection } : {},
+    {
+      ...(hairAccessoryCollection ? { hair_acc: hairAccessoryCollection } : {}),
+      ...(moodiesCollection ? { moodies: moodiesCollection } : {}),
+    },
   );
   state.assetIndexById = new Map(state.assetIndex.map((entry) => [entry.id, entry]));
   state.assetIndexByKey = new Map(state.assetIndex.map((entry) => [entry.key, entry]));
