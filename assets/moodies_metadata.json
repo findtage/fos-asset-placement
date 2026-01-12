@@ -205,5 +205,15 @@
     "fitY": -145,
     "splitX": 32,
     "splitY": 11
+  },
+  "flying_heart_moodie": {
+    "pathname": "flying_heart_moodie.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": 0,
+    "fitY": -148,
+    "splitX": 46,
+    "splitY": 36
   }
+
 }
