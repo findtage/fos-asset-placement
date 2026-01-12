@@ -1,10 +1,19 @@
 {
+  "moodie-face-silly_orig_43": {
+    "pathname": "moodie-face-silly_orig_43.png",
+    "frames": 1,
+    "properties": {},
+    "fitX": -1,
+    "fitY": -145,
+    "splitX": 26.0,
+    "splitY": 36
+  },
   "moodie-broken-heart_orig_42": {
     "pathname": "moodie-broken-heart_orig_42.png",
     "frames": 1,
     "properties": {},
     "fitX": 0,
-    "fitY": -138,
+    "fitY": -144,
     "splitX": 32.0,
     "splitY": 34
   },
@@ -12,8 +21,8 @@
     "pathname": "moodie-face-mad_orig_53.png",
     "frames": 1,
     "properties": {},
-    "fitX": 0,
-    "fitY": -142,
+    "fitX": -1,
+    "fitY": -147,
     "splitX": 28.0,
     "splitY": 30
   },
@@ -21,26 +30,26 @@
     "pathname": "moodie-face-sad_orig_52.png",
     "frames": 1,
     "properties": {},
-    "fitX": 0,
-    "fitY": -144,
+    "fitX": -1,
+    "fitY": -149,
     "splitX": 37.0,
     "splitY": 35
   },
-  "moodie-face-silly_orig_43": {
-    "pathname": "moodie-face-silly_orig_43.png",
-    "frames": 1,
+  "fantage-moodie-arrowheart-02-2010_orig_tmp_02": {
+    "pathname": "fantage-moodie-arrowheart-02-2010_orig_tmp_02.png",
+    "frames": 2,
     "properties": {},
     "fitX": 0,
-    "fitY": -140,
-    "splitX": 26.0,
-    "splitY": 36
+    "fitY": -116,
+    "splitX": 78.0,
+    "splitY": 113
   },
   "moodie-flame_orig_13": {
     "pathname": "moodie-flame_orig_13.png",
     "frames": 1,
     "properties": {},
-    "fitX": 5,
-    "fitY": -143,
+    "fitX": 6,
+    "fitY": -148,
     "splitX": 29.0,
     "splitY": 40
   },
@@ -49,7 +58,7 @@
     "frames": 1,
     "properties": {},
     "fitX": 3,
-    "fitY": -136,
+    "fitY": -142,
     "splitX": 37.0,
     "splitY": 43
   },
@@ -57,17 +66,26 @@
     "pathname": "moodie-love_orig_01.png",
     "frames": 1,
     "properties": {},
-    "fitX": 2,
-    "fitY": -141,
+    "fitX": 1,
+    "fitY": -150,
     "splitX": 38.0,
     "splitY": 37
+  },
+  "moodie-skull-animation_orig_31": {
+    "pathname": "moodie-skull-animation_orig_31.png",
+    "frames": 3,
+    "properties": {},
+    "fitX": 7,
+    "fitY": -126,
+    "splitX": 65.0,
+    "splitY": 79
   },
   "moodie-sun_orig_23": {
     "pathname": "moodie-sun_orig_23.png",
     "frames": 1,
     "properties": {},
     "fitX": 0,
-    "fitY": -137,
+    "fitY": -145,
     "splitX": 58.0,
     "splitY": 41
   },
@@ -76,7 +94,7 @@
     "frames": 1,
     "properties": {},
     "fitX": 1,
-    "fitY": -138,
+    "fitY": -147,
     "splitX": 36.0,
     "splitY": 33
   },
@@ -85,7 +103,7 @@
     "frames": 1,
     "properties": {},
     "fitX": 1,
-    "fitY": -145,
+    "fitY": -153,
     "splitX": 37.0,
     "splitY": 41
   },
@@ -93,8 +111,8 @@
     "pathname": "moodie-umbrella_orig_11.png",
     "frames": 1,
     "properties": {},
-    "fitX": 1,
-    "fitY": -137,
+    "fitX": 0,
+    "fitY": -145,
     "splitX": 41.0,
     "splitY": 33
   },
@@ -103,25 +121,16 @@
     "frames": 1,
     "properties": {},
     "fitX": -1,
-    "fitY": -141,
+    "fitY": -150,
     "splitX": 38.0,
     "splitY": 30
-  },
-  "fantage-moodie-arrowheart-02-2010_orig_tmp_02": {
-    "pathname": "fantage-moodie-arrowheart-02-2010_orig_tmp_02.png",
-    "frames": 2,
-    "properties": {},
-    "fitX": -1,
-    "fitY": -111,
-    "splitX": 78.0,
-    "splitY": 113
   },
   "fantage-moodie-orig-heart-10-2009_orig_41": {
     "pathname": "fantage-moodie-orig-heart-10-2009_orig_41.png",
     "frames": 2,
     "properties": {},
-    "fitX": -2,
-    "fitY": -105,
+    "fitX": -1,
+    "fitY": -114,
     "splitX": 78.0,
     "splitY": 113
   },
@@ -129,8 +138,8 @@
     "pathname": "fantage-moodie-orig-musicnote-10-2009_orig_22.png",
     "frames": 2,
     "properties": {},
-    "fitX": -2,
-    "fitY": -102,
+    "fitX": 0,
+    "fitY": -110,
     "splitX": 78.0,
     "splitY": 113
   },
@@ -138,8 +147,8 @@
     "pathname": "fantage-moodie-orig-smileface-10-2009_orig_51.png",
     "frames": 2,
     "properties": {},
-    "fitX": -1,
-    "fitY": -106,
+    "fitX": 0,
+    "fitY": -114,
     "splitX": 78.0,
     "splitY": 113
   },
@@ -148,17 +157,53 @@
     "frames": 2,
     "properties": {},
     "fitX": -2,
-    "fitY": -108,
+    "fitY": -117,
     "splitX": 78.0,
     "splitY": 113
   },
-  "moodie-skull-animation_orig_31": {
-    "pathname": "moodie-skull-animation_orig_31.png",
-    "frames": 3,
+  "rafi_moodie": {
+    "pathname": "rafi_moodie.png",
+    "frames": 5,
     "properties": {},
-    "fitX": 7,
-    "fitY": -120,
-    "splitX": 65.0,
-    "splitY": 79
+    "fitX": 0,
+    "fitY": -145,
+    "splitX": 43,
+    "splitY": 12
+  },
+  "safi_moodie": {
+    "pathname": "safi_moodie.png",
+    "frames": 5,
+    "properties": {},
+    "fitX": 0,
+    "fitY": -145,
+    "splitX": 43,
+    "splitY": 12
+  },
+  "vivi_moodie": {
+    "pathname": "vivi_moodie.png",
+    "frames": 5,
+    "properties": {},
+    "fitX": 0,
+    "fitY": -145,
+    "splitX": 42,
+    "splitY": 11
+  },
+  "dmj_moodie": {
+    "pathname": "dmj_moodie.png",
+    "frames": 5,
+    "properties": {},
+    "fitX": 0,
+    "fitY": -145,
+    "splitX": 39,
+    "splitY": 13
+  },
+  "ue_moodie": {
+    "pathname": "ue_moodie.png",
+    "frames": 5,
+    "properties": {},
+    "fitX": 0,
+    "fitY": -145,
+    "splitX": 32,
+    "splitY": 11
   }
 }
